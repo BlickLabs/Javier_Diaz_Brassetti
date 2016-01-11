@@ -152,6 +152,36 @@
 					</div>
 				</div><!-- End of Custom Theme Background Section + One Page Section - Home -->
 				
+                                <!--para que no te equivoques-->
+                                <div class="container one-page-section" id="about">
+					<div class="row pad-top-100 mar-top-100">
+						<div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
+							<p class="text-lighter letter-spacing-2"><i>Nulla consequat massa quis enim</i></p>
+							<h2 class="no-margin text-center text-uppercase letter-spacing-3">Something New To Love</h2>
+							<div class="symbol">
+								<span class="pe-7s-like pe-7s-icon text-dark"></span>
+								<hr class="small mar-top-50 mar-bot-100"/>
+							</div>	
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="text-main text-center letter-spacing-0 text-vertical-large">Mauris sed lacus sit amet ligula faucibus suscipit. Integer a mattis diam, at sagittis dolor. Aenean lectus ligula, mattis vitae ornare eget, sagittis non felis. 
+							Suspendisse et odio a leo fringilla efficitur ac eget eros. Integer cursus bibendum augue ac cursus. Integer nisl velit, imperdiet ut nisi vitae, viverra auctor est. 
+							Vestibulum fermentum nulla ac lorem sodales, at placerat nisl mattis. Vestibulum finibus tortor fringilla ultrices pellentesque.</h4>
+						</div>
+					</div>
+					<div class="row text-center">
+					
+						
+						
+					</div>
+				</div><!-- End of One Page Section - About -->
+				
+                                
+                                
+                                
+                                
 				<div id="javier_diaz" class="one-page-section">
 					
 				
