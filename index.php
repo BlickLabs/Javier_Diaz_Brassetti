@@ -129,13 +129,13 @@
 			
 				<!-- Custom Theme Background Section + One Page Section - Home -->
                                 <!--background-image:url('images/logo_javier-02.png')-->
-				<div class="theme-background-section full-screen one-page-section" id="home" style="background-color: black; background-position:center center;" data-custom-height="" data-offset-container="">
+				<div class="theme-background-section full-screen one-page-section" id="home" style="background-color:#000;background-position:center center;" data-custom-height="" data-offset-container="">
 					<div class="content-container">
 						<div class="content-inner-container">
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3 text-center">
-										
+                                                                            <img alt="image" class="center-block img-responsive mar-bot-50 mar-top-50 wow animated fadeInDown" data-wow-delay="1000ms" src="images/mountain-field.jpg" style="height: 250px; width: auto;"/>
 										<h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral y escrita.</h2>
 										<h5 class="no-margin pad-bot-30 letter-spacing-3 text-vertical-large text-light wow animated fadeIn" data-wow-delay="2200ms"><i>
 										 Facilita los procesos naturales con los que cada persona cuenta 
@@ -169,7 +169,7 @@
 						<div class="container-fluid">
 							<div class="row">
 								<div class="image-container col-sm-6 pull-left">
-									<div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>		
+									<div class="image-holder" style="background-image: url('images/.jpg')"></div>		
 								</div>
 								<div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100">
 									<div class="row">
@@ -264,10 +264,10 @@
 								</div>
 								<div class="col-xs-10 col-xs-offset-1">
 									<div class="row text-center">
-                                                                                <?php // require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-//                                                                                     $my_query = new WP_Query('showposts=3'); ?> 
+                                                                                <?php  //require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                                                                    // $my_query = new WP_Query('showposts=3'); ?> 
                                                                                      <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
-//                                                                                ?>
+                                                                                ?>
                                                                                 
 						
 										<!-- Service Box 1 -->
@@ -279,7 +279,7 @@
                                                                                                     
 													<h3 class="tile-title"><a href="<?php //the_permalink() ?>"><?php //the_title(); ?></a></h3>
                                                                                                         <br/>
-													<p class="text-lighter tile-border-none no-margin"><?php //the_time('j') ?>/<?php //the_time('M') ?>/<?php// the_time('Y') ?></p>
+													<p class="text-lighter tile-border-none no-margin"><?php //the_time('j') ?>/<?php //the_time('M') ?>/<?php //the_time('Y') ?></p>
                                                                                                         <br/>
                                                                                                         <p class="text-lighter "><?php //the_excerpt(); ?></p>
                                                                                                         
@@ -568,7 +568,11 @@
 											
 											<!-- Form - Grey + Medium -->
 										
-                                                                                        <form method="post" class="row form-theme form-grey form-md" onsubmit="newsletter()">
+                                                                                        <form id="contactForm" action="model/contacto_mail.php" method="post" >
+                                                                                        
+                                                                                                <br/>
+                                                                                                <div id="formResponse" class="form-response"></div>
+                                                                                                <br/>
 												<div class="col-sm-6">
 													<div class="form-group wow animated slideInLeft" data-wow-delay="200ms">
 														<label class="control-label letter-spacing-3"><small><i>Nombre:</i></small></label>
@@ -586,8 +590,12 @@
 														<label class="control-label letter-spacing-3"><small><i>Mensaje:</i></small></label>
 														<textarea class="form-control form-text-area text-center" name="msg"></textarea>
 													</div>
-													<button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Enviar&nbsp;&nbsp;</button>
+													<input type="submit"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" name="submit" id="submit" value="Enviar">
 												</div>
+                                                                                                	<div class="col-sm-12">
+												
+											</div>
+
 											</form><!-- End of Form - Grey + Medium -->
 											
 										</div>
@@ -615,12 +623,12 @@
 				</div><!-- End of Custom Theme Background Section -->
 
 				<section class="section-colored clearfix no-margin text-center" style="background-color:#f6f6f6;">
-                                    <!--<form method="post"  action="./model/mail_newslatter.php">-->
-                                    <form method="post" class="row form-theme form-grey form-md" onsubmit="newsletter()">
-                                        
+                                    <form id="#footerNewsletterForm" action="" method="post" class="col-md-12 form-theme form-md">
+                                    
 					<div class="container">
                                             <div class="row">
 							<div class="col-md-12 text-center">
+                                                                <div id="formResponse" class="form-response"></div>
 								<h3>¡Quédate con nosotros!</h3>
 								<hr class="colored small mar-top-50"/>
 								<div class="colored-extend small mar-bot-50"></div>
@@ -630,13 +638,14 @@
                                                                              
 										<div class="col-sm-6 col-sm-offset-2">
 											<div class="form-group">
-                                                                                            <input type="text" class="form-control" name="email" placeholder="Correo Electrónico" required="" title="Ingresa tu correo electrónico"/>
+                                                                                            <input type="text" class="form-control" name="email" placeholder="Correo Electrónico" />
 											</div>
 										</div>
 										<div class="col-sm-2 text-center">
 											<!--<a href="#" class="btn btn-theme form-submit btn-full-width">Registrate</a>-->
                                                                                         <input type="submit"  class="btn btn-theme form-submit btn-full-width" name="submit" id="submit" value="Registrate">
 										</div>
+                                                                                
 									</div>
 								</div>
 							</div>
