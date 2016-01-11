@@ -86,7 +86,7 @@
 								<!-- Logo -->
 
 								<a class="logo" href="index.html">
-                                                                    <img alt="image" src="images/javier.png" />
+                                                                    <img alt="image" src="images/Brassetti_blanco.png" />
 								</a>
 							</div>
 
@@ -135,12 +135,12 @@
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3 text-center">
-                                                                            <img alt="image" class="center-block img-responsive mar-bot-50 mar-top-50 wow animated fadeInDown" data-wow-delay="1000ms" src="images/mountain-field.jpg" style="height: 250px; width: auto;"/>
+                                                                            <img alt="image" class="center-block img-responsive mar-bot-50 mar-top-50 wow animated fadeInDown" data-wow-delay="1000ms" src="images/fondo_javier.png" style="height: 250px; width: auto;"/>
 										<h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral y escrita.</h2>
-										<h5 class="no-margin pad-bot-30 letter-spacing-3 text-vertical-large text-light wow animated fadeIn" data-wow-delay="2200ms"><i>
+										<!--<h5 class="no-margin pad-bot-30 letter-spacing-3 text-vertical-large text-light wow animated fadeIn" data-wow-delay="2200ms"><i>
 										 Facilita los procesos naturales con los que cada persona cuenta 
                                                                                  para expresar correctamente de forma oral y escrita sus pensamientos 
-                                                                                 y sus sentimientos.</i></h5>
+                                                                                 y sus sentimientos.</i></h5>-->
 										
 									</div>
 								</div>
@@ -152,14 +152,6 @@
 					</div>
 				</div><!-- End of Custom Theme Background Section + One Page Section - Home -->
 				
-				<!-- One Page Section - About -->
-				
-				
-				
-				<!--<hr class="no-margin-bottom"/>		-->
-
-				<!-- One Page Section - Services -->
-				
 				<div id="javier_diaz" class="one-page-section">
 					
 				
@@ -169,7 +161,7 @@
 						<div class="container-fluid">
 							<div class="row">
 								<div class="image-container col-sm-6 pull-left">
-									<div class="image-holder" style="background-image: url('images/.jpg')"></div>		
+									<div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>		
 								</div>
 								<div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100">
 									<div class="row">
