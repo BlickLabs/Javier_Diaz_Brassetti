@@ -590,13 +590,11 @@
 
                     <section id='libro' class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');">
                         <div class="container-fluid">
-                            <div class="row">
-                                <div class="image-container col-sm-6 pull-right">
-                                    <div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>		
-                                </div>
-                                <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100 pull-left">
-                                    <div class="row">
-                                        <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated fadeInRight " data-wow-delay="200ms">
+                            
+                                
+                                <div class="col-sm-6">
+                                    <div class="row ">
+                                        <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated pull-left" data-wow-delay="200ms">
                                             <p class="text-lighter letter-spacing-2"><i>Nulla consequat massa quis enim</i></p>
                                             <h2 class="no-margin text-uppercase letter-spacing-3">Notes From Founder</h2>
                                             <div class="symbol symbol-left">
@@ -616,9 +614,14 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>		
-                                </div>				
-                            </div>
+                                    </div>	
+                                    
+                                </div>
+                              
+                            
+                              <div class="image-container col-sm-6 pull-right">
+                                   <div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>			
+                                
                         </div>
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
 
