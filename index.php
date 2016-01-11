@@ -86,7 +86,7 @@
 								<!-- Logo -->
 
 								<a class="logo" href="index.html">
-									<img alt="image" src="images/logo.png" />
+                                                                    <img alt="image" src="images/javier.png" />
 								</a>
 							</div>
 
@@ -128,8 +128,8 @@
 			<div class="uncover-footer-content">
 			
 				<!-- Custom Theme Background Section + One Page Section - Home -->
-			
-				<div class="theme-background-section full-screen one-page-section" id="home" style="background-image:url('images/baseball.jpg'); background-position:center center;" data-custom-height="" data-offset-container="">
+                                <!--background-image:url('images/logo_javier-02.png')-->
+				<div class="theme-background-section full-screen one-page-section" id="home" style="background-color: black; background-position:center center;" data-custom-height="" data-offset-container="">
 					<div class="content-container">
 						<div class="content-inner-container">
 							<div class="container-fluid">
@@ -141,9 +141,7 @@
 										 Facilita los procesos naturales con los que cada persona cuenta 
                                                                                  para expresar correctamente de forma oral y escrita sus pensamientos 
                                                                                  y sus sentimientos.</i></h5>
-										<div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms">
-											<a href="#about" class="jump btn btn-lg letter-spacing-3">View Features</a>		
-										</div>  
+										
 									</div>
 								</div>
 							</div>
@@ -266,10 +264,10 @@
 								</div>
 								<div class="col-xs-10 col-xs-offset-1">
 									<div class="row text-center">
-                                                                                <?php require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                                                                     $my_query = new WP_Query('showposts=3'); ?> 
-                                                                                     <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
-                                                                                ?>
+                                                                                <?php // require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+//                                                                                     $my_query = new WP_Query('showposts=3'); ?> 
+                                                                                     <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
+//                                                                                ?>
                                                                                 
 						
 										<!-- Service Box 1 -->
@@ -279,20 +277,28 @@
 												
 												<div class="tile-content">
                                                                                                     
-													<h3 class="tile-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+													<h3 class="tile-title"><a href="<?php //the_permalink() ?>"><?php //the_title(); ?></a></h3>
                                                                                                         <br/>
-													<p class="text-lighter tile-border-none no-margin"><?php the_time('j') ?>/<?php the_time('M') ?>/<?php the_time('Y') ?></p>
+													<p class="text-lighter tile-border-none no-margin"><?php //the_time('j') ?>/<?php //the_time('M') ?>/<?php// the_time('Y') ?></p>
                                                                                                         <br/>
-                                                                                                        <p class="text-lighter "><?php the_excerpt(); ?></p>
+                                                                                                        <p class="text-lighter "><?php //the_excerpt(); ?></p>
                                                                                                         
 												</div>
                                                                                                
 											</div>
+                                                                                        <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms">
+											
+										</div>  
 										</div>
                                                                                
-										 <?php endwhile;  ?>
-                                                                                
-									</div>
+										 <?php //endwhile;  ?>
+                                                                                   
+                                                                        </div>
+                                                                        <center>
+                                                                                      
+                                                                        <a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>
+                                                                                </center>   
+                                                                       
 								</div>
 							</div>
 						</div>
