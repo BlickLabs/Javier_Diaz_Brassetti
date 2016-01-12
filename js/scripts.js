@@ -1460,7 +1460,7 @@ function formValidation() {
 
                             $('.form-loader', thisForm).fadeOut();
                             var output = document.getElementById('formResponse');
-                            output.innerHTML = 'Gracias por mandarnos tu mensaje, nos pondremos en contacto contigo pronto';
+                            output.innerHTML = 'Tu mensaje ha sido enviado. Nos pondremos en contacto contigo. ';
                             $('#formResponse').addClass('alert-theme-success').fadeIn();
                             document.getElementById('contactForm').reset();
                             
@@ -1468,7 +1468,7 @@ function formValidation() {
                         .fail(function () {
                             $('.form-loader', thisForm).fadeOut();
                             var output = document.getElementById('formResponse');
-                            output.innerHTML = 'Lo sentimos tenemos algunos problemas, por favor intentalo más tarde'
+                            output.innerHTML = 'Lo sentimos, estamos experimentando errores de conexión. Por favor intenta más tarde.'
                             $('#formResponse').addClass('alert-theme-danger').fadeIn();
                         });
             });
@@ -1477,49 +1477,30 @@ function formValidation() {
     /* ------------------------------------------------
      Init Footer Newsletter Form
      --------------------------------------------------- */
+    $("#form_newsletter").submit(function(event) {
+	    
+		//stop form from submitting normally
+		event.preventDefault();
 
+		//get some values from elements on the page:
+		var $form = $( this );
 
-    $('#footerNewsletterForm').formValidation({
-        framework: 'bootstrap',
-        /*---- Feedback Icons ----*/
+		$("#form_newsletter button").attr("disabled", "disabled");
 
-        icon: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
-        },
-        /*---- Fields to be Validated ----*/
+		//Send the data using post
+		var posting = $.post( 'model/mail_newslatter.php', $form.serialize() );
 
-        fields: {
-            newsletterEmail: {
-                validators: {
-                    notEmpty: {
-                        message: 'The email address is required'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
-                    }
-                }
-            },
-        }
-    });
+		//Show result
+		posting.done(function( data ) {
 
-    $('#newsletterForm').formValidation({
-        framework: 'bootstrap',
-        icon: false,
-        fields: {
-            newsletterEmail: {
-                validators: {
-                    notEmpty: {
-                        message: 'The email address is required'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
-                    }
-                }
-            },
-        }
-    });
+			$("#form_newsletter button").removeAttr('disabled');
+
+			$("#form_newsletter_result").hide().html(data).fadeIn();
+                        document.getElementById("form_newsletter").reset();
+		});
+	});
+
+    
 }
 
 

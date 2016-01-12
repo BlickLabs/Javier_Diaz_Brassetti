@@ -363,10 +363,10 @@
                             <div class="col-xs-10 col-xs-offset-1">
                                 <div class="row text-center">
                                     <?php
-                                    //require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    // $my_query = new WP_Query('showposts=3'); 
+                                    require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                    $my_query = new WP_Query('showposts=3'); 
                                     ?> 
-                                    <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
+                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
 
 
@@ -377,11 +377,11 @@
 
                                             <div class="tile-content">
 
-                                                <h3 class="tile-title"><a href="<?php //the_permalink()   ?>"><?php //the_title();   ?></a></h3>
+                                                <h3 class="tile-title"><a href="<?php the_permalink()   ?>"><?php the_title();   ?></a></h3>
                                                 <br/>
-                                                <p class="text-lighter tile-border-none no-margin"><?php //the_time('j')   ?>/<?php //the_time('M')   ?>/<?php //the_time('Y')   ?></p>
+                                                <p class="text-lighter tile-border-none no-margin"><?php the_time('j')   ?>/<?php the_time('M')   ?>/<?php the_time('Y')   ?></p>
                                                 <br/>
-                                                <p class="text-lighter "><?php //the_excerpt();   ?></p>
+                                               <!-- <p class="text-lighter "><?php //the_excerpt();   ?></p>-->
 
                                             </div>
 
@@ -391,7 +391,7 @@
                                         </div>  
                                     </div>
 
-<?php //endwhile;    ?>
+                                <?php //endwhile;    ?>
 
                                 </div>
                                 <center>
@@ -726,19 +726,19 @@
                 </div><!-- End of Custom Theme Background Section -->
 
                 <section class="section-colored clearfix no-margin text-center" style="background-color:#f6f6f6;">
-                    <form id="#footerNewsletterForm" action="" method="post" class="col-md-12 form-theme form-md">
+                    <form id="form_newsletter" name="form">
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <div id="formResponse" class="form-response"></div>
+                                    <div id="form_newsletter_result"></div>
                                     <h3>¡Quédate con nosotros!</h3>
                                     <hr class="colored small mar-top-50"/>
                                     <div class="colored-extend small mar-bot-50"></div>
                                     <h5>Suscríbete a nuestra lista para recibir noticias y publicaciones.</h5>
                                     <div class="form-theme form-dark pad-top-50">
                                         <div class="row">
-
+                                            <div id="formResponse" class="form-response"></div>
                                             <div class="col-sm-6 col-sm-offset-2">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="email" placeholder="Correo Electrónico" />

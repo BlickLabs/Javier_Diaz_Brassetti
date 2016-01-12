@@ -1,7 +1,23 @@
-<?php error_reporting(E_ALL);
-    // include("../model/conexion.php");
-    
-    $email = $_POST['email'];
+<?php
+//PROCESS NEWSLETTER FORM HERE
+//include("./model/conexion.php");
+
+if(!isset($_POST) || !isset($_POST['email']))
+{ 
+    $msg = 'No data has been received.';
+    echo '<div class="alert alert-danger"><p><i class="fa fa-exclamation-triangle"></i> '.$msg.'</p></div>';
+    return false;
+}
+
+if($_POST['email'] == '')
+{
+    //ERROR: FIELD "email" EMPTY
+    $msg = 'Por favor,ingresa un correo valido.';
+    echo '<div class="alert alert-danger"><p><i class="fa fa-exclamation-triangle"></i> '.$msg.'</p></div>';
+    return false;
+}
+
+ $email = $_POST['email'];
 //# Include the Autoloader (see "Libraries" for install instructions)
     require '../vendor/autoload.php';
     use Mailgun\Mailgun;
@@ -24,18 +40,20 @@
         mantenerte informado sobre nuestras promociones y eventos'
     ));
     
-    $msg = '¡Gracias por Registrarte!';
-echo '<div class="alert alert-success"><p><i class="fa fa-check"></i> '.$msg.'</p></div>';
-return true;
-//header('Location: ../registro_exitoso.html');
+   
 
-
+//$email = $_POST['email'];   
 //// Change database 
 //mysqli_select_db($con, "$dbname");
-//
-//    $query = mysqli_query($con, "INSERT INTO User (email,name) 
-//VALUES ('$email','$name')");
-//
-//    mysqli_close($con);    
-    
-    ?>
+
+//    $query = mysqli_query($con, "INSERT INTO registro (email) 
+//VALUES ('$email')");
+
+//    mysqli_close($con);  
+
+//And send success message:
+$msg = '¡Gracias por Registrarte,estaremos en contacto contigo!';
+echo '<div class="alert alert-success"><p><i class="fa fa-check"></i> '.$msg.'</p></div>';
+return true;
+
+?>
