@@ -85,7 +85,7 @@
 
                                 <!-- Logo -->
 
-                                <a class="logo" href="index.html">
+                                <a class="logo" href="index.php">
                                     <img alt="image" src="images/Brassetti_blanco.png" />
                                 </a>
                             </div>
@@ -129,7 +129,7 @@
 
                 <!-- Custom Theme Background Section + One Page Section - Home -->
                 <!--background-image:url('images/logo_javier-02.png')-->
-                <div class="theme-background-section full-screen one-page-section" id="home" style="background-color:#000;background-position:center center;" data-custom-height="" data-offset-container="">
+                <div class="theme-background-section full-screen one-page-section" id="home" style="background-color:#0B0B61;background-position:center center;" data-custom-height="" data-offset-container="">
                     <div class="content-container">
                         <div class="content-inner-container">
                             <div class="container-fluid">
@@ -166,9 +166,9 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="text-main text-center letter-spacing-0 text-vertical-large">“Javier facilita los procesos naturales con los que cada persona cuenta para expresar correctamente 
+                            <h4 class="text-main text-center letter-spacing-0 text-vertical-large">Facilita los procesos naturales con los que cada persona cuenta para expresar correctamente 
                                 <br/>
-                                de forma oral y escrita sus pensamientos y sus sentimientos”</h4>
+                                de forma oral y escrita sus pensamientos y sus sentimientos.</h4>
                         </div>
                     </div>
                     <div class="row text-center">
@@ -311,7 +311,7 @@
                                 <div class="nc-simple pad-top-50 pad-bot-50">
                                     <span class="counter-icon pe-7s-users"></span><br/>
                                     <span class="counter">52,147</span>
-                                    <h4 class="text-uppercase letter-spacing-2">Customers</h4>
+                                    <h4 class="text-uppercase letter-spacing-2">Conferencias impartidas</h4>
                                 </div>
                             </div>
 
@@ -321,7 +321,7 @@
                                 <div class="nc-simple pad-top-50 pad-bot-50">
                                     <span class="counter-icon pe-7s-albums"></span><br/>
                                     <span class="counter">800</span><span class="counter-extend">+</span>
-                                    <h4 class="text-uppercase letter-spacing-2">Projects Done</h4>
+                                    <h4 class="text-uppercase letter-spacing-2">Talleres y cursos</h4>
                                 </div>
                             </div>
 
@@ -331,7 +331,7 @@
                                 <div class="nc-simple pad-top-50 pad-bot-50">
                                     <span class="counter-icon pe-7s-hourglass"></span><br/>
                                     <span class="counter">5000</span>
-                                    <h4 class="text-uppercase letter-spacing-2">Hours...!!!</h4>
+                                    <h4 class="text-uppercase letter-spacing-2">Colaboración con conferencistas</h4>
                                 </div>
                             </div>
 
@@ -341,7 +341,7 @@
                                 <div class="nc-simple pad-top-50 pad-bot-50">
                                     <span class="counter-icon pe-7s-diamond"></span><br/>
                                     <span class="counter">27</span>
-                                    <h4 class="text-uppercase letter-spacing-2">Awards Won</h4>
+                                    <h4 class="text-uppercase letter-spacing-2">Reconocimientos</h4>
                                 </div>
                             </div>
                         </div>
@@ -376,12 +376,15 @@
                                         <div class="tile tile-top tile-light">
 
                                             <div class="tile-content">
-
+                                                <img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  >
+                                                <br/>
                                                 <h3 class="tile-title"><a href="<?php the_permalink()   ?>"><?php the_title();   ?></a></h3>
                                                 <br/>
-                                                <p class="text-lighter tile-border-none no-margin"><?php the_time('j')   ?>/<?php the_time('M')   ?>/<?php the_time('Y')   ?></p>
-                                                <br/>
-                                               <!-- <p class="text-lighter "><?php //the_excerpt();   ?></p>-->
+                                                
+                                               
+                                                
+                                                
+                                                
 
                                             </div>
 
@@ -391,7 +394,7 @@
                                         </div>  
                                     </div>
 
-                                <?php //endwhile;    ?>
+                                <?php endwhile;    ?>
 
                                 </div>
                                 <center>
@@ -421,7 +424,7 @@
                                     </div>	
                                 </div>
                                 <div class="btn-curtain mar-bot-100">
-                                    <a class="btn btn-lg letter-spacing-3" href="#"> Ver trabajo de Javier.</a>		
+                                    
                                 </div>  
                             </div>
                         </div>
@@ -595,8 +598,7 @@
                                 <div class="col-sm-6">
                                     <div class="row ">
                                         <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated pull-left" data-wow-delay="200ms">
-                                            <p class="text-lighter letter-spacing-2"><i>Nulla consequat massa quis enim</i></p>
-                                            <h2 class="no-margin text-uppercase letter-spacing-3">Notes From Founder</h2>
+                                            <h2 class="no-margin text-uppercase letter-spacing-3">Te lo digo a ti</h2>
                                             <div class="symbol symbol-left">
                                                 <span class="pe-7s-mail-open pe-7s-icon text-dark" style="background-color:#f1f1f1;"></span>
                                                 <hr class="small mar-top-50 mar-bot-50"/>
@@ -650,8 +652,8 @@
                                             <p class="mar-bot-50">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. 
                                                 Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
                                             <h5><span class="weight-500 text-uppercase">Postal Address: </span><i>1234 Street Name, City Name, Country Name</i></h5>
-                                            <h5><span class="weight-500 text-uppercase">Phone: </span><i>(123) 456-7890</i></h5>
-                                            <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Email: </span><a href="#"><i>mail@example.com</i></a></h5>
+                                            <h5><span class="weight-500 text-uppercase">Telefono: </span><i>(55) 5523 9873</i></h5>
+                                            <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Correo electrónico: </span><a href="#"><i>contacto@javierdiazbrassetti.com</i></a></h5>
                                         </div>
                                     </div>
                                 </div>
