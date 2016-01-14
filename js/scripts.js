@@ -1550,9 +1550,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el nombre de la calle'
                     },
-                    emailAddress: {
-                        message: 'El mail ingresado es un correo erroneo, ingresalo correctamente'
-                    }
+                    
                 }
             },
              phoneNumber: {
@@ -1599,10 +1597,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el nombre de la colonia'
                     },
-                    regexp: {
-                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
-                        regexp: /^[0-9\s\-()+\.]+$/
-                    }
+                    
                 }
             },
              city: {
@@ -1610,10 +1605,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el nombre de la ciudad donde recides'
                     },
-                    regexp: {
-                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
-                        regexp: /^[0-9\s\-()+\.]+$/
-                    }
+                    
                 }
             },
             state: {
@@ -1621,10 +1613,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el estado donde recides'
                     },
-                    regexp: {
-                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
-                        regexp: /^[0-9\s\-()+\.]+$/
-                    }
+                   
                 }
             },
             postal_code: {
@@ -1643,10 +1632,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el número de tu tarjeta'
                     },
-                    regexp: {
-                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
-                        regexp: /^[0-9\s\-()+\.]+$/
-                    }
+                    
                 }
             },
             month: {
@@ -1654,10 +1640,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingrea el mes que vence tu tarjeta'
                     },
-                    regexp: {
-                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
-                        regexp: /^[0-9\s\-()+\.]+$/
-                    }
+                    
                 }
             },
             year: {
@@ -1665,10 +1648,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el año que vence tu tarjeta'
                     },
-                    regexp: {
-                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
-                        regexp: /^[0-9\s\-()+\.]+$/
-                    }
+                   
                 }
             },
             security_code: {
@@ -1676,10 +1656,7 @@ function formValidation() {
                     notEmpty: {
                         message: 'Ingresa el código de seguridad de tu tarjeta'
                     },
-                    stringLength: {
-                        max: 700,
-                        message: 'The message must be less than 700 characters long'
-                    }
+                    
                 }
             }
         }

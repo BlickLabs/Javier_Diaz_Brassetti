@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,7 +14,7 @@
 
         <!-- Favicon -->
 
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
         <!-- Loading Google Fonts --> 
 
@@ -40,6 +36,7 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.carousel.css"> 
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
+        <link rel="stylesheet" href="stylesheets/timeline.css">
 
         <!-- Loading Theme's Styles -->
 
@@ -136,7 +133,7 @@
                                 <div class="row">
                                     <div class="col-md-6 col-md-offset-3 text-center">
                                         <img alt="image" class="center-block img-responsive mar-bot-50 mar-top-50 wow animated fadeInDown" data-wow-delay="1000ms" src="images/fondo_javier.png" style="height: 250px; width: auto;"/>
-                                        <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral y escrita.</h2>
+                                        <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral y escrita</h2>
                                         <!--<h5 class="no-margin pad-bot-30 letter-spacing-3 text-vertical-large text-light wow animated fadeIn" data-wow-delay="2200ms"><i>
                                          Facilita los procesos naturales con los que cada persona cuenta 
                                          para expresar correctamente de forma oral y escrita sus pensamientos 
@@ -154,21 +151,20 @@
 
                 <!--para que no te equivoques-->
                 <div class="container one-page-section" id="about">
-                    <div class="row pad-top-100 mar-top-100">
+                    <br>
+                    <br>
                         <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
                             <h2 class="no-margin text-center text-uppercase letter-spacing-3">“Para que no te equivoques”</h2>
                             <div class="symbol">
                                 <br/>
-                                <br/>
-                                <br/>
                             </div>	
                         </div>
-                    </div>
+                    
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="text-main text-center letter-spacing-0 text-vertical-large">Facilita los procesos naturales con los que cada persona cuenta para expresar correctamente 
+                            <h3 class="text-main text-center letter-spacing-0 text-vertical-large">Facilita los procesos naturales con los que cada persona cuenta para expresar correctamente 
                                 <br/>
-                                de forma oral y escrita sus pensamientos y sus sentimientos.</h4>
+                                de forma oral y escrita sus pensamientos y sus sentimientos.</h3>
                         </div>
                     </div>
                     <div class="row text-center">
@@ -213,7 +209,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="image-container col-sm-6 pull-left">
-                                    <div class="image-holder" style="background-image: url('images/perfil_javier.jpg')"></div>		
+                                    <div class="image-holder" style="background-image: url('images/perfil_javier_2.jpg')"></div>		
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100">
                                     <div class="row">
@@ -257,47 +253,51 @@
                         </div>
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
                     <div class="container one-page-section" id="about">
-				
-					<div class="row text-center">
+			<div class="row text-center timeline timeline-horizontal">
+                            <br>
+			<li>
+				<time>1998</time>
+				<article>
+                                    <h2>Asociación Mexicana de Intermediarios Bursátiles, A.C</h2>
+					<p>Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero.</p>
 					
-						<!-- Service Box 1 -->
+				</article>
+			</li>
+			<li>
+				<span class="icon"></span>
+				<time>2003</time>
+				<article>
+					<h2>Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET</h2>
+					
+					<p>Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano.</p>
+					
+				</article>
+			</li>
+			<li>
+				<time>2011</time>
+				<article>
+					<h2>Colegio de Contadores Públicos de México</h2>
+					
+					
+					<p>Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios.<p/>
+					<footer>
+						<p>
+							<a href="#">#random</a>
+						</p>
+					</footer>
+				</article>
+			</li>
+			<li>
+				<time>2013</time>
+				<article>
+					<h2>Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración</h2>
+					<p>Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales.</p>
+					<footer>
 						
-						<div class="col-md-4">
-							<div class="tile wow animated fadeInLeft" data-wow-delay="200ms">
-								<i class="pe-7s-edit icon-circular"></i>
-								<h4 class="tile-title">Easy to Customize</h4>
-								<p>Nullam ut consectetur dolor. Sed sit amet iaculis nisi. Mauris elementum non felis et blandit. Vestibulum iaculis quam.</p>
-								<div class="btn-curtain">
-									<a class="btn btn-lg letter-spacing-3" href="#">Learn More</a>		
-								</div>
-							</div>
-						</div><!-- End of Service Box 1 -->
-
-						<!-- Service Box 2 -->
-						
-						<div class="col-md-4">
-							<div class="tile wow animated fadeIn" data-wow-delay="400ms">
-								<i class="pe-7s-ribbon icon-circular"></i>
-								<h4 class="tile-title">Clean Code</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp incididunt ut labore et dolore mag.</p>
-								<div class="btn-curtain">
-									<a class="btn btn-lg letter-spacing-3" href="#">Learn More</a>		
-								</div>          
-							</div>
-						</div><!-- End of Service Box 2 -->
-
-						<!-- Service Box 3 -->
-						
-						<div class="col-md-4">
-							<div class="tile wow animated fadeInRight" data-wow-delay="200ms">
-								<i class="pe-7s-headphones icon-circular"></i>
-								<h4 class="tile-title">Amazing Support</h4>
-								<p>Duis sit amet volutpat leo. Cum sociis natoque penatib et magnis dis parturien montes, nascetur ridiculus mus.</p>
-								<div class="btn-curtain">
-									<a class="btn btn-lg letter-spacing-3" href="#">Learn More</a>		
-								</div>	            
-							</div>
-						</div><!-- End of Service Box 3 -->
+					</footer>
+				</article>
+			</li>
+		
 						
 					</div>
 				</div><!-- End of One Page Section - About -->
@@ -420,7 +420,7 @@
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores.</h2>
                                     <div class="symbol">
                                         <span class="pe-7s-portfolio pe-7s-icon text-dark" style="background-color:#F0F2F3;"></span>
-                                        <hr class="small mar-top-50 mar-bot-100"/>
+                                        <hr class="small mar-top-50 mar-bot-20"/>
                                     </div>	
                                 </div>
                                 <div class="btn-curtain mar-bot-100">
@@ -506,12 +506,11 @@
 
                     <!-- Section Colored -->
 
-                    <section class="section-colored clearfix no-margin" style="background-color: #252525;" id="talleres">
+                    <section class="section-colored clearfix no-margin" style="background-color: #fff;color: #000" id="talleres">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 wow animated fadeIn" data-wow-delay="200ms">
-                                    <p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>
-                                    <h2 class="text-light no-margin text-center text-uppercase letter-spacing-3">Catálogo de talleres, cursos y conferencias.</h2>
+                                    <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="color: #000">Catálogo de talleres, cursos y conferencias</h2>
                                     <div class="symbol symbol-theme">
                                         <span class="pe-7s-news-paper pe-7s-icon text-lighter" style="background-color: #252525;"></span>
                                         <hr class="light small mar-top-50 mar-bot-100"/>
@@ -531,14 +530,30 @@
 
                                         <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
                                             <figure>
-                                                <img alt="image" src="images/bridge-forest-tall.jpg"  />
+                                                <img alt="image" src="images/tracks-railway-blog-scaled.jpg"  />
                                                 <figcaption>
                                                     <div>
                                                         <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
                                                             <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
                                                             <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
                                                         <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Read More</a><br/><br/>
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                         <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/tracks-railway-blog-scaled.jpg"  />
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
@@ -612,7 +627,7 @@
                                             </h5>
                                             <div class="row">
                                                 <div class="col-md-3 col-sm-5 col-xs-8">
-                                                    <img alt="image" class="img-responsive" src="images/sign-dark.png"/>
+                                                    <a href="libro.html"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
                                                 </div>
                                             </div>
                                         </div>
