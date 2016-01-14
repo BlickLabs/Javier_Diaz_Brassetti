@@ -129,7 +129,7 @@
 
                 <!-- Custom Theme Background Section + One Page Section - Home -->
                 <!--background-image:url('images/logo_javier-02.png')-->
-                <div class="theme-background-section full-screen one-page-section" id="home" style="background-color:#0B0B61;background-position:center center;" data-custom-height="" data-offset-container="">
+                <div class="theme-background-section full-screen one-page-section" id="home" style="background-color:#000;background-position:center center;" data-custom-height="" data-offset-container="">
                     <div class="content-container">
                         <div class="content-inner-container">
                             <div class="container-fluid">
@@ -213,7 +213,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="image-container col-sm-6 pull-left">
-                                    <div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>		
+                                    <div class="image-holder" style="background-image: url('images/perfil_javier.jpg')"></div>		
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100">
                                     <div class="row">
@@ -441,9 +441,9 @@
                                         <figure>
                                             <img alt="image" src="images/castle-scaled.jpg"  />
                                             <figcaption>
-                                                <h2 class="title">Eco Lover</h2>
-                                                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                                                <a href="#">View more</a>
+                                                <h2 class="title">Detalles brillantes del pensamiento I</h2>
+                                                <!--<p class="text">Detalles brillantes del pensamiento I.</p>
+                                                <a href="#">View more</a>-->
                                             </figcaption>			
                                         </figure>
                                     </li>
@@ -455,10 +455,10 @@
                                             <img alt="image" src="images/mountain-scaled.jpg"  />
                                             <figcaption>
                                                 <div>
-                                                    <h2 class="title">Touch The Sky</h2>
-                                                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                                    <h2 class="title">Comprensión y manejo del idioma español</h2>
+                                                   <!--<p class="text">Comprensión y manejo del idioma español.</p>-->
                                                 </div>
-                                                <a href="#">View more</a>
+                                                <!--<a href="#">View more</a>-->
                                             </figcaption>			
                                         </figure>		
                                     </li>
@@ -470,10 +470,10 @@
                                             <img alt="image" src="images/landscape-scaled.jpg"  />
                                             <figcaption>
                                                 <div>
-                                                    <h2 class="title">Soaring Free</h2>
-                                                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                                    <h2 class="title">Métodos de estudio</h2>
+                                                    <!--<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
                                                 </div>
-                                                <a href="#">View more</a>
+                                                <!--<a href="#">View more</a>-->
                                             </figcaption>			
                                         </figure>
                                     </li>
@@ -485,10 +485,10 @@
                                             <img alt="image" src="images/house-mountain-scaled.jpg"  />
                                             <figcaption>
                                                 <div>
-                                                    <h2 class="title">The Little Things</h2>
-                                                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                                    <h2 class="title">Te lo digo a ti</h2>
+                                                  <!-- <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
                                                 </div>
-                                                <a href="#">View more</a>
+                                                <!--<a href="#">View more</a>-->
                                             </figcaption>			
                                         </figure>
                                     </li>
@@ -649,9 +649,7 @@
                                     </div>
                                     <div class="row text-center">
                                         <div class="col-xs-10 col-xs-offset-1">
-                                            <p class="mar-bot-50">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. 
-                                                Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-                                            <h5><span class="weight-500 text-uppercase">Postal Address: </span><i>1234 Street Name, City Name, Country Name</i></h5>
+                                            
                                             <h5><span class="weight-500 text-uppercase">Telefono: </span><i>(55) 5523 9873</i></h5>
                                             <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Correo electrónico: </span><a href="#"><i>contacto@javierdiazbrassetti.com</i></a></h5>
                                         </div>

@@ -1416,7 +1416,7 @@ function formValidation() {
             firstName: {
                 validators: {
                     notEmpty: {
-                        message: 'El campdo del nombre es requerido'
+                        message: 'Este es un campo requerido'
                     }
                 }
             },
@@ -1426,7 +1426,7 @@ function formValidation() {
                         message: 'Campo Requerido'
                     },
                     emailAddress: {
-                        message: 'The input is not a valid email address'
+                        message: 'El mail ingresado es un correo erroneo, ingresalo correctamente'
                     }
                 }
             },
@@ -1502,6 +1502,249 @@ function formValidation() {
 
     
 }
+
+/*-----
+ * pagos
+ * -----*/
+function formValidation() {
+
+    generateCaptcha();
+
+
+    /* ------------------------------------------------
+     Init Contact Form
+     --------------------------------------------------- */
+
+
+    $('#payForm').formValidation({
+        framework: 'bootstrap',
+        /*---- Feedback Icons ----*/
+
+        icon: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        /*---- Fields to be Validated ----*/
+
+        fields: {
+            Name: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa tu nombre completo'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa tu cuenta de correo electrónico'
+                    },
+                    emailAddress: {
+                        message: 'El mail ingresado es un correo erroneo, ingresalo correctamente'
+                    }
+                }
+            },
+            Street: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el nombre de la calle'
+                    },
+                    emailAddress: {
+                        message: 'El mail ingresado es un correo erroneo, ingresalo correctamente'
+                    }
+                }
+            },
+             phoneNumber: {
+                validators: {
+                    notEmpty: {
+                        message: 'El número telefonico es requerido'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+             phoneNumber_2: {
+                validators: {
+                    Empty: {
+                        message: 'Este es un campo opcional'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            external_number: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el numero de tu domicilio'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            internal_number: {
+                validators: {
+                    
+                   
+                }
+            },
+              colony: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el nombre de la colonia'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+             city: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el nombre de la ciudad donde recides'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            state: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el estado donde recides'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            postal_code: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el código postal'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            card_number: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el número de tu tarjeta'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            month: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingrea el mes que vence tu tarjeta'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            year: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el año que vence tu tarjeta'
+                    },
+                    regexp: {
+                        message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                        regexp: /^[0-9\s\-()+\.]+$/
+                    }
+                }
+            },
+            security_code: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ingresa el código de seguridad de tu tarjeta'
+                    },
+                    stringLength: {
+                        max: 700,
+                        message: 'The message must be less than 700 characters long'
+                    }
+                }
+            }
+        }
+    })
+
+            .on('success.form.fv', function (e) {
+
+                /*---- Ajax Code for Submitting Form ----*/
+
+                e.preventDefault();
+                var $form = $(e.target),
+                        id = $form.attr('id'),
+                        thisForm = '#' + id;
+                $('.form-loader', thisForm).fadeIn();
+                $.post($form.attr('action'), $form.serialize(), function (result) {
+
+                }, 'json')
+                        .done(function () {
+
+                            $('.form-loader', thisForm).fadeOut();
+                            var output = document.getElementById('formResponse');
+                            output.innerHTML = 'Tu mensaje ha sido enviado. Nos pondremos en contacto contigo. ';
+                            $('#formResponse').addClass('alert-theme-success').fadeIn();
+                            document.getElementById('contactForm').reset();
+                            
+                        })
+                        .fail(function () {
+                            $('.form-loader', thisForm).fadeOut();
+                            var output = document.getElementById('formResponse');
+                            output.innerHTML = 'Lo sentimos, estamos experimentando errores de conexión. Por favor intenta más tarde.'
+                            $('#formResponse').addClass('alert-theme-danger').fadeIn();
+                        });
+            });
+
+
+    /* ------------------------------------------------
+     Init Footer Newsletter Form
+     --------------------------------------------------- */
+    $("#form_newsletter").submit(function(event) {
+	    
+		//stop form from submitting normally
+		event.preventDefault();
+
+		//get some values from elements on the page:
+		var $form = $( this );
+
+		$("#form_newsletter button").attr("disabled", "disabled");
+
+		//Send the data using post
+		var posting = $.post( 'model/mail_newslatter.php', $form.serialize() );
+
+		//Show result
+		posting.done(function( data ) {
+
+			$("#form_newsletter button").removeAttr('disabled');
+
+			$("#form_newsletter_result").hide().html(data).fadeIn();
+                        document.getElementById("form_newsletter").reset();
+		});
+	});
+
+    
+}
+
+
 
 
 /* ------------------------------------------------
