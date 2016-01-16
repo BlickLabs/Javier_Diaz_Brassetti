@@ -133,7 +133,9 @@
                                 <div class="row">
                                     <div class="col-md-6 col-md-offset-3 text-center">
                                         <img alt="image" class="center-block img-responsive mar-bot-50 mar-top-50 wow animated fadeInDown" data-wow-delay="1000ms" src="images/fondo_javier.png" style="height: 250px; width: auto;"/>
-                                        <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral y escrita</h2>
+                                        <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral 
+                                            <br>
+                                            y escrita</h2>
                                         <!--<h5 class="no-margin pad-bot-30 letter-spacing-3 text-vertical-large text-light wow animated fadeIn" data-wow-delay="2200ms"><i>
                                          Facilita los procesos naturales con los que cada persona cuenta 
                                          para expresar correctamente de forma oral y escrita sus pensamientos 
@@ -142,15 +144,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="one-page-intro-jump">
-                                <a href="#about" class="jump intro-center" data-jump-offset="60"><img alt="image" class="center-block" src="images/scroll.png"/></a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div><!-- End of Custom Theme Background Section + One Page Section - Home -->
 
                 <!--para que no te equivoques-->
                 <div class="container one-page-section" id="about">
+                    <br>
                     <br>
                     <br>
                         <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
@@ -214,8 +215,7 @@
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100">
                                     <div class="row">
                                         <div class="col-xs-10 col-xs-offset-1 pad-top-10 pad-bot-10 wow animated fadeInRight" data-wow-delay="200ms">
-                                            <p class="text-lighter letter-spacing-2"><i>JAVIER DÍAZ BRASSETTI</i></p>
-                                            <h2 class="no-margin text-uppercase letter-spacing-3">Director general de Latin America Speakers</h2>
+                                            -<h2 class="no-margin text-uppercase letter-spacing-3">Director general de Latin American Speakers</h2>
 
                                             <h5 class="letter-spacing-1 text-vertical-large pad-bot-20" style="text-align: justify">
                                                 FORMACIÓN DE MAESTROS,                                                                                                               
@@ -356,17 +356,17 @@
                                 
                                 <h2 class="text-light no-margin text-center text-uppercase letter-spacing-3">Más acerca de Javier</h2>
                                 <div class="symbol symbol-theme">
-                                    <span class="pe-7s-gleam pe-7s-icon text-lighter" style="background-color:#252525;"></span>
+                                    
                                     <hr class="light small mar-top-50 no-margin-bottom"/>
                                 </div>
                             </div>
                             <div class="col-xs-10 col-xs-offset-1">
                                 <div class="row text-center">
                                     <?php
-                                    require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    $my_query = new WP_Query('showposts=3'); 
+                                    //require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                    //$my_query = new WP_Query('showposts=3'); 
                                     ?> 
-                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
+                                    <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
 
 
@@ -378,7 +378,7 @@
                                             <div class="tile-content">
                                                 <img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  >
                                                 <br/>
-                                                <h3 class="tile-title"><a href="<?php the_permalink()   ?>"><?php the_title();   ?></a></h3>
+                                                <h3 class="tile-title"><a href="<?php //the_permalink()   ?>"><?php //the_title();   ?></a></h3>
                                                 <br/>
                                                 
                                                
@@ -394,7 +394,7 @@
                                         </div>  
                                     </div>
 
-                                <?php endwhile;    ?>
+                                <?php// endwhile;    ?>
 
                                 </div>
                                 <center>
@@ -416,16 +416,13 @@
                         <div class="row">
                             <div class="col-xs-10 col-xs-offset-1 text-center">
                                 <div class="wow animated fadeIn" data-wow-delay="200ms">
-                                    
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores.</h2>
                                     <div class="symbol">
-                                        <span class="pe-7s-portfolio pe-7s-icon text-dark" style="background-color:#F0F2F3;"></span>
+                                        
                                         <hr class="small mar-top-50 mar-bot-20"/>
                                     </div>	
                                 </div>
-                                <div class="btn-curtain mar-bot-100">
-                                    
-                                </div>  
+                               
                             </div>
                         </div>
                         <div class="row">
@@ -512,8 +509,7 @@
                                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 wow animated fadeIn" data-wow-delay="200ms">
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="color: #000">Catálogo de talleres, cursos y conferencias</h2>
                                     <div class="symbol symbol-theme">
-                                        <span class="pe-7s-news-paper pe-7s-icon text-lighter" style="background-color: #252525;"></span>
-                                        <hr class="light small mar-top-50 mar-bot-100"/>
+                                    <hr class="light small mar-top-50 mar-bot-50"/>
                                     </div>
                                 </div>
                             </div>
@@ -615,7 +611,6 @@
                                         <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated pull-left" data-wow-delay="200ms">
                                             <h2 class="no-margin text-uppercase letter-spacing-3">Te lo digo a ti</h2>
                                             <div class="symbol symbol-left">
-                                                <span class="pe-7s-mail-open pe-7s-icon text-dark" style="background-color:#f1f1f1;"></span>
                                                 <hr class="small mar-top-50 mar-bot-50"/>
                                             </div>	
                                             <h5 class="letter-spacing-1 text-vertical-large pad-bot-50">
@@ -652,11 +647,11 @@
                         <!-- Vertically Centered Content Box - Desktop -->
 
                         <div class="row vertical-center-box">
-                            <div class="col-md-6 pad-top-100 pad-bot-100" style="background-color:#f6f6f6;">
-                                <div class="pad-top-100 pad-bot-100">
+                            <div class="col-md-6 pad-top-40 pad-bot-100" style="background-color:#f6f6f6;">
+                                <div >
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
-                                        <h2 class="no-margin text-center text-uppercase letter-spacing-3">Información de contacto</h2>
+                                        <h2 class=" text-center text-uppercase letter-spacing-3">Información de contacto</h2>
                                         <div class="symbol">
                                             <span class="pe-7s-home pe-7s-icon text-dark" style="background-color:#f6f6f6;"></span>
                                             <hr class="light small mar-top-50 mar-bot-100"/>
@@ -676,10 +671,7 @@
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
                                         <h2 class="no-margin text-center text-uppercase letter-spacing-3">Escríbenos</h2>
-                                        <div class="symbol">
-                                            <span class="pe-7s-pen pe-7s-icon text-dark"></span>
-                                            <hr class="light small mar-top-50 mar-bot-100"/>
-                                        </div>
+                                       
                                     </div>
                                     <div class="row">
                                         <div class="col-xs-10 col-xs-offset-1">
