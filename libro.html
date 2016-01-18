@@ -41,7 +41,7 @@
 
 		<!-- Loading Theme's Styles -->
 
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style_1.css">
 		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Script for IE < 9 -->
@@ -51,7 +51,7 @@
 		<![endif]-->
 
 	</head>
-	<body>
+        <body class="one-page">
 
 		<!-- Page Loader -->
 
@@ -61,7 +61,7 @@
 
 		<!-- Page Content -->
 
-		<div class="page-content">
+		<div class="page-content uncover-footer-body">
 
 			<!-- Header -->
 
@@ -83,10 +83,39 @@
 
 								<!-- Logo -->
 
-								<a class="logo" href="index.html">
+								<a class="logo" href="index.php">
                                                                     <img alt="image" src="images/Brassetti_blanco.png" />
 								</a>
+                                                                
 							</div>
+                                                          <div class="navbar-container">
+                                <div class="navbar-collapse nav-collapse collapse collapsing-nav">
+
+                                    <!-- Header Links -->
+
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown active">
+                                            <a href="#javier_diaz">Javier Diaz</a>
+                                        </li>
+                                        <li>
+                                            <a href="#publicaciones">Publicaciones</a>
+                                        </li>
+                                        <li >
+                                            <a href="#talleres">Talleres</a>
+                                        </li>
+                                        <li >
+                                            <a href="#libro">Libro</a>
+                                        </li>
+                                        <li >
+                                            <a href="http://desarrolloblick.esy.es/wordpress/">Blog</a>
+                                        </li>
+                                        <li >
+                                            <a href="#contact">Contacto</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
 
                                                     <div class="navbar-container">
 								<div class="navbar-collapse nav-collapse collapse collapsing-nav">
@@ -111,20 +140,20 @@
                                                                 <form action="conekta_card/conekta_card.php" method="post" class="col-md-12 form-theme form-md">
 									<div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                        <label>Nombre Completo:</label>
+                                                                                        
 											<input type="text" class="form-control" name="Name" placeholder="Nombre:">
 										</div>
 									</div>
                                                                        
 									<div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                        <label>Correo Electrónico:</label>
+                                                                                        
 											<input type="email" class="form-control" name="email" placeholder="Correo Electronico:">
 										</div>
 									</div>
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                        <label>Teléfono Celular:</label>
+                                                                                       
 											<input type="text" class="form-control" name="phoneNumber" placeholder="Telefono:">
 										</div>
 									</div>
@@ -141,62 +170,62 @@
 									</div>
 									<div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>Calle:</label>
+                                                                                   
 											<input type="text" class="form-control" name="Street" placeholder="Calle:">
 										</div>
 									</div>
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>N° Exterior:</label>
+                                                                                   
                                                                                     <input type="text" class="form-control" name="external_number" placeholder="N° Exterior">
 										</div>
 									</div>
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>N° Interior:</label>
+                                                                                   
 											<input type="text" class="form-control" name="internal_number" placeholder="N° Interior">
 										</div>
 									</div>
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>Colonia:</label>
+                                                                                    
 											<input type="text" class="form-control" name="colony" placeholder="Colonia">
 										</div>
 									</div>
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>Ciudad:</label>
+                                                                                    
 											<input type="text" class="form-control" name="city" placeholder="Ciudad">
 										</div>
 									</div>
 									<div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>Estado:</label>
+                                                                                   
 											<input type="text" class="form-control" name="state" placeholder="Estado">
 										</div>
 									</div>
                                                                         
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>Código Postal:</label>
+                                                                                    
 											<input type="text" class="form-control" name="postal_code" placeholder="Código Postal">
 										</div>
 									</div>
                                                                         <div class="col-sm-12 ">
-                                                                                <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 2px;">
+                                                                                <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
 										<h3>Datos de la tarjeta</h3>
 									</div>
                                                                       
                                                                         <div class="col-sm-12">
                                                                                
 										<div class="col-sm-6 form-group">
-                                                                                    <label>Numero de Tarjeta</label>
+                                                                                   
                                                                                     <input type="text" class="form-control" name="card_number" placeholder="XXXX-XXXX-XXXX-XXXX">
                                                                                 </div>  
                                                                                     
                                                                                
                                                                                 <div class="col-sm-3 form-group ">
-                                                                                    <label>Fecha de vencimiento</label>
+                                                                                  
                                                                                     <input type="text" class="form-control" name="month" placeholder="Mes (MM)">
                                                                                 </div>
                                                                                
@@ -208,13 +237,13 @@
 									</div>
                                                                         <div class="col-sm-6 mar-top-30">
 										<div class="form-group">
-                                                                                    <label>Código de Seguridad:</label>
-											<input type="text" class="form-control" name="security_code" placeholder="">
+                                                                                    
+											<input type="text" class="form-control" name="security_code" placeholder="CVC">
 										</div>
 									</div>
                                                                        
 									<div class="col-sm-6 col-sm-offset-3">
-										<button type="submit" class="btn btn-theme-inverse mar-top-50 btn-full-width">Pagar</button>
+										<button type="submit" class="btn btn-theme-inverse mar-top-50 ">Pagar</button>
 									</div>
 									<div class="col-sm-12">
 										<div id="formResponse" class="form-response"></div>
@@ -224,55 +253,36 @@
 						</div>	
 					</div>
 				</section>
+                                
+            <footer class="footer footer-reveal footer-plain no-margin-top">
+                <div class="uncover-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <ul class="list-unstyled list-inline footer-inline-links">
 
-				<footer class="footer footer-only-copyright footer-light footer-transparent no-margin-top">
-					<div class="footer-copyright footer-transparent">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6">
-									<ul class="list-unstyled list-inline footer-inline-links">
-										
-									</ul>
-								</div>
-								<div class="col-md-6 copyright-right">
-									<ul class="list-unstyled list-inline footer-inline-links">
-										<li>
-											<ul class="social-icons si-no-border inverse sm list-inline list-unstyled">
-												<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-												
-											</ul>
-										</li>
-										
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</footer> 
+                                    <li><a href="#Javier_diaz">Javier Diaz</a></li>
+                                    <li><a href="http://desarrolloblick.esy.es/wordpress/">Blog</a></li>
+                                    <li><a href="#contact">Contacto</a></li>
+
+                                </ul>
+                                <ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50">
+                                    <li><a class="facebook" href="#fakelink"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="twitter" href="#fakelink"><i class="fa fa-twitter"></i></a></li>
+
+                                </ul>				
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer><!-- End of Footer Reveal -->
 			</div>
-            
-			<div class="modal centered fade modal-bg-light" id="modalLight" tabindex="-1" role="dialog" aria-hidden="true">
-				<div class="modal-dialog"> 
-					<div class="modal-content"> 
-						<div class="modal-body"> 
-							<form id="newsletterForm" class="form-theme form-grey" method="post" action="#">
-								<div class="form-group">
-									<div class="input-group">
-										<input class="form-control" placeholder="Enter a Valid Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-										<span class="input-group-btn">
-											<button class="btn btn-theme form-submit" type="submit">SUBSCRIBE</button>
-										</span>
-									</div>		
-								</div>
-							</form>
-							<p class="text-light"><small>*We promise not to spam!</small></p>
-						</div> 
-					</div> 
-				</div>
-			</div>
+                        
+			
 		</div><!-- End of Page Content -->
-
+               	 
+	
+            
 		<!-- Loading Third Party Scripts -->
 
 		<script src="third-party/jquery/jquery.min.js"></script>
@@ -296,21 +306,9 @@
 		<script src="js/scripts.js"></script>
 		<script src="js/custom.js"></script>
 
-		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		
 
-		<!-- Google Analytics Tracking -->
-
-		<script type="text/javascript">
-
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-xxxxxxxx-x', 'auto');
-			ga('send', 'pageview');
-
-		</script>
+		
 
 	</body>
 </html>

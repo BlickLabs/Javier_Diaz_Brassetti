@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 i {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Lato', cursive;
 }
 
 a,
@@ -5476,93 +5476,9 @@ table.table-cart > tbody > tr > th:first-child {
    Horizontal Rules
 ============================================================================= */
 	
-hr{
-	margin-bottom: 200px;
-	margin-top: 200px;
-}	
-hr.light {
-	border-color: #333;
-}
 
-/*Faded*/
 	
-hr.faded {
-	clear: both; 
-  	float: none; 
-  	width: 100%; 
-  	height: 1px;
-  	border: none; 
-  	background: #ddd;
-  	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		right bottom,
-  		color-stop(0, rgb(255,255,255)),
-  		color-stop(0.1, rgb(221,221,221)),
-  		color-stop(0.9, rgb(221,221,221)),
-  		color-stop(1, rgb(255,255,255))
-	);
-	background-image: -moz-linear-gradient(
-  		left center,
-     rgb(255,255,255) 0%,
-     rgb(221,221,221) 10%,
-     rgb(221,221,221) 90%,
-     rgb(255,255,255) 100%
-	);
-}
-hr.faded.light {
-	background: #333;
-  	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		right bottom,
-  		color-stop(0, rgb(0,0,0)),
-  		color-stop(0.1, rgb(51,51,51)),
-  		color-stop(0.9, rgb(51,51,51)),
-  		color-stop(1, rgb(0,0,0))
-	);
-	background-image: -moz-linear-gradient(
-  		left center,
-     rgb(0,0,0) 0%,
-     rgb(51,51,51) 10%,
-     rgb(51,51,51) 90%,
-     rgb(0,0,0) 100%
-	);
-}
 
-/*Colored*/
-
-hr.colored {
-	height: 1px;
-	background: #ddd;
-	border-top: none;
-	margin-bottom:0;
-}
-.colored-extend {
-	border: 2px solid #000;
-	width:30%;
-	margin: -2.2px auto 200px;
-}
-.colored-extend.small {
-	width:5%;
-}
-hr.colored.light {
-	background: #333;
-}
-.colored-extend.light {
-	border-color: #333;
-}
-
-/*Double*/
-
-hr.double {
-	padding: 0;
-	border: none;
- 	border-top: 4px double #000;;
-}
-hr.double.light {
-	border-color: #333;
-}
 
 /*With Icon*/
 
@@ -8356,10 +8272,11 @@ blockquote {
 	z-index: 1;
 }
 .section-colored {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 50px;
+	padding-bottom: 100px;
 	margin: 200px 0;
 	background-color: #000;
+        color: #000;
 }
 .section-pattern {
 	padding-top: 200px;
@@ -9760,7 +9677,6 @@ i .text-main {
 .text-light,
 .text-light small,
 .text-light h1,
-.text-light h2,
 .text-light h3,
 .text-light h4,
 .text-light h5,
@@ -9768,6 +9684,7 @@ i .text-main {
 .text-light.fa{
 	color: #fff !important;
 }
+
 .text-light a,
 a.text-light,
 .tp-caption .text-light a,

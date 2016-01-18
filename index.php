@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
 
@@ -136,11 +135,6 @@
                                         <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral 
                                             <br>
                                             y escrita</h2>
-                                        <!--<h5 class="no-margin pad-bot-30 letter-spacing-3 text-vertical-large text-light wow animated fadeIn" data-wow-delay="2200ms"><i>
-                                         Facilita los procesos naturales con los que cada persona cuenta 
-                                         para expresar correctamente de forma oral y escrita sus pensamientos 
-                                         y sus sentimientos.</i></h5>-->
-
                                     </div>
                                 </div>
                             </div>
@@ -363,42 +357,26 @@
                             <div class="col-xs-10 col-xs-offset-1">
                                 <div class="row text-center">
                                     <?php
-                                    //require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    //$my_query = new WP_Query('showposts=3'); 
+                                   require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                    $my_query = new WP_Query('showposts=3'); 
                                     ?> 
-                                    <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
+                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
-
-
-                                    <!-- Service Box 1 -->
-
-                                    <div class="col-sm-4">
+|                                   <div class="col-sm-4">
                                         <div class="tile tile-top tile-light">
 
                                             <div class="tile-content">
                                                 <img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  >
                                                 <br/>
-                                                <h3 class="tile-title"><a href="<?php //the_permalink()   ?>"><?php //the_title();   ?></a></h3>
+                                                <h3 class="tile-title"><a href="<?php the_permalink()   ?>"><?php the_title();   ?></a></h3>
                                                 <br/>
-                                                
-                                               
-                                                
-                                                
-                                                
-
                                             </div>
-
                                         </div>
-                                        <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms">
-
-                                        </div>  
+                                    <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
                                     </div>
-
-                                <?php// endwhile;    ?>
-
+                                    <?php endwhile;    ?>
                                 </div>
                                 <center>
-
                                     <a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>
                                 </center>   
 
@@ -416,7 +394,7 @@
                         <div class="row">
                             <div class="col-xs-10 col-xs-offset-1 text-center">
                                 <div class="wow animated fadeIn" data-wow-delay="200ms">
-                                    <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores.</h2>
+                                    <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores </h2>
                                     <div class="symbol">
                                         
                                         <hr class="small mar-top-50 mar-bot-20"/>
@@ -427,8 +405,6 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-
-                                <!-- Portfolio 4 Column - Effect 4 -->
 
                                 <ul class="grid-4 portfolio portfolio-dark effect-4 filterArea list-unstyled">
 
@@ -474,7 +450,7 @@
                                             </figcaption>			
                                         </figure>
                                     </li>
-
+                                  
                                     <!-- Portfolio Item 4 -->
 
                                     <li class="item objects">
@@ -514,19 +490,17 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="container">
+                            <center>
                             <div class="row">
                                 <div class="col-md-12">
-
-                                    <!-- 2 Column Portfolio - Effect 2 - Used As Blog -->
-
+                                    
                                     <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
-
-                                        <!-- Portfolio/Blog - Item 1 -->
-
+                                        
                                         <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
                                             <figure>
-                                                <img alt="image" src="images/tracks-railway-blog-scaled.jpg"  />
+                                                <img alt="image" src="images/editada.jpg"/>
                                                 <figcaption>
                                                     <div>
                                                         <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
@@ -540,9 +514,10 @@
                                                 </figcaption>			
                                             </figure>
                                         </li>
-                                         <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
                                             <figure>
-                                                <img alt="image" src="images/tracks-railway-blog-scaled.jpg"  />
+                                                <img alt="image" src="images/editada.jpg"/>
                                                 <figcaption>
                                                     <div>
                                                         <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
@@ -556,48 +531,156 @@
                                                 </figcaption>			
                                             </figure>
                                         </li>
-
-                                        <!-- Portfolio/Blog - Item 2 -->
-
+                                        
                                         <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
                                             <figure>
-                                                <img alt="image" src="images/tracks-railway-blog-scaled.jpg"  />
+                                                <img alt="image" src="images/editada.jpg"/>
                                                 <figcaption>
                                                     <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 1, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Sed leo fringilla mauris sit</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Technology</i></small></span></h2>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
                                                         <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Read More</a><br/><br/>
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
                                                 </figcaption>			
                                             </figure>
                                         </li>
-
-                                        <!-- Portfolio/Blog - Item 3 -->
-
-                                        <li class="item people wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/field-trees-blog.jpg"  />
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>May 29, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b> In enim justo, rhoncus ut, imperdiet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Strategy</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Read More</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>		
-                                        </li>
-                                    </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
-
+                                    
+                                   </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
                                 </div>
-                            </div>
+                                
+                                
+                                
+                             </div>
+                                </center>
+                            <br>
+                            <!--second-->
+                            <div class="row" >
+                                <div class="col-md-12" >
+                                    
+                                    <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/editada.jpg"/>
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/editada.jpg"/>
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/editada.jpg"/>
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                    
+                                   </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
+                                </div>
+                                
+                             </div>
+                            <!--third-->
+                             <br>
+                            <!--second-->
+                               <div class="row">
+                                <div class="col-md-12">
+                                    
+                                    <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/editada.jpg"/>
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/editada.jpg"/>
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                        
+                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                            <figure>
+                                                <img alt="image" src="images/editada.jpg"/>
+                                                <figcaption>
+                                                    <div>
+                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
+                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
+                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
+                                                        <p class="text text-light weight-500 text-uppercase">
+                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
+                                                        </p>
+                                                    </div>
+                                                    <a href="#">View more</a>
+                                                </figcaption>			
+                                            </figure>
+                                        </li>
+                                    
+                                   </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
+                                </div>
+                                
+                             </div>
                         </div>
                     </section><!-- End of Section Colored -->
 
@@ -652,9 +735,8 @@
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
                                         <h2 class=" text-center text-uppercase letter-spacing-3">Información de contacto</h2>
-                                        <div class="symbol">
-                                            <span class="pe-7s-home pe-7s-icon text-dark" style="background-color:#f6f6f6;"></span>
-                                            <hr class="light small mar-top-50 mar-bot-100"/>
+                                        <div>
+                                        <hr class="light small mar-top-100 mar-bot-50"/>
                                         </div>	
                                     </div>
                                     <div class="row text-center">
@@ -670,7 +752,7 @@
                                 <div class="pad-top-100-tablet pad-top-100-mobile pad-bot-100-tablet pad-bot-100-mobile">
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
-                                        <h2 class="no-margin text-center text-uppercase letter-spacing-3">Escríbenos</h2>
+                                        <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="padding-top: 15px">Escríbenos</h2>
                                        
                                     </div>
                                     <div class="row">
@@ -695,16 +777,14 @@
                                                         <input type="text" class="form-control text-center" name="email"/>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-12 wow animated fadeInDown pad-top-35" data-wow-delay="400ms">
+                                                <div class="col-sm-12 wow animated fadeInDown pad-top-35" data-wow-delay="400ms"style="padding-bottom: 15px">
                                                     <div class="form-group feedback-text-area">
                                                         <label class="control-label letter-spacing-3"><small><i>Mensaje:</i></small></label>
                                                         <textarea class="form-control form-text-area text-center" name="msg"></textarea>
                                                     </div>
                                                     <input type="submit"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" name="submit" id="submit" value="Enviar">
                                                 </div>
-                                                <div class="col-sm-12">
-
-                                                </div>
+                                                
 
                                             </form><!-- End of Form - Grey + Medium -->
 
@@ -732,28 +812,28 @@
                 <!--<div class="theme-background-section full-screen fs-overlay" style="background-image:url('images/dark-people-meet.jpg');" data-custom-height="" data-offset-container="">
                 </div><!-- End of Custom Theme Background Section -->
 
-                <section class="section-colored clearfix no-margin text-center" style="background-color:#f6f6f6;">
+                <section class="section-colored clearfix no-margin text-center" style="background-color:#000;">
                     <form id="form_newsletter" name="form">
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <div id="form_newsletter_result"></div>
-                                    <h3>¡Quédate con nosotros!</h3>
+                                    <h3 style="color: #fff">¡Quédate con nosotros!</h3>
                                     <hr class="colored small mar-top-50"/>
                                     <div class="colored-extend small mar-bot-50"></div>
-                                    <h5>Suscríbete a nuestra lista para recibir noticias y publicaciones.</h5>
+                                    <h5 style="color: #fff">Suscríbete a nuestra lista para recibir noticias y publicaciones.</h5>
                                     <div class="form-theme form-dark pad-top-50">
                                         <div class="row">
                                             <div id="formResponse" class="form-response"></div>
-                                            <div class="col-sm-6 col-sm-offset-2">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="email" placeholder="Correo Electrónico" />
+                                            <div class="col-sm-6 col-sm-offset-2" >
+                                                <div class="form-group" >
+                                                    <input type="text"  style="background-color: #fff;color: #fff"  class="form-control" name="email" placeholder="Correo Electrónico" />
                                                 </div>
                                             </div>
                                             <div class="col-sm-2 text-center">
                                                 <!--<a href="#" class="btn btn-theme form-submit btn-full-width">Registrate</a>-->
-                                                <input type="submit"  class="btn btn-theme form-submit btn-full-width" name="submit" id="submit" value="Registrate">
+                                                <input type="submit"  class="btn btn-theme2 form-submit btn-full-width" name="submit" id="submit" value="Registrate">
                                             </div>
 
                                         </div>
@@ -812,33 +892,14 @@
 
         <!-- Loading Page's Scripts -->
 
-        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+      
 
         <!-- Loading Theme's Scripts -->
 
         <script src="js/scripts.js"></script>
         <script src="js/custom.js"></script>
 
-        <!-- Google Analytics Tracking -->
+       
 
-        <script>
-
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-xxxxxxxx-x', 'auto');
-            ga('send', 'pageview');
-
-        </script>
-
-    </body>
+        </body>
 </html>
