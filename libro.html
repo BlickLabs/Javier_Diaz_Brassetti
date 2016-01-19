@@ -36,7 +36,6 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.carousel.css"> 
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.2/js/conekta.js"></script>
 
         <!-- Loading Theme's Styles -->
@@ -50,6 +49,7 @@
         <script src="third-party/respond/js/respond.min.js"></script>
         <![endif]-->
 
+        
     </head>
     <body class="one-page">
 
@@ -307,44 +307,37 @@
 
         <script src="js/scripts.js"></script>
         <script src="js/custom.js"></script>
+
+        <!-- conekta functions -->
         <script type="text/javascript">
             Conekta.setPublishableKey('key_KJysdbf6PotS2ut2');
-            Conekta.getPublishableKey();
-            $(function () {
-                $("#card-form").submit(function (event) {
-                    var $form = $(this);
-
-// Previene hacer submit más de una vez
-                    $form.find("button").prop("disabled", true);
-                    Conekta.token.create($form, conektaSuccessResponseHandler, conektaErrorResponseHandler);
-
-// Previene que la información de la forma sea enviada al servidor
-                    return false;
-                });
-            });
 
             var conektaSuccessResponseHandler = function (token) {
                 var $form = $("#card-form");
 
                 /* Inserta el token_id en la forma para que se envíe al servidor */
                 $form.append($("<input type='hidden' name='conektaTokenId'>").val(token.id));
-
+                console.log(token.id);
 
                 /* and submit */
-                $form.get(0).submit();
+                $form.submit();
             };
 
             var conektaErrorResponseHandler = function (response) {
                 var $form = $("#card-form");
-
+                console.error("ERROR!!!!!!!");
                 /* Muestra los errores en la forma */
                 $form.find(".card-errors").text(response.message);
                 $form.find("button").prop("disabled", false);
             };
+            $(document).on("submit", "#card-form", function(event) {
+                event.preventDefault();
+                var $form = $(this);
+                // Previene hacer submit más de una vez
+                $form.find("button").prop("disabled", true);
+                Conekta.token.create($form, conektaSuccessResponseHandler, conektaErrorResponseHandler);
+            });
         </script>
-
-
-
 
     </body>
 </html>
