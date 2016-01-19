@@ -1,110 +1,54 @@
 <?php error_reporting(E_ALL);
 
 require_once("../conekta/lib/Conekta.php");
-Conekta::setLocale('es');
-
-class MyConekta {
-
-    public static $api_key = "key_eYvWV7gSDkNYXsmr";
-    public static $description = 'Donation';
-    public static $currency = 'MXN';
-
-    //Function to validate if the token does exist
-    public static function check_token($token) {
-        if ($token == $_SESSION['token'])
-            return true;
-
-        return false;
-    }
-
-    //Function to generate a md5 32digits token
-    public static function tokengenerator($len = 32) {
-        //seed
-        $keychars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        // RANDOM KEY GENERATOR
-        $id = "";
-        $max = strlen($keychars) - 1;
-
-        for ($i = 0; $i < $len; $i++)
-            $id .= substr($keychars, rand(0, $max), 1);
-
-        return md5($id);
-    }
-
-    //Function to make payments in Bank
-    public static function bank($amount, $name, $email, $phone, $bank) {
-        Conekta::setApiKey(self::$api_key);
-        $request = array(
-            'amount' => $amount,
-            'currency' => self::$currency,
-            'description' => self::$description,
-            'details' => array(
-                'name' => $name,
-                'email' => $email,
-                'phone' => $phone
-            ),
-            'bank' => array('type' => $bank)
-        );
-        var_dump($request);
-        try {
-            $response = Conekta_Charge::create($request);
-
-            echo
-            'status=' . $response['status'] .
-            '&currency=' . $response['currency'] .
-            '&description=' . $response['description'] .
-            '&amount=' . $response['amount'] .
-            '&service_name=' . $response['payment_method']['service_name'] .
-            '&service_number=' . $response['payment_method']['service_number'] .
-            '&reference=' . $response['payment_method']['reference'] .
-            '&type=' . $response['payment_method']['type'] .
-            '&expiry_date=' . date('d/m/Y') .
-            '&token=' . $_SESSION['token'];
-        } catch (Exception $e) {
-            // Catch all exceptions including validation errors.
-            echo $e->getMessage();
-        }
-    }
-
-    //Function to make payments with a Credit/Debit Card
-    public static function card($amount, $number, $exp_month, $exp_year, $cvc, $name) {
-
-        Conekta::setApiKey(self::$api_key);
-
-        $data = array(
-            'card' => array(
-                'number' => $number,
-                'exp_month' => $exp_month,
-                'exp_year' => $exp_year,
-                'cvc' => $cvc,
-                'name' => $name
-            ),
-            'description' => self::$description,
-            'amount' => $amount,
-            'currency' => self::$currency
-        );
+Conekta::setApiKey("key_YmMgW3VAjftQhWqxqnkhhw");
 
 
-        try {
-            $charge = Conekta_Charge::create($data);
-            $token = $charge->status;
-            if ($token == 'paid') {
-            //require_once '../model/init.php';
-            //require_once '../model/mail_pagos_exitosos.php';
-            header('Location: ../pago_exitoso.html');
-              //  echo $token;
-            }
-        } catch (Exception $e) {
-            // Catch all exceptions including validation errors.
-// echo $e; 
-//            $error = $charge->status;
-  //          echo $error;
-            header('Location: ../pago_rechazado.html');
-        }
-    }
-
-    //END OF CLASS
+try {
+$charge = Conekta_Charge::create(array(
+  'description'=> 'Stogies',
+  'reference_id'=> '9839-wolf_pack',
+  'amount'=> 20000,
+  'currency'=>'MXN',
+  'card'=> $_POST['conektaTokenId'],
+  'details'=> array(
+    'name'=> 'Arnulfo Quimare',
+    'phone'=> '403-342-0642',
+    'email'=> 'logan@x-men.org',
+    'customer'=> array(
+      'logged_in'=> true,
+      'successful_purchases'=> 14,
+      'created_at'=> 1379784950,
+      'updated_at'=> 1379784950,
+      'offline_payments'=> 4,
+      'score'=> 9
+    ),
+    'line_items'=> array(
+      array(
+        'name'=> 'Box of Cohiba S1s',
+        'description'=> 'Imported From Mex.',
+        'unit_price'=> 20000,
+        'quantity'=> 1,
+        'sku'=> 'cohb_s1',
+        'category'=> 'food'
+      )
+    ),
+    'billing_address'=> array(
+      'street1'=>'77 Mystery Lane',
+      'street2'=> 'Suite 124',
+      'street3'=> null,
+      'city'=> 'Darlington',
+      'state'=>'NJ',
+      'zip'=> '10192',
+      'country'=> 'Mexico',
+      'tax_id'=> 'xmn671212drx',
+      'company_name'=>'X-Men Inc.',
+      'phone'=> '77-777-7777',
+      'email'=> 'purshasing@x-men.org'
+    )
+  )
+));
+echo $charge->status;
+} catch (Exception $e) {
+    echo $e->getMessage(); 
 }
-
-
-
