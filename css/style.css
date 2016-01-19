@@ -4333,7 +4333,8 @@ figure figcaption > a {
 /* Portfolio Grids */
 
 .portfolio.grid-2 .item {
-	width: 50%;
+	width: 30%;
+        
 }
 .portfolio.grid-3 .item {
 	width: 33.33%;
@@ -9909,6 +9910,26 @@ button {
 	color: #fff !important;
 	background-color: #000 !important;
 	border: 1px solid #000 !important;
+}
+.btn-theme2,
+.btn-theme2:focus,
+.tp-caption .btn-theme2,
+.tp-caption .btn-theme2:focus {
+	color: #000 !important;
+	background-color: #fff !important;
+	border: #000 !important;
+}
+.btn-theme2:hover,
+.btn-theme2:active,
+.btn-theme2.active,
+.open > .dropdown-toggle.btn-theme2,
+.tp-caption .btn-theme2:hover,
+.tp-caption .btn-theme2:active,
+.tp-caption .btn-theme2.active,
+.open > .tp-caption .dropdown-toggle.btn-theme2 {
+	color: #fff !important;
+	background-color: #262626 !important;	
+	border: #262626 !important;
 }
 .btn-theme,
 .btn-theme:focus,

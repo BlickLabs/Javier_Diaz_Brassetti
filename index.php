@@ -36,6 +36,8 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
         <link rel="stylesheet" href="stylesheets/timeline.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
         <!-- Loading Theme's Styles -->
 
@@ -138,7 +140,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div><!-- End of Custom Theme Background Section + One Page Section - Home -->
@@ -148,13 +150,13 @@
                     <br>
                     <br>
                     <br>
-                        <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
-                            <h2 class="no-margin text-center text-uppercase letter-spacing-3">“Para que no te equivoques”</h2>
-                            <div class="symbol">
-                                <br/>
-                            </div>	
-                        </div>
-                    
+                    <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
+                        <h2 class="no-margin text-center text-uppercase letter-spacing-3">“Para que no te equivoques”</h2>
+                        <div class="symbol">
+                            <br/>
+                        </div>	
+                    </div>
+
                     <div class="row">
                         <div class="col-md-12">
                             <h3 class="text-main text-center letter-spacing-0 text-vertical-large">Facilita los procesos naturales con los que cada persona cuenta para expresar correctamente 
@@ -204,7 +206,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="image-container col-sm-6 pull-left">
-                                    <div class="image-holder" style="background-image: url('images/perfil_javier_2.jpg')"></div>		
+                                    <div class="image-holder" style="background-image: url('images/javier_diaz_foto.jpg')"></div>		
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100">
                                     <div class="row">
@@ -237,7 +239,7 @@
                                                 <br/>
                                                 <br/>
                                                 <b>JAVIER DÍAZ BRASSETTI</b>
-                                                
+
                                             </h5>
 
                                         </div>
@@ -247,55 +249,36 @@
                         </div>
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
                     <div class="container one-page-section" id="about">
-			<div class="row text-center timeline timeline-horizontal">
+                        <div class="text-center timeline timeline-horizontal" style="padding-top: 30px">
+                         
                             <br>
-			<li>
+			<li >
+                            <i class="fa fa-comments-o fa-5x" id="popoverData" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
+                               rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover"></i>
 				<time>1998</time>
-				<article>
-                                    <h2>Asociación Mexicana de Intermediarios Bursátiles, A.C</h2>
-					<p>Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero.</p>
-					
-				</article>
+				
 			</li>
 			<li>
-				<span class="icon"></span>
+				<i class="fa fa-male fa-5x" id="popoverData2" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
+                               rel="popover" data-placement="bottom" data-original-title="Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET" data-trigger="hover"></i>
 				<time>2003</time>
-				<article>
-					<h2>Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET</h2>
-					
-					<p>Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano.</p>
-					
-				</article>
+				
 			</li>
 			<li>
 				<time>2011</time>
-				<article>
-					<h2>Colegio de Contadores Públicos de México</h2>
-					
-					
-					<p>Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios.<p/>
-					<footer>
-						<p>
-							<a href="#">#random</a>
-						</p>
-					</footer>
-				</article>
+				<i class="fa fa-lightbulb-o fa-5x" class="fa fa-male fa-5x" id="popoverData3" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
+                               rel="popover" data-placement="bottom" data-original-title="Colegio de Contadores Públicos de México" data-trigger="hover"></i>
 			</li>
-			<li>
-				<time>2013</time>
-				<article>
-					<h2>Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración</h2>
-					<p>Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales.</p>
-					<footer>
-						
-					</footer>
-				</article>
+                        <li >    
+				<time >2013</time>
+				<i class="fa fa-university fa-5x" class="fa fa-lightbulb-o fa-5x" class="fa fa-male fa-5x" id="popoverData4" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales." 
+                               rel="popover" data-placement="bottom" data-original-title="Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración" data-trigger="hover"></i>
 			</li>
 		
 						
 					</div>
 				</div><!-- End of One Page Section - About -->
-				
+			
                     <div class="container-fluid">
                         <div class="row pad-top-50 pad-bot-50">
 
@@ -303,7 +286,7 @@
 
                             <div class="col-md-3 col-sm-6 text-center no-padding-side counter-border">
                                 <div class="nc-simple pad-top-50 pad-bot-50">
-                                    <span class="counter-icon pe-7s-users"></span><br/>
+                                    <span class="fa fa-microphone fa-5x"></span><br/>
                                     <span class="counter">52,147</span>
                                     <h4 class="text-uppercase letter-spacing-2">Conferencias impartidas</h4>
                                 </div>
@@ -313,7 +296,7 @@
 
                             <div class="col-md-3 col-sm-6 text-center no-padding-side counter-border">
                                 <div class="nc-simple pad-top-50 pad-bot-50">
-                                    <span class="counter-icon pe-7s-albums"></span><br/>
+                                    <span class="fa fa-pencil-square-o fa-5x"></span><br/>
                                     <span class="counter">800</span><span class="counter-extend">+</span>
                                     <h4 class="text-uppercase letter-spacing-2">Talleres y cursos</h4>
                                 </div>
@@ -322,8 +305,8 @@
                             <!-- Counter Simple with Border - Item 3 -->
 
                             <div class="col-md-3 col-sm-6 text-center no-padding-side counter-border mar-top-50-tablet">
-                                <div class="nc-simple pad-top-50 pad-bot-50">
-                                    <span class="counter-icon pe-7s-hourglass"></span><br/>
+                                <div class="nc-simple pad-top-50 pad-bot-50 ">
+                                    <span class="fa fa-users fa-5x"></span><br/>
                                     <span class="counter">5000</span>
                                     <h4 class="text-uppercase letter-spacing-2">Colaboración con conferencistas</h4>
                                 </div>
@@ -333,48 +316,50 @@
 
                             <div class="col-md-3 col-sm-6 text-center no-padding-side mar-top-50-tablet">
                                 <div class="nc-simple pad-top-50 pad-bot-50">
-                                    <span class="counter-icon pe-7s-diamond"></span><br/>
+                                    <span class="fa fa-trophy fa-5x"></span><br/>
                                     <span class="counter">27</span>
                                     <h4 class="text-uppercase letter-spacing-2">Reconocimientos</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div><!-- End of One Page Section - Services --
+                </div>
+                
+                <!-- End of One Page Section - Services --
                 <!-- Section Colored -->
 
                 <section class="section-colored clearfix no-margin" style="background-color:#252525;" >
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 text-center wow animated fadeIn" data-wow-delay="200ms">
-                                
+
                                 <h2 class="text-light no-margin text-center text-uppercase letter-spacing-3">Más acerca de Javier</h2>
                                 <div class="symbol symbol-theme">
-                                    
+
                                     <hr class="light small mar-top-50 no-margin-bottom"/>
                                 </div>
                             </div>
                             <div class="col-xs-10 col-xs-offset-1">
                                 <div class="row text-center">
                                     <?php
-                                   require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    $my_query = new WP_Query('showposts=3'); 
+                                    // require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                    //  $my_query = new WP_Query('showposts=3'); 
                                     ?> 
-                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
+                                    <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
-|                                   <div class="col-sm-4">
+                                                                   <div class="col-sm-4">
                                         <div class="tile tile-top tile-light">
 
                                             <div class="tile-content">
                                                 <img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  >
                                                 <br/>
-                                                <h3 class="tile-title"><a href="<?php the_permalink()   ?>"><?php the_title();   ?></a></h3>
+                                                <h3 class="tile-title"><a href="<?php //the_permalink()    ?>"><?php //the_title();    ?></a></h3>
                                                 <br/>
                                             </div>
                                         </div>
-                                    <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
+                                        <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
                                     </div>
-                                    <?php endwhile;    ?>
+                                    <?php //endwhile;    ?>
                                 </div>
                                 <center>
                                     <a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>
@@ -396,11 +381,11 @@
                                 <div class="wow animated fadeIn" data-wow-delay="200ms">
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores </h2>
                                     <div class="symbol">
-                                        
+
                                         <hr class="small mar-top-50 mar-bot-20"/>
                                     </div>	
                                 </div>
-                               
+
                             </div>
                         </div>
                         <div class="row">
@@ -450,7 +435,7 @@
                                             </figcaption>			
                                         </figure>
                                     </li>
-                                  
+
                                     <!-- Portfolio Item 4 -->
 
                                     <li class="item objects">
@@ -475,7 +460,7 @@
 
                 <!-- One Page Section - News -->
 
-                <div  class="one-page-section">
+               
 
                     <!-- Section Colored -->
 
@@ -485,242 +470,423 @@
                                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 wow animated fadeIn" data-wow-delay="200ms">
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="color: #000">Catálogo de talleres, cursos y conferencias</h2>
                                     <div class="symbol symbol-theme">
-                                    <hr class="light small mar-top-50 mar-bot-50"/>
+                                        <hr class="light small mar-top-50 mar-bot-50"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+                        <!--Firts-->
+                        <div class="container" >
+                            <center>
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12" >
+
+                                        <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal">
+                                                <figure >
+                                                    <img alt="image" src="images/conferencia_1.jpg" />
+                                                    <figcaption >
+                                                        <div class="thumb">
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b> Te lo digo a ti</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text  weight-500 text-uppercase" style="color: #000">
+                                                                <br/><br/><a >Conferencia</a><br/><br/>
+                                                            </p>
+                                                        </div>
+
+                                                    </figcaption>			
+                                                </figure>
+                                       
+
+                                            </li>
+                                            
+                                                    
+                                              
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                                <figure>
+                                                    <img alt="image" src="images/conferencia_2.jpg"/>
+                                                    <figcaption data-toggle="modal" data-target="#myModal2">
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b>La era de las necesidades Insatisfechas</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Conferencia</a><br/><br/>
+                                                            </p>
+                                                        </div>
+
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
+                                                <figure>
+                                                    <img alt="image" src="images/conferencia_3.jpg"/>
+                                                    <figcaption data-toggle="modal" data-target="#myModal3"> 
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b> Desarrollo Profesional y bien común</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Conferencia</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+                                            
+                                        </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
+                                        <div  id="myModal" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Lo que no te puede faltar para hablar en público</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                        </div>
+                                         <div  id="myModal2" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo, y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia, obligación que hoy nos ha reunido y nos permite tener una base de reflexión para estar satisfechos en un tiempo en el que no es sencillo estar contentos.</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                        </div>
+                                         <div  id="myModal3" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                        </div>
+                        <!--second-->
+                        <br>
                         <div class="container">
                             <center>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    
-                                    <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal4">
+                                                <figure>
+                                                    <img alt="image" src="images/Conferencia_4.jpg"/>
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b> Ética para sobrevivir</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Conferencia</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal5">
+                                                <figure>
+                                                    <img alt="image" src="images/Conferencia_5.jpg"/>
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b>Negocia para Ganar:</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Conferencia</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal6">
+                                                <figure>
+                                                    <img alt="image" src="images/taller_1.jpg"/>
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b>Asesoría Personal de expresión en público</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Taller</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                        </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
+                                         <div  id="myModal4" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
+                                        </div>
+                                         <div  id="myModal5" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
+                                        </div>
+                                         <div  id="myModal6" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                    
-                                   </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
+                                        </div>
+                                    </div>
                                 </div>
-                                
-                                
-                                
-                             </div>
-                                </center>
-                            <br>
-                            <!--second-->
-                            <div class="row" >
-                                <div class="col-md-12" >
-                                    
-                                    <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                    
-                                   </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
-                                </div>
-                                
-                             </div>
-                            <!--third-->
-                             <br>
-                            <!--second-->
-                               <div class="row">
-                                <div class="col-md-12">
-                                    
-                                    <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                        
-                                        <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
-                                            <figure>
-                                                <img alt="image" src="images/editada.jpg"/>
-                                                <figcaption>
-                                                    <div>
-                                                        <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i>June 20, 2015</i></small></span><br/>
-                                                            <small class="text-light"><b>Nullam quis ante etiam sit amet</b></small><br/>
-                                                            <span class="text-light text-capitalize"><small><i>- In Design</i></small></span></h2>
-                                                        <p class="text text-light weight-500 text-uppercase">
-                                                            <br/><br/><a href="#">Conferencia o Taller</a><br/><br/>
-                                                        </p>
-                                                    </div>
-                                                    <a href="#">View more</a>
-                                                </figcaption>			
-                                            </figure>
-                                        </li>
-                                    
-                                   </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
-                                </div>
-                                
-                             </div>
                         </div>
+                        <!--third-->
+                        <br>
+                        <div class="container">
+                            <center>
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <ul class="grid-2 grid-gutter-big grid-dark portfolio-dark portfolio effect-2 filterArea list-unstyled">
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal7">
+                                                <figure>
+                                                    <img alt="image" src="images/taller_2.jpg"/>
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b>Aprende a Hablar en Público</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Taller</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal8">
+                                                <figure>
+                                                    <img alt="image" src="images/taller_3.jpg"/>
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b>Aprende a enseñarle a los demás</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Taller</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                            <li class="item nature wow animated zoomIn" data-wow-delay="200ms" data-toggle="modal" data-target="#myModal9">
+                                                <figure>
+                                                    <img alt="image" src="images/taller_4.jpg"/>
+                                                    <figcaption>
+                                                        <div>
+                                                            <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
+                                                                <small class="text-light"><b>Te lo digo a ti, ¿cómo hablar en público?</b></small><br/>
+                                                                <span class="text-light text-capitalize"><small><i></i></small></span></h2>
+                                                            <p class="text text-light weight-500 text-uppercase">
+                                                                <br/><br/><a href="#">Taller</a><br/><br/>
+                                                            </p>
+                                                        </div>
+                                                        <a href="#">View more</a>
+                                                    </figcaption>			
+                                                </figure>
+                                            </li>
+
+                                        </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
+                                         <div  id="myModal7" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                        </div>
+                                         <div  id="myModal8" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                        </div>
+                                         <div  id="myModal9" class="modal" role="dialog">
+                                                    <div class="modal-dialog">
+
+                                                        <!-- Modal content-->
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <h4 class="modal-title">Objetivo</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Herramientas para desarrollar una mentalidad de contenido social</p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                         
                     </section><!-- End of Section Colored -->
+                        
+
+
 
 
                     <section id='libro' class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');">
                         <div class="container-fluid">
-                            
-                                
-                                <div class="col-sm-6">
-                                    <div class="row ">
-                                        <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated pull-left" data-wow-delay="200ms">
-                                            <h2 class="no-margin text-uppercase letter-spacing-3">Te lo digo a ti</h2>
-                                            <div class="symbol symbol-left">
-                                                <hr class="small mar-top-50 mar-bot-50"/>
-                                            </div>	
-                                            <h5 class="letter-spacing-1 text-vertical-large pad-bot-50">
-                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
-                                                nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
-                                                vulputate eget, arcu.<br/><br/>
-                                                In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
-                                                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, enim.
-                                            </h5>
-                                            <div class="row">
-                                                <div class="col-md-3 col-sm-5 col-xs-8">
-                                                    <a href="libro.html"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
-                                                </div>
+
+
+                            <div class="col-sm-6">
+                                <div class="row ">
+                                    <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated pull-left" data-wow-delay="200ms">
+                                        <h2 class="no-margin text-uppercase letter-spacing-3">Te lo digo a ti</h2>
+                                        <div class="symbol symbol-left">
+                                            <hr class="small mar-top-50 mar-bot-50"/>
+                                        </div>	
+                                        <h5 class="letter-spacing-1 text-vertical-large pad-bot-50">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                                            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+                                            vulputate eget, arcu.<br/><br/>
+                                            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+                                            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, enim.
+                                        </h5>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-5 col-xs-8">
+                                                <a href="libro.html"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
                                             </div>
                                         </div>
-                                    </div>	
-                                    
-                                </div>
-                              
-                            
-                              <div class="image-container col-sm-6 pull-right">
-                                   <div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>			
-                                
+                                    </div>
+                                </div>	
+
+                            </div>
+
+
+                            <div class="image-container col-sm-6 pull-right">
+                                <div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>			
+
+                            </div>
                         </div>
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
 
-                </div><!-- End of One Page Section - News -->
+                
 
                 <!-- One Page Section - Contact -->
 
@@ -736,12 +902,12 @@
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
                                         <h2 class=" text-center text-uppercase letter-spacing-3">Información de contacto</h2>
                                         <div>
-                                        <hr class="light small mar-top-100 mar-bot-50"/>
+                                            <hr class="light small mar-top-100 mar-bot-50"/>
                                         </div>	
                                     </div>
                                     <div class="row text-center">
                                         <div class="col-xs-10 col-xs-offset-1">
-                                            
+
                                             <h5><span class="weight-500 text-uppercase">Telefono: </span><i>(55) 5523 9873</i></h5>
                                             <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Correo electrónico: </span><a href="#"><i>contacto@javierdiazbrassetti.com</i></a></h5>
                                         </div>
@@ -753,7 +919,7 @@
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
                                         <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="padding-top: 15px">Escríbenos</h2>
-                                       
+
                                     </div>
                                     <div class="row">
                                         <div class="col-xs-10 col-xs-offset-1">
@@ -784,7 +950,7 @@
                                                     </div>
                                                     <input type="submit"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" name="submit" id="submit" value="Enviar">
                                                 </div>
-                                                
+
 
                                             </form><!-- End of Form - Grey + Medium -->
 
@@ -801,11 +967,7 @@
 
 
                 </div><!-- End of One Page Section - Contact -->
-            </div><!-- End of Content Before Uncover Footer -->
 
-            <!-- Footer - Reveal/Uncover -->
-
-            <div class="uncover-footer-content">
 
                 <!-- Custom Theme Background Section -->
 
@@ -834,6 +996,7 @@
                                             <div class="col-sm-2 text-center">
                                                 <!--<a href="#" class="btn btn-theme form-submit btn-full-width">Registrate</a>-->
                                                 <input type="submit"  class="btn btn-theme2 form-submit btn-full-width" name="submit" id="submit" value="Registrate">
+                                                 
                                             </div>
 
                                         </div>
@@ -859,6 +1022,7 @@
                                     <li><a href="#contact">Contacto</a></li>
 
                                 </ul>
+
                                 <ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50">
                                     <li><a class="facebook" href="#fakelink"><i class="fa fa-facebook"></i></a></li>
                                     <li><a class="twitter" href="#fakelink"><i class="fa fa-twitter"></i></a></li>
@@ -892,14 +1056,21 @@
 
         <!-- Loading Page's Scripts -->
 
-      
+
 
         <!-- Loading Theme's Scripts -->
 
         <script src="js/scripts.js"></script>
         <script src="js/custom.js"></script>
+        <script type="text/javascript">
+            $('#popoverData').popover();
+            $('#popoverData2').popover();
+            $('#popoverData3').popover();
+            $('#popoverData4').popover();
 
-       
+        </script>
+            
 
-        </body>
+
+    </body>
 </html>

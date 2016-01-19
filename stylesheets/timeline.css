@@ -52,24 +52,7 @@
   clear: both;
 }
 /* line 38, ../sass/_timeline.scss */
-.timeline > li:before {
-  content: '';
-  width: 3rem;
-  height: 3em;
-  display: block;
-  position: absolute;
-  top: -1em;
-  left: -moz-calc(50% - 1.5rem);
-  left: -o-calc(50% - 1.5rem);
-  left: -webkit-calc(50% - 1.5rem);
-  left: calc(50% - 1.5rem);
-  border-radius: 4em;
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 51, color-stop(30%, #ffffff), color-stop(31%, #cfd9db), color-stop(50%, #cfd9db), color-stop(51%, #ffffff));
-  background-image: -webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
-  background-image: -moz-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
-  background-image: -o-radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
-  background-image: radial-gradient(#ffffff 30%, #cfd9db 31%, #cfd9db 50%, #ffffff 51%);
-}
+
 /* line 50, ../sass/_timeline.scss */
 .timeline article {
   display: block;
@@ -99,7 +82,7 @@
   color: white;
   background: #5f8ae8;
   display: inline-block;
-  position: relative;
+  position: absolute;
   font-weight: bold;
   padding: .5em;
 }
@@ -197,7 +180,7 @@
     width: auto;
     margin: 0 auto;
     white-space: nowrap;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(85%, transparent), color-stop(85%, #e9eeef), color-stop(86%, #e9eeef), color-stop(86%, transparent));
     background-image: -webkit-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
     background-image: -moz-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
