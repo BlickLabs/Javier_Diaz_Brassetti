@@ -1,7 +1,5 @@
-<?php
-
-error_reporting(E_ALL);
-
+<?php error_reporting(E_ALL);
+include("../model/conexion.php");
 use Mailgun\Mailgun;
 
 require '../vendor/autoload.php';
@@ -58,6 +56,12 @@ $result = curl_exec($curl);
 
 curl_close($curl);
 
+$pertence= 'contacto';
+//Change database 
+mysqli_select_db($con, "$dbname");
+
+$query = mysqli_query($con, "INSERT INTO Usuarios (nombre,email,pertenece_a) VALUES ('$name','$email','$pertence')");
+mysqli_close($con); 
 
 //return $result;
 $success = true;

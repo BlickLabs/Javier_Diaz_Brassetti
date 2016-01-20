@@ -3,7 +3,7 @@
 $dbhost="localhost";
 $dbuser="root"; //user
 $dbpass=""; //
-$dbname="AmparoExpress"; //nombre de la base de datos
+$dbname="javier_diaz"; //nombre de la base de datos
 $con=mysqli_connect("$dbhost","$dbuser","$dbpass","$dbname");
 
 

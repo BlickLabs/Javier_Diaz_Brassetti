@@ -1,6 +1,6 @@
 <?php
 //PROCESS NEWSLETTER FORM HERE
-//include("./model/conexion.php");
+    include("../model/conexion.php");
 
 if(!isset($_POST) || !isset($_POST['email']))
 { 
@@ -42,18 +42,19 @@ if($_POST['email'] == '')
     
    
 
-//$email = $_POST['email'];   
-//// Change database 
-//mysqli_select_db($con, "$dbname");
+ 
+$pertence= 'newslatter';
+//Change database 
+mysqli_select_db($con, "$dbname");
 
-//    $query = mysqli_query($con, "INSERT INTO registro (email) 
-//VALUES ('$email')");
+$query = mysqli_query($con, "INSERT INTO Usuarios (email,pertenece_a) VALUES ('$email','$pertence')");
+mysqli_close($con);  
 
-//    mysqli_close($con);  
 
 //And send success message:
 $msg = '¡Gracias por Registrarte,estaremos en contacto contigo!';
 echo '<div class="alert alert-success"><p><i class="fa fa-check"></i> '.$msg.'</p></div>';
 return true;
+
 
 ?>
