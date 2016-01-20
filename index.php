@@ -1,100 +1,101 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
+	<head>
+		
+		<!-- Meta Tags -->
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<title>Javier Diaz Brassetti</title>
+		<meta name="description" content="Premium HTML5 Template">
+		<meta name="keywords" content=" HTML5, Premium Template, Minth Theme">
+		<meta name="author" content="Amazyne Themes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- Favicon -->
+		
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <!-- Meta Tags -->
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
-        <title>Javier Díaz Brassetti</title>
-        <meta name="description" content="Premium HTML5 Template">
-        <meta name="keywords" content=" HTML5, Premium Template, Minth Theme">
-        <meta name="author" content="Amazyne Themes">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-        <!-- Favicon -->
-
-        <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-        <!-- Loading Google Fonts --> 
-
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-
-        <!-- Loading Third Party Styles --> 
-
-        <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css"> 
-        <link rel="stylesheet" href="third-party/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="third-party/et-line/css/style.css">
-        <link rel="stylesheet" href="third-party/elegant-icons/css/style.css">
-        <link rel="stylesheet" href="third-party/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-        <link rel="stylesheet" href="third-party/pe-icon-7-stroke/css/helper.css">
-        <link rel="stylesheet" href="third-party/nivo-lightbox/css/nivo-lightbox.css" /> 
-        <link rel="stylesheet" href="third-party/nivo-lightbox/themes/default/default.css"/>
-        <link rel="stylesheet" href="third-party/animate/css/animate.css"> 
-        <link rel="stylesheet" href="third-party/owl/css/owl.carousel.css"> 
-        <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
-        <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
-        <link rel="stylesheet" href="stylesheets/timeline.css">
+		<!-- Loading Google Fonts --> 
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		
+		<!-- Loading Third Party Styles --> 
+		
+		<link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css"> 
+		<link rel="stylesheet" href="third-party/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="third-party/et-line/css/style.css">
+		<link rel="stylesheet" href="third-party/elegant-icons/css/style.css">
+		<link rel="stylesheet" href="third-party/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" href="third-party/pe-icon-7-stroke/css/helper.css">
+		<link rel="stylesheet" href="third-party/nivo-lightbox/css/nivo-lightbox.css" /> 
+		<link rel="stylesheet" href="third-party/nivo-lightbox/themes/default/default.css"/>
+		<link rel="stylesheet" href="third-party/animate/css/animate.css"> 
+		<link rel="stylesheet" href="third-party/owl/css/owl.carousel.css"> 
+		<link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
+		<link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
+                <link rel="stylesheet" href="stylesheets/timeline.css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		
+		<!-- Loading Theme's Styles -->
 
-        <!-- Loading Theme's Styles -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/custom.css">
+		
+		<!-- Script for IE < 9 -->
+		
+		<!--[if lt IE 9]>
+			<script src="third-party/respond/js/respond.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body class="one-page">
 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/custom.css">
+		<!-- Page Loader -->
 
-        <!-- Script for IE < 9 -->
+		<div class="loader">
+			<div class="spinner"></div>
+		</div><!-- End of Page Loader -->
+		
+		<!-- Page Content + Uncover Footer Body -->
+		
+		<div class="page-content uncover-footer-body">
+		
+			<!-- Header -->
 
-        <!--[if lt IE 9]>
-                <script src="third-party/respond/js/respond.min.js"></script>
-        <![endif]-->
+			<header class="navigation transparent dark-dropdown">	
 
-    </head>
-    <body class="one-page">
+				<!-- Header Wrapper -->
 
-        <!-- Page Loader -->
+				<div class="main-nav nav-highlight header-right full-width sticky">
+					<div class="navbar navbar-default" role="navigation">
+						<div class="container">
+							<div class="navbar-header">
+								<a href="#" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<ul class="bar-icon-wrapper">
+										<li class="bar-icon"></li>
+										<li class="bar-icon"></li>
+										<li class="bar-icon"></li>
+									</ul>
+								</a>
 
-        <div class="loader">
-            <div class="spinner"></div>
-        </div><!-- End of Page Loader -->
+								<!-- Logo -->
 
-        <!-- Page Content + Uncover Footer Body -->
+								<a class="logo" href="index.php">
+                                                                    <img alt="image" src="images/Brassetti_blanco.png" />
+                                                                </a>
+							</div>
 
-        <div class="page-content uncover-footer-body">
+							<div class="navbar-container">
+								<div class="navbar-collapse nav-collapse collapse collapsing-nav">
 
-            <!-- Header -->
+									<!-- Header Links -->
 
-            <header class="navigation transparent dark-dropdown">	
-
-                <!-- Header Wrapper -->
-
-                <div class="main-nav nav-highlight header-right full-width sticky">
-                    <div class="navbar navbar-default" role="navigation">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <a href="#" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <ul class="bar-icon-wrapper">
-                                        <li class="bar-icon"></li>
-                                        <li class="bar-icon"></li>
-                                        <li class="bar-icon"></li>
-                                    </ul>
-                                </a>
-
-                                <!-- Logo -->
-
-                                <a class="logo" href="index.php">
-                                    <img alt="image" src="images/Brassetti_blanco.png" />
-                                </a>
-                            </div>
-
-                            <div class="navbar-container">
-                                <div class="navbar-collapse nav-collapse collapse collapsing-nav">
-
-                                    <!-- Header Links -->
-
-                                    <ul class="nav navbar-nav">
-                                        <li class="dropdown active">
+									<ul class="nav navbar-nav">
+										<li class="dropdown active">
                                             <a href="#javier_diaz">Javier Díaz Brassetti</a>
                                         </li>
                                         <li>
@@ -112,18 +113,15 @@
                                         <li >
                                             <a href="#contact">Contacto</a>
                                         </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header><!-- End of Header -->
-
-            <!-- Content Before Uncover Footer -->
-
-            <div class="uncover-footer-content">
+										
+                                                                        </ul>                               
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header><!-- End of Header -->
+			<div class="uncover-footer-content">
 
                 <!-- Custom Theme Background Section + One Page Section - Home -->
                 <!--background-image:url('images/logo_javier-02.png')-->
@@ -146,7 +144,7 @@
                 </div><!-- End of Custom Theme Background Section + One Page Section - Home -->
 
                 <!--para que no te equivoques-->
-                <div class="container one-page-section" id="about">
+                <div class="container one-page-section" id="about" style="padding-bottom: 50px">
                     <br>
                     <br>
                     <br>
@@ -164,33 +162,8 @@
                                 de forma oral y escrita sus pensamientos y sus sentimientos.</h3>
                         </div>
                     </div>
-                    <div class="row text-center">
-
-                        <!-- Service Box 1 -->
-
-                        <div class="col-md-4">
-                            <div class="tile wow animated fadeInLeft" data-wow-delay="200ms">
-
-                            </div>
-                        </div><!-- End of Service Box 1 -->
-
-                        <!-- Service Box 2 -->
-
-                        <div class="col-md-4">
-                            <div class="tile wow animated fadeIn" data-wow-delay="400ms">
-
-                            </div>
-                        </div><!-- End of Service Box 2 -->
-
-                        <!-- Service Box 3 -->
-
-                        <div class="col-md-4">
-                            <div class="tile wow animated fadeInRight" data-wow-delay="200ms">
-
-                            </div>
-                        </div><!-- End of Service Box 3 -->
-
-                    </div>
+                    
+               
                 </div><!-- End of One Page Section - About -->
 
 
@@ -202,17 +175,18 @@
 
                     <!-- Section - Image Left + Pattern Background Right -->
 
-                    <section class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');height:820px">
+                    <section class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="image-container col-sm-6 pull-left">
-                                    <div class="image-holder" style="background-image: url('images/javier_diaz_foto.jpg');height:820px" ></div>		
+                                    <div class="image-holder" style="background-image: url('images/javier_diaz_foto.jpg')" ></div>		
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100" >
                                     <div class="row" >
+                                       
                                         <div class="col-xs-10 col-xs-offset-1   wow animated fadeInRight" data-wow-delay="200ms" >
-                                            <h2 class="no-margin text-uppercase letter-spacing-3" >Director general de Latin American Speakers</h2>
-
+                                             <h2 class="no-margin text-uppercase letter-spacing-3" >Director general de Latin American Speakers</h2>
+                                             <br>
                                             <h5 class="letter-spacing-1 text-vertical-large" style="text-align: justify">
                                                 FORMACIÓN DE MAESTROS,                                                                                                               
                                                 EXPRESIÓN ORAL Y ESCRITA,
@@ -247,35 +221,39 @@
                             </div>
                         </div>
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
-                    <div class="container one-page-section" id="about" style="padding-top: 50px">
+                    <div class="container one-page-section" id="about" style="padding-top: 50px;padding-bottom: 100px">
                           <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
                         <h2 class="no-margin text-center text-uppercase letter-spacing-3">TimeLine</h2>
                      
                     </div>
-                        <div class="text-center timeline timeline-horizontal" style="padding-top: 60px">
+                        <div class="text-center timeline timeline-horizontal" style="padding-top: 60px;">
                            
                          
                             <br>
 			<li >
-                            <i class="fa fa-comments-o fa-5x" id="popoverData" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
+                            <i class="fa fa-comments-o fa-5x" style="color:#434344" id="popoverData" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
                                rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover"></i>
-				<time>1998</time>
+				<time id="popoverData5" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
+                               rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover">1998</time>
 				
 			</li>
 			<li>
-				<i class="fa fa-male fa-5x" id="popoverData2" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
+                            <i class="fa fa-male fa-5x" style="color:#434244" id="popoverData2" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
                                rel="popover" data-placement="bottom" data-original-title="Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET" data-trigger="hover"></i>
-				<time>2003</time>
+				<time id="popoverData6" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
+                               rel="popover" data-placement="bottom" data-original-title="Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET" data-trigger="hover">2003</time>
 				
 			</li>
 			<li>
-				<time>2011</time>
-				<i class="fa fa-lightbulb-o fa-5x" class="fa fa-male fa-5x" id="popoverData3" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
+				<time id="popoverData7" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
+                               rel="popover" data-placement="bottom" data-original-title="Colegio de Contadores Públicos de México" data-trigger="hover">2011</time>
+				<i class="fa fa-lightbulb-o fa-5x" style="color:#434244" id="popoverData3" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
                                rel="popover" data-placement="bottom" data-original-title="Colegio de Contadores Públicos de México" data-trigger="hover"></i>
 			</li>
                         <li >    
-				<time >2013</time>
-				<i class="fa fa-university fa-5x" class="fa fa-lightbulb-o fa-5x" class="fa fa-male fa-5x" id="popoverData4" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales." 
+				<time id="popoverData8" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales." 
+                               rel="popover" data-placement="bottom" data-original-title="Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración" data-trigger="hover">2013</time>
+				<i class="fa fa-university fa-5x" style="color:#434244" id="popoverData4" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales." 
                                rel="popover" data-placement="bottom" data-original-title="Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración" data-trigger="hover"></i>
 			</li>
 		
@@ -284,7 +262,7 @@
 				</div><!-- End of One Page Section - About -->
 			
                     <div class="container-fluid">
-                        <div class="row pad-top-50 pad-bot-50">
+                        <div class="row pad-top-50 pad-bot-50" style="background-color: #F2F2F2">
 
                             <!-- Counter Simple with Border - Item 1 -->
 
@@ -326,7 +304,7 @@
                                 <div class="row text-center">
                                     <?php
                                    require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    $my_query = new WP_Query('showposts=3'); 
+                                   $my_query = new WP_Query('showposts=3'); 
                                     ?> 
                                     <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
@@ -365,9 +343,7 @@
                                 <div class="wow animated fadeIn" data-wow-delay="200ms">
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores </h2>
                                     <div class="symbol" style="padding-bottom: 35px">
-                                        <center>
-                                        <hr style="color: #848484;background-color: #848484;height: 1px;width: 350px"/>
-                                        </center>
+                                        
                                     </div>	
                                 </div>
 
@@ -449,13 +425,14 @@
 
                     <!-- Section Colored -->
 
-                    <section class="section-colored clearfix no-margin" style="background-color: #fff;color: #000" id="talleres">
+                    <section class="section-colored clearfix no-margin" style="background-color: #fff;color: #000;padding-bottom: 80px;" id="talleres" >
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 wow animated fadeIn" data-wow-delay="200ms">
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="color: #000">Catálogo de talleres, cursos y conferencias</h2>
+                                    <br>
                                     <div class="symbol symbol-theme">
-                                        <hr style="color: #000 ;background-color: #000;height: 1px;"/>
+                                        <br>
                                     </div>
                                 </div>
                             </div>
@@ -537,7 +514,7 @@
                                                                 <p>Lo que no te puede faltar para hablar en público</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -556,7 +533,7 @@
                                                                 <p>Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo, y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia, obligación que hoy nos ha reunido y nos permite tener una base de reflexión para estar satisfechos en un tiempo en el que no es sencillo estar contentos.</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -575,7 +552,7 @@
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -660,7 +637,7 @@
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -679,7 +656,7 @@
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -698,7 +675,7 @@
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -781,7 +758,7 @@
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30"" data-dismiss="modal">Cerrar</button>
                                                             </div>
                                                         </div>
 
@@ -800,7 +777,7 @@
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
                                                             </div>
                                                         </div>
 
@@ -818,8 +795,10 @@
                                                             <div class="modal-body">
                                                                 <p>Herramientas para desarrollar una mentalidad de contenido social</p>
                                                             </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                                            <div class="modal-footer ">
+                                                                
+                                                                <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                                
                                                             </div>
                                                         </div>
 
@@ -844,7 +823,7 @@
                                     <div class="col-xs-10 col-xs-offset-1 pad-top-50 pad-bot-50 wow animated pull-left" data-wow-delay="200ms">
                                         <h2 class="no-margin text-uppercase letter-spacing-3">Te lo digo a ti</h2>
                                         <div class="symbol symbol-left">
-                                            <hr style="color: #000;background-color: #000; width: 250px;height: 1px;position:relative;alignment-baseline: central"/>	
+                                           	
                                         </div>	
                                         <h5 class="letter-spacing-1 text-vertical-large " style="text-align: justify;padding-bottom: 10px">
                                             ¿Qué tengo que hacer para hablar en público?; ¿cómo le hago para decir lo que quiero decir?;  quiero comunicar como otros, 
@@ -884,13 +863,13 @@
 
                 <!-- One Page Section - Contact -->
 
-                <div id="contact" class="one-page-section">
-                    <div class="container-fluid no-padding">
+                <div id="contact" class="one-page-section" style="background-color:#f6f6f6;" >
+                    <div class="container-fluid no-padding" >
 
                         <!-- Vertically Centered Content Box - Desktop -->
 
                         <div class="row vertical-center-box">
-                            <div class="col-md-6 pad-top-40 pad-bot-100" style="background-color:#f6f6f6;height: 60%" >
+                            <div class="col-md-6 pad-top-40 pad-bot-100" style="background-color:#f6f6f6;" >
                                 <div >
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
@@ -903,16 +882,16 @@
                                         <div class="col-xs-10 col-xs-offset-1">
 
                                             <h5><span class="weight-500 text-uppercase">Telefono: </span>(55) 5523 9873</h5>
-                                            <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Correo electrónico: </span>contacto@javierdiazbrassetti.com</h5>
+                                            <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Correo electrónico: </span>Contacto@javierdiazbrassetti.com</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 text-center pad-top-100-tablet pad-top-100-mobile pad-bot-100-tablet pad-bot-100-mobile">
-                                <div class="pad-top-100-tablet pad-top-100-mobile pad-bot-100-tablet pad-bot-100-mobile">
+                            <div class="col-md-6 text-center pad-top-100-tablet pad-top-100-mobile pad-bot-100-tablet pad-bot-100-mobile" >
+                                <div class="pad-top-100-tablet pad-top-100-mobile pad-bot-100-tablet pad-bot-100-mobile" >
                                     <div class="wow animated fadeIn" data-wow-delay="200ms">
                                         <!--<p class="text-lighter letter-spacing-2 text-center"><i>Nulla consequat massa quis enim</i></p>-->
-                                        <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="padding-top: 15px">Escríbenos</h2>
+                                        <h2 class="no-margin text-center text-uppercase letter-spacing-3" style="padding-top: 15px" >Escríbenos</h2>
 
                                     </div>
                                     <div class="row">
@@ -927,19 +906,19 @@
                                                 <br/>
                                                 <div class="col-sm-6">
                                                     <div class="form-group wow animated slideInLeft" data-wow-delay="200ms">
-                                                        <label class="control-label letter-spacing-3"><small>Nombre:</small></label>
+                                                        <label><h5 class="no-margin-bottom">Nombre:</h5>   </label> 
                                                         <input type="text" class="form-control text-center" name="firstName"/>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 wow animated slideInRight" data-wow-delay="200ms">
                                                     <div class="form-group">
-                                                        <label class="control-label letter-spacing-3"><small>Email</small></label>
+                                                          <label><h5 class="no-margin-bottom">Email:</h5>   </label> 
                                                         <input type="text" class="form-control text-center" name="email"/>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-12 wow animated fadeInDown pad-top-35" data-wow-delay="400ms"style="padding-bottom: 15px">
+                                                <div class="col-sm-12 wow animated fadeInDown pad-top-35" data-wow-delay="400ms"style="padding-bottom: 19px">
                                                     <div class="form-group feedback-text-area">
-                                                        <label class="control-label letter-spacing-3"><small>Mensaje:</small></label>
+                                                          <label><h5 class="no-margin-bottom">Mensaje:</h5>   </label> 
                                                         <textarea class="form-control form-text-area text-center" name="msg"></textarea>
                                                     </div>
                                                     <input type="submit"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" name="submit" id="submit" value="Enviar">
@@ -989,7 +968,7 @@
                                             </div>
                                             <div class="col-sm-2 text-center">
                                                 <!--<a href="#" class="btn btn-theme form-submit btn-full-width">Registrate</a>-->
-                                                <input type="submit"  class="btn btn-theme2 form-submit btn-full-width" name="submit" id="submit" value="Registrate">
+                                                <input type="submit"  class="btn2 btn-theme2 form-submit letter-spacing-3 btn-full-width" name="submit" id="submit" value="Registrate">
                                                  
                                             </div>
 
@@ -1001,70 +980,73 @@
                     </form>
                 </section>
             </div><!-- End of Demo Content -->
+			
+			<!-- Footer Reveal -->
+		
+			<footer class="footer footer-reveal footer-plain no-margin-top">
+				<div class="uncover-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<ul class="list-unstyled list-inline footer-inline-links">
+									
+									<li><a href="#javier_diaz">Javier Diaz Brassetti</a></li>
+									<li><a href="http://desarrolloblick.esy.es/wordpress/">Blog</a></li>
+									<li><a href="#contact">Contacto</a></li>
+									
+								</ul>
+								<ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50">
+									<li><a class="facebook" href="#fakelink"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="twitter" href="#fakelink"><i class="fa fa-twitter"></i></a></li>
+									
+								</ul>				
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer><!-- End of Footer Reveal -->	
+		
+		</div><!-- End of Page Content + Uncover Footer Body -->
+		
+		<!-- Loading Third Party Scripts -->
 
-            <!-- Footer Reveal -->
+		<script src="third-party/jquery/jquery.min.js"></script>
+		<script src="third-party/easing/js/jquery.easings.min.js"></script>
+		<script src="third-party/bootstrap/js/bootstrap.min.js"></script>	
+		<script src="third-party/nivo-lightbox/js/nivo-lightbox.min.js"></script>
+		<script src="third-party/owl/js/owl.carousel.js"></script>
+		<script src="third-party/isotope/js/isotope.pkgd.min.js"></script> 
+		<script src="third-party/counter-up/js/jquery.counterup.min.js"></script>
+		<script src="third-party/form-validation/js/formValidation.js"></script>
+		<script src="third-party/form-validation/js/framework/bootstrap.min.js"></script>
+		<script src="third-party/waypoint/js/waypoints.min.js"></script>
+		<script src="third-party/wow/js/wow.min.js"></script>
+		<script src="third-party/smooth-scroll/js/smoothScroll.js"></script>
+		<script src="third-party/jquery-parallax/js/jquery.parallax.js"></script>
+		<script src="third-party/jquery-parallax/js/jquery.localscroll.min.js"></script>
+		<script src="third-party/jquery-parallax/js/jquery.scrollTo.js"></script>
+        
+		
+        
+		<!-- Loading Theme's Scripts -->
 
-            <footer class="footer footer-reveal footer-plain no-margin-top">
-                <div class="uncover-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <ul class="list-unstyled list-inline footer-inline-links">
-
-                                    <li><a href="#Javier_diaz">Javier Díaz Brassetti</a></li>
-                                    <li><a href="http://desarrolloblick.esy.es/wordpress/">Blog</a></li>
-                                    <li><a href="#contact">Contacto</a></li>
-
-                                </ul>
-                                <br>
-                                <ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50" style="padding-top: 2px">
-                                    <li><a class="facebook" href="#fakelink"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#fakelink"><i class="fa fa-twitter"></i></a></li>
-
-                                </ul>				
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer><!-- End of Footer Reveal -->	
-
-        </div><!-- End of Page Content + Uncover Footer Body -->
-
-        <!-- Loading Third Party Scripts -->
-
-        <script src="third-party/jquery/jquery.min.js"></script>
-        <script src="third-party/easing/js/jquery.easings.min.js"></script>
-        <script src="third-party/bootstrap/js/bootstrap.min.js"></script>	
-        <script src="third-party/nivo-lightbox/js/nivo-lightbox.min.js"></script>
-        <script src="third-party/owl/js/owl.carousel.js"></script>
-        <script src="third-party/isotope/js/isotope.pkgd.min.js"></script> 
-        <script src="third-party/counter-up/js/jquery.counterup.min.js"></script>
-        <script src="third-party/form-validation/js/formValidation.js"></script>
-        <script src="third-party/form-validation/js/framework/bootstrap.min.js"></script>
-        <script src="third-party/waypoint/js/waypoints.min.js"></script>
-        <script src="third-party/wow/js/wow.min.js"></script>
-        <script src="third-party/smooth-scroll/js/smoothScroll.js"></script>
-        <script src="third-party/jquery-parallax/js/jquery.parallax.js"></script>
-        <script src="third-party/jquery-parallax/js/jquery.localscroll.min.js"></script>
-        <script src="third-party/jquery-parallax/js/jquery.scrollTo.js"></script>
-
-        <!-- Loading Page's Scripts -->
-
-
-
-        <!-- Loading Theme's Scripts -->
-
-        <script src="js/scripts.js"></script>
-        <script src="js/custom.js"></script>
-        <script type="text/javascript">
+		<script src="js/scripts.js"></script>
+		<script src="js/custom.js"></script>
+                    <script type="text/javascript">
             $('#popoverData').popover();
             $('#popoverData2').popover();
             $('#popoverData3').popover();
             $('#popoverData4').popover();
+            $('#popoverData5').popover();
+            $('#popoverData6').popover();
+            $('#popoverData7').popover();
+            $('#popoverData8').popover();
 
         </script>
             
-
-
-    </body>
+		
+		<!-- Google Analytics Tracking -->
+		
+		
+	</body>
 </html>

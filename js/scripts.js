@@ -1503,39 +1503,6 @@ function formValidation() {
     
 }
 
-
-    /* ------------------------------------------------
-     Init Footer Newsletter Form
-     --------------------------------------------------- */
-    $("#form_newsletter").submit(function(event) {
-	    
-		//stop form from submitting normally
-		event.preventDefault();
-
-		//get some values from elements on the page:
-		var $form = $( this );
-
-		$("#form_newsletter button").attr("disabled", "disabled");
-
-		//Send the data using post
-		var posting = $.post( 'model/mail_newslatter.php', $form.serialize() );
-
-		//Show result
-		posting.done(function( data ) {
-
-			$("#form_newsletter button").removeAttr('disabled');
-
-			$("#form_newsletter_result").hide().html(data).fadeIn();
-                        document.getElementById("form_newsletter").reset();
-		});
-	});
-
-    
-
-
-
-
-
 /* ------------------------------------------------
  Generate Captcha Codes
  --------------------------------------------------- */
