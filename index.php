@@ -4,7 +4,8 @@
 		
 		<!-- Meta Tags -->
 		
-		<meta charset="utf-8">
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 		<title>Javier Diaz Brassetti</title>
 		<meta name="description" content="Premium HTML5 Template">
@@ -14,7 +15,7 @@
 		
 		<!-- Favicon -->
 		
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.png" type="image/x-icon">
 
 		<!-- Loading Google Fonts --> 
 		
@@ -223,13 +224,11 @@
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
                     <div class="container one-page-section" id="about" style="padding-top: 50px;padding-bottom: 100px">
                           <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
-                        <h2 class="no-margin text-center text-uppercase letter-spacing-3">TimeLine</h2>
+                        <h2 class="no-margin text-center text-uppercase letter-spacing-3">Reconocimientos a Javier</h2>
                      
                     </div>
                         <div class="text-center timeline timeline-horizontal" style="padding-top: 60px;">
-                           
-                         
-                            <br>
+                        <br>
 			<li >
                             <i class="fa fa-comments-o fa-5x" style="color:#434344" id="popoverData" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
                                rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover"></i>
@@ -259,7 +258,7 @@
 		
 						
 					</div>
-				</div><!-- End of One Page Section - About -->
+	</div><!-- End of One Page Section - About -->
 			
                     <div class="container-fluid">
                         <div class="row pad-top-50 pad-bot-50" style="background-color: #F2F2F2">
@@ -304,7 +303,7 @@
                                 <div class="row text-center">
                                     <?php
                                    require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                   $my_query = new WP_Query('showposts=3'); 
+                                  $my_query = new WP_Query('showposts=3'); 
                                     ?> 
                                     <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>

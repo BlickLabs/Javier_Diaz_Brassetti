@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 20-01-2016 a las 17:13:19
+-- Tiempo de generación: 21-01-2016 a las 15:24:55
 -- Versión del servidor: 5.6.26
 -- Versión de PHP: 5.6.12
 
@@ -28,19 +28,18 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `Usuarios` (
   `id_user` int(11) NOT NULL,
-  `nombre` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `apellidos` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `email` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `telefono` varchar(15) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `calle` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `num_ext` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `num_int` varchar(5) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `colonia` varchar(5) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `ciudad` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
-  `estado` varchar(45) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `Nombre` varchar(45) DEFAULT NULL,
+  `Email` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `telefono` varchar(15) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `calle` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `num_ext` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `num_int` varchar(5) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `colonia` varchar(5) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `ciudad` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `del_mun` varchar(45) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `codigo_postal` bigint(5) DEFAULT NULL,
-  `pertenece_a` varchar(20) COLLATE utf8_spanish_ci NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+  `pertenece_a` varchar(20) CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Índices para tablas volcadas
@@ -60,7 +59,7 @@ ALTER TABLE `Usuarios`
 -- AUTO_INCREMENT de la tabla `Usuarios`
 --
 ALTER TABLE `Usuarios`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=18;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

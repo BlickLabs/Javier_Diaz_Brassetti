@@ -3,10 +3,16 @@
 error_reporting(0);
 
 
-$host="mysql.hostinger.mx";
-$uname="u399060757_root";
-$pass="2011301308";
-$database = "u399060757_javie"; 
+//$host="mysql.hostinger.mx";
+//$uname="u399060757_root";
+//$pass="2011301308";
+//$database = "u399060757_javie";
+//
+//  
+$host="localhost";
+$uname="root";
+$pass="";
+$database = "javier_diaz";
 
 $connection=mysql_connect($host,$uname,$pass,$database); 
 

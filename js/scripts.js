@@ -1,25 +1,3 @@
-/* ------------------------------------------------
- ---------------------------------------------------
- 
- Minth's Main JavaScript Document
- Version: 1.0
- Created By: Amazyne Themes
- 
- ---------------------------------------------------
- --------------------------------------------------- */
-
-
-/* ------------------------------------------------
- 
- Navigation
- 
- --------------------------------------------------- */
-
-
-/* ------------------------------------------------
- Responsive Scripts for Navigation
- --------------------------------------------------- */
-
 
 function navResponsive() {
 
@@ -1488,7 +1466,7 @@ function formValidation() {
 		$("#form_newsletter button").attr("disabled", "disabled");
 
 		//Send the data using post
-		var posting = $.post( 'model/mail_newslatter.php', $form.serialize() );
+		var posting = $.post( 'model/mail_newsletter.php', $form.serialize() );
 
 		//Show result
 		posting.done(function( data ) {
@@ -1499,6 +1477,8 @@ function formValidation() {
                         document.getElementById("form_newsletter").reset();
 		});
 	});
+        
+
 
     
 }

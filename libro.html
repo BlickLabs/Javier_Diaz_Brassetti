@@ -37,6 +37,7 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
         <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.2/js/conekta.js"></script>
+        <script> Conekta.setPublishableKey('key_CpEYzTWyhytV9nztCro9HMQ');</script>
 
         <!-- Loading Theme's Styles -->
 
@@ -95,7 +96,7 @@
 
                                     <ul class="nav navbar-nav">
                                         <li class="dropdown active">
-                                            <a href="#javier_diaz">Javier Diaz</a>
+                                            <a href="#javier_diaz">Javier Díaz Brassetti</a>
                                         </li>
                                         <li>
                                             <a href="#publicaciones">Publicaciones</a>
@@ -136,12 +137,14 @@
 
                         <div class="row pad-top-25 pad-bot-25" >
                             <div class="col-md-8 col-md-offset-2 text-center">
-                                <h5 class="letter-spacing-1 text-main weight-500 text-uppercase pad-bot-30 no-margin" >LLENA LOS SIGUIENTES CAMPOS:</h5>
+                                 <div class="col-sm-12  mar-top-30 " >
+                                        <h3>LLENA LOS SIGUIENTES CAMPOS</h3>
+                                    </div>
                                 <form action="conekta_card/MyConekta.php" method="post" class="col-md-12 form-theme form-md" id="card-form">
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="Name" placeholder="Nombre">
+                                            <input type="text" class="form-control" name="name" placeholder="Nombre">
                                         </div>
                                     </div>
 
@@ -154,7 +157,7 @@
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="phoneNumber" placeholder="Telefono">
+                                            <input type="text" class="form-control" name="phone" placeholder="Telefono">
                                         </div>
                                     </div>
                                     <!-- <div class="col-sm-6 mar-top-30">
@@ -164,26 +167,26 @@
                                              </div>
                                      </div>-->
 
-                                    <div class="col-sm-12  mar-top-30 " >
-                                        <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 2px;">
+                                    <div class="col-sm-12  mar-top-35 " >
+                                        <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
                                         <h3>Dirección</h3>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="Street" placeholder="Calle:">
+                                            <input type="text" class="form-control" name="street" placeholder="Calle:">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="external_number" placeholder="N° Exterior">
+                                            <input type="text" class="form-control" name="ext_number" placeholder="N° Exterior">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="internal_number" placeholder="N° Interior">
+                                            <input type="text" class="form-control" name="int_number" placeholder="N° Interior">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
@@ -201,7 +204,7 @@
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="state" placeholder="Estado">
+                                            <input type="text" class="form-control" name="state" placeholder="Delegación o Municipio">
                                         </div>
                                     </div>
 
@@ -211,41 +214,42 @@
                                             <input type="text" class="form-control" name="postal_code" placeholder="Código Postal">
                                         </div>
                                     </div>
-                                    <div class="col-sm-12  mar-top-30" style="padding-top: 10px" >
+                                    <div class="col-sm-12  mar-top-35"  >
                                         <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
                                         <h3>Datos de la tarjeta</h3>
                                     </div>
-                                    <div class="col-sm-6 mar-top-30">
+                                    <div class="col-sm-6 mar-top-40">
                                         <div class="form-group">
-
                                             <input type="text" class="form-control" name="card_name" data-conekta="card[name]" placeholder="Nombre del Tarjetahabiente">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6 mar-top-30">
+                                    <div class="col-sm-6 mar-top-40">
                                         <div class="form-group">
 
                                             <input type="text" class="form-control" name="card_number" data-conekta="card[number]" placeholder="Número de Tarjeta (XXXX-XXXX-XXXX-XXXX)">
                                         </div>
                                     </div>
 
-                                    <div class="col-sm-12">       
+                                    <div class="col-sm-12 mar-top-30">       
                                         <div class="col-sm-3 form-group ">
                                             <label >Fecha de vencimiento</label> 
-                                            <input type="text" class="form-control"  data-conekta="card[exp_month]" name="month" placeholder="Mes (MM)">
+                                            <input type="text" class="form-control"  data-conekta="card[exp_month]" name="card_month" placeholder="Mes (MM)">
                                         </div>
                                         <div class="col-sm-3 form-group">
                                             <label style="color: white">Fecha de vencimiento</label>
-                                            <input type="text" class="form-control" data-conekta="card[exp_year]" name="year" placeholder="Año (AAAA)">
+                                            <input type="text" class="form-control" data-conekta="card[exp_year]" name="card_year" placeholder="Año (AAAA)">
                                         </div>
                                         <div class="col-sm-3 form-group">
                                             <label style="color: white">Fecha de vencimiento</label>
-                                            <input type="text" class="form-control"  data-conekta="card[cvc]" name="cvc" placeholder="CVC">
+                                            <input type="text" class="form-control"  data-conekta="card[cvc]" name="card_cvc" placeholder="CVC">
                                         </div>
                                     </div>
 
 
                                     <div class="col-sm-6 col-sm-offset-3">
-                                        <button type="submit" class="btn btn-theme-inverse mar-top-50 ">Pagar</button>
+                                        <button type="submit"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Pagar</button>
+                                        
+                                        
                                     </div>
                                     <div class="col-sm-12">
                                         <div id="formResponse" class="form-response"></div>
@@ -265,7 +269,7 @@
                             <div class="col-sm-12 text-center">
                                 <ul class="list-unstyled list-inline footer-inline-links">
 
-                                    <li><a href="#Javier_diaz">Javier Diaz</a></li>
+                                    <li><a href="#Javier_diaz">Javier Díaz Brassetti</a></li>
                                     <li><a href="http://desarrolloblick.esy.es/wordpress/">Blog</a></li>
                                     <li><a href="#contact">Contacto</a></li>
 
@@ -310,33 +314,38 @@
 
         <!-- conekta functions -->
         <script type="text/javascript">
-            Conekta.setPublishableKey('key_KJysdbf6PotS2ut2');
+           
 
-            var conektaSuccessResponseHandler = function (token) {
-                var $form = $("#card-form");
+           $(function () {
+  $("#card-form").submit(function(event) {
+    var $form = $(this);
 
-                /* Inserta el token_id en la forma para que se envíe al servidor */
-                $form.append($("<input type='hidden' name='conektaTokenId'>").val(token.id));
-                console.log(token.id);
+    // Previene hacer submit más de una vez
+    $form.find("button").prop("disabled", true);
+    Conekta.token.create($form, conektaSuccessResponseHandler, conektaErrorResponseHandler);
+   
+    // Previene que la información de la forma sea enviada al servidor
+    return false;
+  });
+});
 
-                /* and submit */
-                $form.submit();
-            };
+var conektaSuccessResponseHandler = function(token) {
+  var $form = $("#card-form");
 
-            var conektaErrorResponseHandler = function (response) {
-                var $form = $("#card-form");
-                console.error("ERROR!!!!!!!");
-                /* Muestra los errores en la forma */
-                $form.find(".card-errors").text(response.message);
-                $form.find("button").prop("disabled", false);
-            };
-            $(document).on("submit", "#card-form", function(event) {
-                event.preventDefault();
-                var $form = $(this);
-                // Previene hacer submit más de una vez
-                $form.find("button").prop("disabled", true);
-                Conekta.token.create($form, conektaSuccessResponseHandler, conektaErrorResponseHandler);
-            });
+  /* Inserta el token_id en la forma para que se envíe al servidor */
+  $form.append($("<input type='hidden' name='conektaTokenId'>").val(token.id));
+ 
+  /* and submit */
+  $form.get(0).submit();
+};
+
+var conektaErrorResponseHandler = function(response) {
+  var $form = $("#card-form");
+  
+  /* Muestra los errores en la forma */
+  $form.find(".card-errors").text(response.message);
+  $form.find("button").prop("disabled", false);
+};
         </script>
 
     </body>

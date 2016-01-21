@@ -9771,17 +9771,6 @@ button {
     -o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.btn2 {
-	border-radius: 0px;
-	font-size: 12px;
-	font-family: 'Roboto Condensed' sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
 .btn-lg {
 	font-size: 13px !important;
 }
@@ -9823,7 +9812,6 @@ button {
 	color: #000 !important;
 	background-color: #fff !important;
 	border: #000 !important;
-        font-family: 'Roboto Condensed' sans-serif;
 }
 .btn-theme2:hover,
 .btn-theme2:active,
@@ -9836,7 +9824,6 @@ button {
 	color: #fff !important;
 	background-color: #262626 !important;	
 	border: #262626 !important;
-        font-family: 'Roboto Condensed' sans-serif;
 }
 .btn-theme,
 .btn-theme:focus,
