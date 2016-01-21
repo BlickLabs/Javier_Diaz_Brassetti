@@ -1,21 +1,31 @@
 <?php error_reporting(E_ALL);
 
 require_once("../conekta/lib/Conekta.php");
-Conekta::setApiKey("key_YmMgW3VAjftQhWqxqnkhhw");
+include("../model/conexion.php");
+Conekta::setLocale('es');
+Conekta::setApiKey("key_5scrweicPYN7TsJ87VozVg");
+use Mailgun\Mailgun;
+//$scalle=$_POST['street'];
+//$num_ext=$_POST['ext_number'];
+//$num_int=$_POST['int_number'];
+//$col=$_POST['colony'];
+//$city=$_POST['city'];
+//$state=$_POST['state'];
+//$cod_post=$_POST['postal_code'];
 
-
-try {
-$charge = Conekta_Charge::create(array(
-  'description'=> 'Stogies',
-  'reference_id'=> '9839-wolf_pack',
-  'amount'=> 20000,
+try{
+    $charge = Conekta_Charge::create(array(
+  'amount'=> 30000,
   'currency'=>'MXN',
+  'description'=> 'Libro',
+  'reference_id'=> '9839-wolf_pack',
   'card'=> $_POST['conektaTokenId'],
   'details'=> array(
-    'name'=> 'Arnulfo Quimare',
-    'phone'=> '403-342-0642',
-    'email'=> 'logan@x-men.org',
+    'name'=> $_POST['card_name'],
+    'phone'=> $_POST['phone'],
+    'email'=> $_POST['email'],
     'customer'=> array(
+      'corporation_name'=> 'Conekta Inc.',
       'logged_in'=> true,
       'successful_purchases'=> 14,
       'created_at'=> 1379784950,
@@ -30,25 +40,31 @@ $charge = Conekta_Charge::create(array(
         'unit_price'=> 20000,
         'quantity'=> 1,
         'sku'=> 'cohb_s1',
-        'category'=> 'food'
+        'type'=> 'food'
       )
-    ),
-    'billing_address'=> array(
-      'street1'=>'77 Mystery Lane',
-      'street2'=> 'Suite 124',
-      'street3'=> null,
-      'city'=> 'Darlington',
-      'state'=>'NJ',
-      'zip'=> '10192',
-      'country'=> 'Mexico',
-      'tax_id'=> 'xmn671212drx',
-      'company_name'=>'X-Men Inc.',
-      'phone'=> '77-777-7777',
-      'email'=> 'purshasing@x-men.org'
     )
-  )
-));
-echo $charge->status;
-} catch (Exception $e) {
-    echo $e->getMessage(); 
+   )
+  
+    ));
+  $toke=$charge->status;
+  if ($toke=='paid'){
+   require_once '../model/pago_libro.php';
+   require_once '../model/pago_cliente.php';
+   $pertence= 'compra_libro';
+//Change database 
+mysqli_select_db($con, "$dbname");
+mysql_set_charset('utf8');
+
+
+$query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,telefono,calle,num_ext,num_int,colonia,ciudad,del_mun,codigo_postal,pertenece_a) VALUES ('$name','$email','$phone','$calle','$num_ext','$num_int','$colonia','$ciudad','$estado','$codigo_postal','$pertence')");
+mysqli_close($con); 
+   header('Location: ../pago_exitoso.html');  
+  }
+} catch (Exception $ex) {
+   header('Location: ../pago_rechazado.html');
+   
 }
+        
+        
+        
+?>
