@@ -1,4 +1,6 @@
 <?php error_reporting(E_ALL);
+header("Content-Type: text/html;charset=utf-8");
+
 include("../model/conexion.php");
 use Mailgun\Mailgun;
 
@@ -9,15 +11,15 @@ $mensaje = $_POST['msg'];
 $asunto = 'Un cliente requiere de mayor información: ';
 
 /* Desarrollo */
-$api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
-$api_domain = 'sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org';
-$send_to = 'desarrolloblick@gmail.com';
+//$api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
+//$api_domain = 'sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org';
+//$send_to = 'desarrolloblick@gmail.com';
 
 /* Cuenta Javier Diaz */
 
-/* $api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
-  $api_domain = 'sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org';
-  $send_to = 'desarrolloblick@gmail.com'; */
+ $api_key = 'key-a60ceca94c5a2b84c71aac83a3f247b3';
+  $api_domain = 'sandbox20d96bd94fad442fac6ffb4453e64a25.mailgun.org';
+  $send_to = 'contacto@javierdiazbrassetti.com'; 
 
 
 $name = $name2;
@@ -60,7 +62,8 @@ $pertence= 'contacto';
 //Change database 
 mysqli_select_db($con, "$dbname");
 
-$query = mysqli_query($con, "INSERT INTO Usuarios (nombre,email,pertenece_a) VALUES ('$name','$email','$pertence')");
+
+$query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,pertenece_a) VALUES ('$name','$email','$pertence')");
 mysqli_close($con); 
 
 //return $result;
