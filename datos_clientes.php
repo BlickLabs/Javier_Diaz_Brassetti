@@ -1,11 +1,14 @@
-<?php
+<?php 
 
-$host="localhost";
-$uname="root";
-$pass="";
-$database = "javier_diaz"; 
+error_reporting(0);
 
-$connection=mysql_connect($host,$uname,$pass); 
+
+$host="mysql.hostinger.mx";
+$uname="u399060757_root";
+$pass="2011301308";
+$database = "u399060757_javie"; 
+
+$connection=mysql_connect($host,$uname,$pass,$database); 
 
 echo mysql_error();
 

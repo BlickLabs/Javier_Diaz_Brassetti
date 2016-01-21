@@ -4333,8 +4333,8 @@ figure figcaption > a {
 /* Portfolio Grids */
 
 .portfolio.grid-2 .item {
-	width: 30%;
-        
+	width: 31%;
+  
 }
 .portfolio.grid-3 .item {
 	width: 33.33%;
@@ -5476,96 +5476,7 @@ table.table-cart > tbody > tr > th:first-child {
 /* ==========================================================================
    Horizontal Rules
 ============================================================================= */
-	
 
-	
-hr{
-	margin-bottom: 200px;
-	margin-top: 200px;
-}	
-hr.light {
-	border-color: #333;
-}
-
-/*Faded*/
-	
-hr.faded {
-	clear: both; 
-  	float: none; 
-  	width: 100%; 
-  	height: 1px;
-  	border: none; 
-  	background: #ddd;
-  	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		right bottom,
-  		color-stop(0, rgb(255,255,255)),
-  		color-stop(0.1, rgb(221,221,221)),
-  		color-stop(0.9, rgb(221,221,221)),
-  		color-stop(1, rgb(255,255,255))
-	);
-	background-image: -moz-linear-gradient(
-  		left center,
-     rgb(255,255,255) 0%,
-     rgb(221,221,221) 10%,
-     rgb(221,221,221) 90%,
-     rgb(255,255,255) 100%
-	);
-}
-hr.faded.light {
-	background: #333;
-  	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		right bottom,
-  		color-stop(0, rgb(0,0,0)),
-  		color-stop(0.1, rgb(51,51,51)),
-  		color-stop(0.9, rgb(51,51,51)),
-  		color-stop(1, rgb(0,0,0))
-	);
-	background-image: -moz-linear-gradient(
-  		left center,
-     rgb(0,0,0) 0%,
-     rgb(51,51,51) 10%,
-     rgb(51,51,51) 90%,
-     rgb(0,0,0) 100%
-	);
-}
-
-/*Colored*/
-
-hr.colored {
-	height: 1px;
-	background: #ddd;
-	border-top: none;
-	margin-bottom:0;
-}
-.colored-extend {
-	border: 2px solid #000;
-	width:30%;
-	margin: -2.2px auto 200px;
-}
-.colored-extend.small {
-	width:5%;
-}
-hr.colored.light {
-	background: #333;
-}
-.colored-extend.light {
-	border-color: #333;
-}
-
-/*Double*/
-
-hr.double {
-	padding: 0;
-	border: none;
- 	border-top: 4px double #000;;
-}
-hr.double.light {
-	border-color: #333;
-}
 
 
 
@@ -5600,37 +5511,24 @@ hr.double.light {
 	left:0;
 	margin-left:0;
 }
-.symbol.symbol-left hr {
-	margin-left:0;
-}
+
 .symbol.symbol-right span {
 	padding: 0 0 0 1em;
 	left:inherit;
 	right:0;
 	margin-left:0;
 }
-.symbol.symbol-right hr {
-	margin-right:0;
-}
+
 .symbol.symbol-left.symbol-center.small span {
 	left: 37.5%;
 }
-.symbol.symbol-left.symbol-center hr {
-	margin-left:auto;
-}
+
 .symbol.symbol-right.symbol-center.small span {
 	left: inherit;
 	right:37.5%;
 }
-.symbol.symbol-right.symbol-center hr {
-	margin-right:auto;
-}
-.symbol hr {
-	border-top: 1px solid #e1e1e1;
-}
-.symbol-theme hr {
-	border-color: #333;
-}
+
+
 .symbol.symbol-theme span {
   	background: #000;
 	color: #444;
@@ -5640,11 +5538,7 @@ hr.double.light {
 	font-weight:normal;
 }
 
-/*Small Horizontal Rules*/
 
-hr.small {
-	width: 25%;
-}
 
 /********************************************************************
  Modal
@@ -8363,11 +8257,11 @@ blockquote {
 }
 .section-colored {
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	margin: 200px 0;
 	background-color: #000;
         color: #000;
-}
+        }
 .section-pattern {
 	padding-top: 50px;
 	padding-bottom: 200px;
@@ -9877,6 +9771,17 @@ button {
     -o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.btn2 {
+	border-radius: 0px;
+	font-size: 12px;
+	font-family: 'Roboto Condensed' sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
 .btn-lg {
 	font-size: 13px !important;
 }
@@ -9918,6 +9823,7 @@ button {
 	color: #000 !important;
 	background-color: #fff !important;
 	border: #000 !important;
+        font-family: 'Roboto Condensed' sans-serif;
 }
 .btn-theme2:hover,
 .btn-theme2:active,
@@ -9930,6 +9836,7 @@ button {
 	color: #fff !important;
 	background-color: #262626 !important;	
 	border: #262626 !important;
+        font-family: 'Roboto Condensed' sans-serif;
 }
 .btn-theme,
 .btn-theme:focus,
@@ -13209,7 +13116,7 @@ ul.social-icons.si-no-border.inverse {
 	
 	.team-item.team-large .social-icons {
 		float: none;
-		margin-top:40px;
+		margin-top:60px;
 	}
 	
 	/*Testimonial Simple*/
