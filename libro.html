@@ -36,6 +36,10 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.carousel.css"> 
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        
+        
+        <!--conekta-->
         <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.2/js/conekta.js"></script>
         <script> Conekta.setPublishableKey('key_CpEYzTWyhytV9nztCro9HMQ');</script>
 
@@ -131,7 +135,7 @@
 
 
 
-            <div class="uncover-footer-content" style="background: #fff;">
+            <div class="uncover-footer-content" >
                 <section id="message" class="section-colored clearfix no-margin" style="background: #fff;">
                     <div class="container" style="padding-top: 100px">
 
@@ -140,9 +144,9 @@
                                  <div class="col-sm-12  mar-top-30 " >
                                         <h3>LLENA LOS SIGUIENTES CAMPOS</h3>
                                     </div>
-                                <form action="conekta_card/MyConekta.php" method="post" class="col-md-12 form-theme form-md" id="card-form">
+                                <form action="conekta_card/process.php" method="post" class="col-md-12 form-theme form-md" id="card-form">
                                     <div class="col-sm-6 mar-top-30">
-                                        <div class="form-group">
+                                        <div class="form-group"  id="name-group" >
 
                                             <input type="text" class="form-control" name="name" placeholder="Nombre">
                                         </div>
@@ -151,7 +155,7 @@
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="email" class="form-control" name="email" placeholder="Correo Electronico">
+                                            <input type="email" class="form-control" name="email" placeholder="Correo Electrónico">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
@@ -251,18 +255,13 @@
                                         
                                         
                                     </div>
-                                    <div class="col-sm-12">
-                                        <div id="formResponse" class="form-response"></div>
-                                    </div>
+                                  
                                 </form>
                             </div>		
                         </div>	
                     </div>
                 </section>
-
-
-            </div>
-            <footer class="footer footer-reveal footer-plain no-margin-top">
+                <footer class="footer footer-reveal footer-plain no-margin-top">
                 <div class="uncover-footer">
                     <div class="container">
                         <div class="row">
@@ -286,10 +285,16 @@
             </footer><!-- End of Footer Reveal -->
 
 
+            </div>
+              
+
+          
+
             <!-- Loading Third Party Scripts -->
 
 
         </div><!-- End of Page Content -->
+        
 
         <script src="third-party/jquery/jquery.min.js"></script>
         <script src="third-party/easing/js/jquery.easings.min.js"></script>
@@ -311,6 +316,7 @@
 
         <script src="js/scripts.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/pago.js"></script>
 
         <!-- conekta functions -->
         <script type="text/javascript">
