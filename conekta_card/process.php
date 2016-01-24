@@ -47,7 +47,7 @@ if($_POST)
 		$errors['postal_code'] = 'Ingresa el número de código postal';
 	
 	
-	if(!$send_mail)
+	if($paid)
 	{       
                 $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .'Feliciades tu pago ha sido aprobado,recibirás un correo con más detalles'));
 		die($output);
