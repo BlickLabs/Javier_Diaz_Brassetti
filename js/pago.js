@@ -34,8 +34,8 @@ $(document).ready(function() {
                         'token'                 : $('input[name=conektaTokenId]').val()
 			};
             
-            //Ajax post data to server
-            $.post('process.php', post_data, function(response){  
+          
+            $.post('conekta_card/MyConekta.php', post_data, function(response){  
 				if(response.type == 'error'){ //load json data from server and output message     
 					output = '<div class="error">'+response.text+'</div>';
 				}else{
@@ -49,7 +49,7 @@ $(document).ready(function() {
         }
     });
     
-    //reset previously set border colors and hide all message on .keyup()
+    
     $("#contact_form  input[required=true], #contact_form textarea[required=true]").keyup(function() { 
         $(this).css('border-color',''); 
         $("#result").slideUp();

@@ -1,0 +1,19 @@
+
+.form-style .success{
+	background: #D8FFC0;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 5px 0px;
+	border: none;
+	font-weight: bold;
+	color: #2E6800;
+	border-left: 3px solid #2E6800;
+}
+.form-style .error {
+	background: #FFE8E8;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 5px 0px;
+	border: none;
+	font-weight: bold;
+	color: #FF0000;
+	border-left: 3px solid #FF0000;
+}
