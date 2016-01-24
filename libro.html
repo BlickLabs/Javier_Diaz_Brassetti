@@ -58,6 +58,8 @@
     </head>
     <body class="one-page">
 
+        
+
         <!-- Page Loader -->
 
         <div class="loader">
@@ -144,7 +146,41 @@
                                  <div class="col-sm-12  mar-top-30 " >
                                         <h3>LLENA LOS SIGUIENTES CAMPOS</h3>
                                     </div>
-                                <form action="conekta_card/process.php" method="post" class="col-md-12 form-theme form-md" id="card-form">
+                                <form action="conekta_card/process.php" method="post" name="libro" class="col-md-12 form-theme form-md" id="card-form">
+                                    <div class="col-sm-12  mar-top-35 " >
+                                        <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
+                                        <h3>CANTIDAD DE LIBROS</h3>
+       
+
+
+                                    <div class=" mar-top-30">
+                                    <div class="col-sm-3 mar-top-30">
+                                        <div class="form-group"  id="name-group" >
+                                            <label>Número de Piezas</label>
+                                            <input type="text" class="form-control" name="cantidad"  onKeyUp="calcular()" >
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mar-top-30">
+                                        <div class="form-group"  id="name-group" >
+                                            <label>Precio Del Libro</label>
+                                            <input type="text"  class="form-control" name="precio"   value="250" style="border: transparent;background-color: transparent">
+                                        </div>
+                                    </div>    
+                                     
+                                         <div class="col-sm-2 mar-top-30">
+                                        <div class="form-group"  id="name-group" >
+                                            <label >Tolal</label>
+                                            <input type="text" class="form-control" name="total" style="border: transparent;background-color: transparent"  >
+                                        </div>
+                                    </div> 
+                                    </div>    
+                                    
+                                    
+                                    <div class="col-sm-12  mar-top-35 " >
+                                        <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
+                                        <h3>DATOS PERSONALES</h3>
+                                    </div>
+                                    
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group"  id="name-group" >
 
@@ -155,13 +191,13 @@
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="email" class="form-control" name="email" placeholder="Correo Electrónico">
+                                            <input type="email" id="email-group" class="form-control" name="email" placeholder="Correo Electrónico">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="phone" placeholder="Telefono">
+                                            <input type="text" class="form-control" name="phone" placeholder="Teléfono">
                                         </div>
                                     </div>
                                     <!-- <div class="col-sm-6 mar-top-30">
@@ -173,12 +209,12 @@
 
                                     <div class="col-sm-12  mar-top-35 " >
                                         <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
-                                        <h3>Dirección</h3>
+                                        <h3>DIRECCIÓN</h3>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
                                         <div class="form-group">
 
-                                            <input type="text" class="form-control" name="street" placeholder="Calle:">
+                                            <input type="text" class="form-control" name="street" placeholder="Calle">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 mar-top-30">
@@ -220,7 +256,7 @@
                                     </div>
                                     <div class="col-sm-12  mar-top-35"  >
                                         <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 1px;">
-                                        <h3>Datos de la tarjeta</h3>
+                                        <h3>DATOS DE LA TARJETA</h3>
                                     </div>
                                     <div class="col-sm-6 mar-top-40">
                                         <div class="form-group">
@@ -319,7 +355,7 @@
         <script src="js/pago.js"></script>
 
         <!-- conekta functions -->
-        <script type="text/javascript">
+   <script type="text/javascript">
            
 
            $(function () {
@@ -352,6 +388,23 @@ var conektaErrorResponseHandler = function(response) {
   $form.find(".card-errors").text(response.message);
   $form.find("button").prop("disabled", false);
 };
+        </script>
+        
+        
+        <script type="text/javascript">
+     
+        function calcular() {
+            var cantidad = document.libro.cantidad.value;
+            var precio = document.libro.precio.value;
+   try{
+      //Calculamos el número escrito:
+       cantidad = (isNaN(parseInt(cantidad)))? 0 : parseInt(cantidad);
+       precio = (isNaN(parseInt(precio)))? 0 : parseInt(precio);
+       document.libro.total.value = cantidad*precio;
+   }
+   //Si se produce un error no hacemos nada
+   catch(e) {}
+}
         </script>
 
     </body>
