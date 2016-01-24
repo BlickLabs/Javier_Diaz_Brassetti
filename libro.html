@@ -138,15 +138,15 @@
 
 
             <div class="uncover-footer-content" >
-                <section id="message" class="section-colored clearfix no-margin" style="background: #fff;">
+                <section  class="section-colored clearfix no-margin" style="background: #fff;">
 
 
-                    <div class="row pad-top-25 pad-bot-25" >
+                    <div class="row pad-top-25 pad-bot-25" id="contact_form">
                         <div class="col-md-8 col-md-offset-2 text-center">
                             <div class="col-sm-12  mar-top-100 " >
                                 <h3>LLENA LOS SIGUIENTES CAMPOS</h3>
                             </div>
-                            <form action="conekta_card/MyConekta.php" method="post" name="libro" class="col-md-12 form-theme form-md" id="card-form">
+                            <form action="conekta_card/process.php" method="post" name="libro" class="col-md-12 form-theme form-md" id="card-form">
                                 <div class="col-sm-12  mar-top-50 " >
                                     <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 0.5px;">
                                     <h3 class="mar-top-50">CANTIDAD DE LIBROS</h3>
@@ -259,6 +259,7 @@
                                         <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 0.5px;">
                                         <h3 class="mar-top-50">DATOS DE LA TARJETA</h3>
                                     </div>
+                                    <div id="contact_results"></div>
                                     <div class="col-sm-6 mar-top-40">
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="card_name" data-conekta="card[name]" placeholder="Nombre del Tarjetahabiente">

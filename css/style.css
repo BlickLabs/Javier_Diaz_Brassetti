@@ -9771,6 +9771,17 @@ button {
     -o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.btn2 {
+	border-radius: 0px;
+	font-size: 12px;
+	font-family: 'Roboto Condensed' sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
 .btn-lg {
 	font-size: 13px !important;
 }
@@ -9822,7 +9833,7 @@ button {
 .tp-caption .btn-theme2.active,
 .open > .tp-caption .dropdown-toggle.btn-theme2 {
 	color: #fff !important;
-	background-color: #262626 !important;	
+	background-color: #000 !important;	
 	border: #262626 !important;
 }
 .btn-theme,
