@@ -104,22 +104,22 @@
 
                                     <ul class="nav navbar-nav">
                                         <li class="dropdown active">
-                                            <a href="#javier_diaz">Javier Díaz Brassetti</a>
+                                            <a href="index.php#javier_diaz">Javier Díaz Brassetti</a>
                                         </li>
                                         <li>
-                                            <a href="#publicaciones">Publicaciones</a>
+                                            <a href="index.php#publicaciones">Publicaciones</a>
                                         </li>
                                         <li >
-                                            <a href="#talleres">Talleres</a>
+                                            <a href="index.php#talleres">Talleres</a>
                                         </li>
                                         <li >
-                                            <a href="#libro">Libro</a>
+                                            <a href="index.php#libro">Libro</a>
                                         </li>
                                         <li >
                                             <a href="http://desarrolloblick.esy.es/wordpress/">Blog</a>
                                         </li>
                                         <li >
-                                            <a href="#contact">Contacto</a>
+                                            <a href="index.php#contact">Contacto</a>
                                         </li>
 
                                     </ul>
@@ -149,7 +149,8 @@
                                 <h3>LLENA LOS SIGUIENTES CAMPOS</h3>
                             </div>
                             <form action="conekta_card/MyConekta.php" method="post" name="libro" class="col-md-12 form-theme form-md" id="card-form">
-                                <div id="contact_results"></div>
+                               <div id="contact_results"></div>
+                                    
                                 <div class="col-sm-12  mar-top-50 " id="contact_body">
                                     <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 0.5px;">
                                     <h3 class="mar-top-50">CANTIDAD DE LIBROS</h3>
@@ -262,7 +263,7 @@
                                         <hr style="color: #D8D8D8;background-color: #D8D8D8;height: 0.5px;">
                                         <h3 class="mar-top-50">DATOS DE LA TARJETA</h3>
                                     </div>
-                                    
+                                     
                                     <div class="col-sm-6 mar-top-40">
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="card_name" data-conekta="card[name]" placeholder="Nombre del Tarjetahabiente">
@@ -352,7 +353,6 @@
 
         <!-- conekta functions -->
         <script type="text/javascript">
-
          $(function () {
             $("#card-form").submit(function (event) {
             var $form = $(this);
@@ -407,7 +407,6 @@
 
 
         <script type="text/javascript">
-
             function calcular() {
                 var cantidad = document.libro.cantidad.value;
                 var precio = 250;
