@@ -178,8 +178,8 @@
                     <section class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="image-container col-sm-6 pull-left" style="background-image:url('images/javier_diaz_foto.jpg');">
-                                    <div class="image-holder" ></div>		
+                                <div class="image-container col-sm-6 pull-left " style="background-image:url('images/perfil.jpg');">
+                                   	
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100" >
                                     <div class="row" >
@@ -192,16 +192,16 @@
                                                 EXPRESIÓN ORAL Y ESCRITA,
                                                 FILOSOFÍA DE LA GLOBALIZACIÓN.
                                                 <br/><br/>
-                                                Es Presidente y Director General del Centro Mexicano de Capacitación y Servicios Educativos, 
-                                                desde 1981 y de Latin American Speakers, desde 1996.<br/><br/>
-                                                Ha sido Profesor del ITAM y de la UNAM; por más de 35 años, ha impartido conferencias y cursos 
+                                                Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>, 
+                                                desde <b>1981</b> y de <b>Latin American Speakers</b>, desde <b>1996</b>.<br/><br/>
+                                                Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos 
                                                 para las organizaciones más importantes del país.
                                                 <br/><br/>
-                                                Entre otras actividades, fue Asesor de Pronósticos para la Asistencia Pública hasta 2011, también 
-                                                del Centro Político Mexicano y de la Vicepresidencia de Recursos Humanos de TELEVISA. Jurado del programa 
-                                                ENACTUS y colaborador activo de las Asignaturas empresariales de la Facultad de Contaduría y Administración 
-                                                de la UNAM, es Socio Honorario de la Sociedad Mexicana de Psiquiatría Biológica, y de la Academia Mexicana 
-                                                de Médicos Escritores.
+                                                Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
+                                                del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
+                                                ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
+                                                de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
+                                                de Médicos Escritores</b>...
                                             </h5>
                                             <a><button data-toggle="modal" data-target="#Biografia" class="btn btn-theme form-submit letter-spacing-3 mar-top-30 " type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
 
@@ -217,31 +217,32 @@
                             <div class="modal-dialog">
 
                                 <!-- Modal content-->
-                                <div class="modal-content">
+                                <div class="modal-content" style="width: 660px;">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         <h4 class="modal-title">Catedrático, promotor de la cultura y escritor.</h4>
                                     </div>
                                     <div class="modal-body text-justify">
-                                        <p>Es Presidente y Director General del Centro Mexicano de Capacitación y Servicios Educativos, desde 1981 y 
-                                            de Latin American Speakers, desde 1996.</p>
-                                            <p>Ha sido Profesor del ITAM y de la UNAM; por más de 35 años, ha impartido conferencias y cursos para las 
-                                                organizaciones más importantes del país.</p>
-                                            <p>Entre otras actividades, fue Asesor de Pronósticos para la Asistencia Pública hasta 2011, también del Centro 
-                                                Político Mexicano y de la Vicepresidencia de Recursos Humanos de TELEVISA. Jurado del programa ENACTUS y colaborador 
-                                                activo de las Asignaturas empresariales de la Facultad de Contaduría y Administración de la UNAM, es Socio Honorario 
-                                                de la Sociedad Mexicana de Psiquiatría Biológica, y de la Academia Mexicana de Médicos Escritores.
+                                        <p>
+                                             Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>, 
+                                                desde <b>1981</b> y de <b>Latin American Speakers</b>, desde <b>1996</b>.<br/><br/>
+                                                Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos 
+                                                para las organizaciones más importantes del país.
+                                                <br/><br/>
+                                                Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
+                                                del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
+                                                ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
+                                                de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
+                                                    de Médicos Escritores</b></p>
+                                                    <p><b>Coautor</b> de importantes obras de divulgación, es autor, entre otros libros, de <b>Aprender para Saber, Detalles Brillantes 
+                                                            del Pensamiento I</b> y <b> Te lo digo a ti</b>, una <b>obra fundamental</b> para <b> hablar al público</b>.
                                             </p>
                                             <p>
-                                                Coautor de importantes obras de divulgación, es autor, entre otros libros, de Aprender para Saber, Detalles Brillantes 
-                                                del Pensamiento I y Te lo digo a ti, una obra fundamental para hablar al público.
+                                                De su amplia trayectoria como promotor, organizador y gestor de cientos de compromisos, destaca <b>la fundación del primer servicio en el mundo, 
+                                                    fuera de los Estados Unidos</b>, de contratación de personalidades para ofrecer conferencias.
                                             </p>
                                             <p>
-                                                De su amplia trayectoria como promotor, organizador y gestor de cientos de compromisos, destaca la fundación del primer servicio en el mundo, 
-                                                fuera de los Estados Unidos, de contratación de personalidades para ofrecer conferencias.
-                                            </p>
-                                            <p>
-                                               Invitado frecuente a toda índole de foros, por más de treinta años ha sido asesor de personalidades de la cultura, la política y los negocios.
+                                                <b>Invitado frecuente</b> a <b>toda índole de foros</B>, por más de treinta años ha sido <b>asesor de personalidades </b>de la <b>cultura, la política y los negocios</b>.
  
                                             </p>
                                     </div>
@@ -263,6 +264,7 @@
                         <div class="text-center timeline timeline-horizontal" style="padding-top: 60px;">
                             <br>
                             <li >
+                                <span class="icon"></span>
                                 <time id="popoverData5" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
                                       rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover">1998</time>
                                 <article>
@@ -273,6 +275,7 @@
 
                             </li>
                             <li>
+                                <span class="icon"></span>
                                 <time id="popoverData6" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
                                       rel="popover" data-placement="bottom" data-original-title="Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET" data-trigger="hover">2003</time>
                                 <article>
@@ -284,7 +287,7 @@
 
                             </li>
                             <li>
-
+                                <span class="icon"></span>                
                                 <time id="popoverData7" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
                                       rel="popover" data-placement="bottom" data-original-title="Colegio de Contadores Públicos de México" data-trigger="hover">2011</time>
 
@@ -349,25 +352,25 @@
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
                                 <div class="row text-center">
                                     <?php
-                                    //require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    //$my_query = new WP_Query('showposts=3'); 
+                                    require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                    $my_query = new WP_Query('showposts=3'); 
                                     ?> 
-                                    <?php //while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
+                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
                                     <div class="col-sm-4">
                                         <div class="tile tile-top tile-light">
 
                                             <div class="tile-content">
-                                                <a href="<?php //the_permalink()      ?>"><img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
+                                                <a href="<?php the_permalink()      ?>"><img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
                                                 <br/>
-                                                <h3 class="tile-title"><a href="<?php //the_permalink()      ?>"><?php //the_title();      ?></a></h3>
+                                                <h3 class="tile-title"><a href="<?php the_permalink()      ?>"><?php the_title();      ?></a></h3>
                                                 <br/>
                                             </div>
                                             <div></div>
                                         </div>
                                         <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
                                     </div>
-                                    <?php //endwhile;    ?>
+                                    <?php endwhile;    ?>
                                 </div>
                                 <center>
                                     <!--<a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>-->

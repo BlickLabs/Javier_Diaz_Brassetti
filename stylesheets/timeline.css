@@ -24,9 +24,9 @@
 .timeline:before {
   content: '';
   position: absolute;
-  height: 100%;
+  height: 85%;
   width: 0.5rem;
-  background: #e9eeef;
+  background: #000;
   left: -moz-calc(50% - .25rem);
   left: -o-calc(50% - .25rem);
   left: -webkit-calc(50% - .25rem);
@@ -52,23 +52,35 @@
   clear: both;
 }
 /* line 38, ../sass/_timeline.scss */
-
+.timeline > li:before {
+  content: '';
+  width: 3rem;
+  height: 3em;
+  display: block;
+  position: absolute;
+  top: -1em;
+  left: -moz-calc(50% - 1.5rem);
+  left: -o-calc(50% - 1.5rem);
+  left: -webkit-calc(50% - 1.5rem);
+  left: calc(50% - 1.5rem);
+  border-radius: 3em;
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 51, color-stop(30%, #000), color-stop(31%, #000), color-stop(50%, #000), color-stop(51%, #000));
+  background-image: -webkit-radial-gradient(#ffffff 30%, #cfd9db 31%, #000 50%, #000 51%);
+  background-image: -moz-radial-gradient(#ffffff 30%, #000 31%, #000 50%, #ffffff 51%);
+  background-image: -o-radial-gradient(#ffffff 30%, #000 31%, #000 50%, #ffffff 51%);
+  background-image: radial-gradient(#ffffff 30%, #000 31%, #000 50%, #ffffff 51%);
+}
 /* line 50, ../sass/_timeline.scss */
 .timeline article {
   display: block;
   line-height: 1.5em;
-  color: #323232;
+  color: #000;
   background: white;
-  border: 1px solid #e9eeef;
+  border: 1px solid #transparent;
   width: 100%;
   margin-bottom: 4em;
 }
-@media (min-width: 60em) {
-  /* line 50, ../sass/_timeline.scss */
-  .timeline article {
-    width: 45%;
-  }
-}
+
 /* line 62, ../sass/_timeline.scss */
 .timeline article p, .timeline article ul, .timeline article ol {
   padding: 0 1rem 1rem 1rem;
@@ -82,7 +94,7 @@
   color: white;
   background: #000;
   display: inline-block;
-  position: absolute;
+  position: relative;
   font-weight: bold;
   padding: .5em;
 }
@@ -95,7 +107,7 @@
 }
 /* line 86, ../sass/_timeline.scss */
 .timeline footer {
-  background: #f8f9fa;
+  background: #000;
   padding-top: 1rem;
 }
 /* line 89, ../sass/_timeline.scss */
@@ -149,14 +161,7 @@
 .timeline-vertical li:nth-child(2n) time {
   padding-left: .5em;
 }
-@media (min-width: 60em) {
-  /* line 122, ../sass/_timeline.scss */
-  .timeline-vertical li:nth-child(2n) time {
-    position: absolute;
-    right: 54.5%;
-    padding-right: 0;
-  }
-}
+
 @media (min-width: 60em) {
   /* line 130, ../sass/_timeline.scss */
   .timeline-vertical li:nth-child(2n) time:after {
@@ -166,9 +171,9 @@
     border-width: 1rem;
     border-color: transparent;
     border-style: solid;
-    border-left-color: #000;
+    border-left-color: #323232;
     left: auto;
-    right: -2em;
+    right: -3em;
     top: 0;
   }
 }
@@ -176,13 +181,13 @@
 @media (min-width: 60em) {
   /* line 142, ../sass/_timeline.scss */
   .timeline-horizontal {
-    
-    width: auto;
+   
+    width: 90%;
     margin: 0 auto;
     white-space: nowrap;
     padding-bottom: 6rem;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(85%, transparent), color-stop(85%, #e9eeef), color-stop(86%, #e9eeef), color-stop(86%, transparent));
-    background-image: -webkit-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(85%, transparent), color-stop(85%, #000), color-stop(86%, #000), color-stop(86%, transparent));
+    background-image: -webkit-linear-gradient(top, transparent 0%, transparent 85%, #000 85%, #e9eeef 86%, transparent 86%);
     background-image: -moz-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
     background-image: -o-linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
     background-image: linear-gradient(top, transparent 0%, transparent 85%, #e9eeef 85%, #e9eeef 86%, transparent 86%);
@@ -194,10 +199,10 @@
   /* line 154, ../sass/_timeline.scss */
   .timeline-horizontal time {
     position: absolute;
-    bottom: -4.5rem;
-    left: 42%;
+    bottom: -3.5rem;
+    left: 41%;
   }
-  /* line 159, ../sass/_timeline.scss */
+  /* line 159, ../sass/t_imeline.scss */
   .timeline-horizontal time:before {
     content: '';
     width: 0;
