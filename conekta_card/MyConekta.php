@@ -19,6 +19,7 @@ $cod_post = $_POST['postal_code'];
 $amount = $_POST['total'] . "00";
 
 if ($_POST) {
+  
 
 
     //Sanitize input data using PHP filter_var().
@@ -73,17 +74,17 @@ if ($_POST) {
                     'reference_id' => '9839-wolf_pack',
                     'card' => $_POST['conektaTokenId'],
                     'details' => array(
-                        'name' => $_POST['card_name'],
-                        'phone' => $_POST['phone'],
-                        'email' => $_POST['email'],
-                        'customer' => array(
-                            'corporation_name' => 'Conekta Inc.',
-                            'logged_in' => true,
-                            'successful_purchases' => 14,
-                            'created_at' => 1379784950,
-                            'updated_at' => 1379784950,
-                            'offline_payments' => 4,
-                            'score' => 9
+                    'name' => $_POST['card_name'],
+                    'phone' => $_POST['phone'],
+                    'email' => $_POST['email'],
+                    'customer' => array(
+                    'corporation_name' => 'Conekta Inc.',
+                    'logged_in' => true,
+                    'successful_purchases' => 14,
+                    'created_at' => 1379784950,
+                    'updated_at' => 1379784950,
+                    'offline_payments' => 4,
+                    'score' => 9
                         ),
                         'line_items' => array(
                             array(
@@ -92,7 +93,7 @@ if ($_POST) {
                                 'unit_price' => 20000,
                                 'quantity' => 1,
                                 'sku' => 'cohb_s1',
-                                'type' => 'food'
+                                'type' => 'Libto'
                             )
                         )
                     )
@@ -107,10 +108,11 @@ if ($_POST) {
 //            mysql_set_charset('utf8');
 //            $query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,telefono,calle,num_ext,num_int,colonia,ciudad,del_mun,codigo_postal,pertenece_a) VALUES ('$name','$email','$phone','$calle','$num_ext','$num_int','$colonia','$ciudad','$estado','$codigo_postal','$pertence')");
 //            mysqli_close($con);
-            $output = json_encode(array('type' => 'message', 'text' => 'Hi ' . $user_name . 'Feliciades tu pago ha sido aprobado,recibirás un correo con más detalles'));
+            $output = json_encode(array('type' => 'message', 'text' => 'Feliciades tu pago ha sido aprobado,recibirás un correo con más detalles'));
             die($output);
         }
     } catch (Exception $ex) {
+        
         $output = json_encode(array('type' => 'error', 'text' => 'Lo sentimos tu pago no pudo ser procesado.'));
         die($output);
     }

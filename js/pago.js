@@ -1,20 +1,17 @@
+
 $(document).ready(function() {
     $("#submit_btn").click(function() { 
        
 	    var proceed = true;
        
-		$("#contact_form input[required=true], #contact_form textarea[required=true]").each(function(){
+		$("#contact_form input[required=true], #contact_form input[required=true]").each(function(){
 			$(this).css('border-color',''); 
 			if(!$.trim($(this).val())){
 				$(this).css('border-color','red'); 
 				proceed = false; 
 			}
 			
-			var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
-			if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
-				$(this).css('border-color','red');  
-				proceed = false; 				
-			}	
+				
 		});
        
         if(proceed) 
@@ -35,13 +32,13 @@ $(document).ready(function() {
 			};
             
           
-            $.post('conekta_card/MyConekta.php', post_data, function(response){  
+            $.post('../conekta_card/MyConekta.php', post_data, function(response){  
 				if(response.type == 'error'){ //load json data from server and output message     
 					output = '<div class="error">'+response.text+'</div>';
 				}else{
 				    output = '<div class="success">'+response.text+'</div>';
 					//reset values in all input fields
-					$("#contact_form  input[required=true], #contact_form textarea[required=true]").val(''); 
+					$("#contact_form  input[required=true], #contact_form input[required=true]").val(''); 
 					$("#contact_form #contact_body").slideUp(); //hide form after success
 				}
 				$("#contact_form #contact_results").hide().html(output).slideDown();
@@ -50,7 +47,7 @@ $(document).ready(function() {
     });
     
     
-    $("#contact_form  input[required=true], #contact_form textarea[required=true]").keyup(function() { 
+    $("#contact_form  input[required=true], #contact_form input[required=true]").keyup(function() { 
         $(this).css('border-color',''); 
         $("#result").slideUp();
     });
