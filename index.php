@@ -358,13 +358,12 @@
                                     <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; ?>
                                     <div class="col-sm-4">
                                         
-                                                    <?php  $default_attr = array('alt'   => 'texto para mostrar en Alt',
-                                                    'title' => 'texto para mostrar en Title',);
+                                                    <?php  $default_attr ;
                                                     if (has_post_thumbnail()==null){?>
-                                                    <img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
+                                                   <a href="<?php the_permalink()       ?>">  <img alt="image" class="img-responsive center-block" src="images/landscape-scene-scaled.jpg"  ></a>
                                                    <?php }
                                                     else{    
-                                                    the_post_thumbnail('thumbnail', $default_attr);
+                                                     the_post_thumbnail('thumbnail', $default_attr);
                                                     
                                                     }
                                                     ?>
