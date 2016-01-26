@@ -3,7 +3,7 @@
 error_reporting(E_ALL);
 
 require_once("../conekta/lib/Conekta.php");
-include("../model/conexion.php");
+//include("../model/conexion.php");
 Conekta::setLocale('es');
 Conekta::setApiKey("key_5scrweicPYN7TsJ87VozVg");
 
@@ -105,11 +105,11 @@ if ($_POST) {
         if ($toke == 'paid') {
            require_once '../model/pago_libro.php';
             require_once '../model/pago_cliente.php';
-           $pertence = 'compra_libro';
-          mysqli_select_db($con, "$dbname");
-          
-            $query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,telefono,calle,num_ext,num_int,colonia,ciudad,del_mun,codigo_postal,pertenece_a) VALUES ('$user_name','$user_email','$phone','$street','$ext_number','$int_number','$colony','$city','$state','$postal_code','$pertence')");
-            mysqli_close($con);
+//           $pertence = 'compra_libro';
+//          mysqli_select_db($con, "$dbname");
+//          
+//            $query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,telefono,calle,num_ext,num_int,colonia,ciudad,del_mun,codigo_postal,pertenece_a) VALUES ('$user_name','$user_email','$phone','$street','$ext_number','$int_number','$colony','$city','$state','$postal_code','$pertence')");
+//            mysqli_close($con);
           
             $output = json_encode(array('type' => 'message', 'text' => 'Feliciades tu pago ha sido aprobado,recibirás un correo con más detalles'));
             die($output);
@@ -118,7 +118,7 @@ if ($_POST) {
         
         $output = json_encode(array(
             'type' => 'error', 
-            'text' => 'Lo sentimos tu pago no pudo ser procesado.',
+            'text' => 'Lo sentimos tu pago no pudo ser procesado,Intentalo de nuevo.',
             'error' => $ex->getMessage()));
         die($output);
     }
