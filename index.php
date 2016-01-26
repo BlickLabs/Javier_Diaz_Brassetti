@@ -111,7 +111,7 @@
                                             <a href="#libro">Libro</a>
                                         </li>
                                         <li >
-                                            <a href="http://desarrolloblick.esy.es/wordpress/">Blog</a>
+                                            <a href="http://javierdiazbrassetti.com/wordpress/">Blog</a>
                                         </li>
                                         <li >
                                             <a href="#contact">Contacto</a>
@@ -379,7 +379,7 @@
                                 </div>
                                 <center>
                                     <!--<a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>-->
-                                    <a href="http://desarrolloblick.esy.es/wordpress/"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
+                                    <a href="http://javierdiazbrassetti.com/wordpress/"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
                                 </center>   
 
                             </div>
