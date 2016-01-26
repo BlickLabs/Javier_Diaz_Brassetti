@@ -358,15 +358,14 @@
                                     <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
                                     ?>
                                     <div class="col-sm-4">
-                                        <div class="tile tile-top tile-light">
-
-                                            <div class="tile-content">
+                                        
                                                 <a href="<?php the_permalink()       ?>"><img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
-                                                <br/>
+                                                <div class="tile-content" >
+                                                    <div class="mar-top-30">        
                                                 <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
-                                                <br/>
-                                            </div>
-                                            <div></div>
+                                                
+                                               </div>
+                                           
                                         </div>
                                         <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
                                     </div>
