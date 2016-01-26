@@ -265,22 +265,55 @@
                             <br>
                             <li >
                                 <span class="icon"></span>
-                                <time id="popoverData5" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
-                                      rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover">1998</time>
+                                <time id="popoverData5" class="center-block" data-html="true" data-content="-Estudio para la Creación de la Cátedra de Retórica: Colegio de Graduados, UPICSA, Instituto Politécnico Nacional. 
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Estudio para el Desarrollo de Prácticas Escolares en Pedagogía: Facultad de Filosofía y Letras, Escuela de Pedagogía, Universidad Nacional Autónoma de México.
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Planeación, Creación, Organización y Desarrollo del Centro de Estudios Integrales S de R.L. Guatemala, C.A.
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Planeación, Creación, Organización y Desarrollo del Centro de Español del Instituto Tecnológico Autónomo de México, ITAM.
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Planeación, Creación, Organización y Desarrollo del Programa LATIN AMERICAN SPEAKERS®"
+                                                                                   
+                                                                                   
+                                                                                  
+
+                                                                                   rel="popover"  data-placement="bottom" data-trigger="hover">82-98</time>
                                 <article>
-                                    <i class="fa fa-comments-o fa-5x" style="color:#434344" id="popoverData" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por su participación en la Convención del Comité de Mercado de Dinero." 
-                                       rel="popover" data-placement="bottom" data-original-title="Asociación Mexicana de Intermediarios Bursátiles, A.C" data-trigger="hover"></i>
+                                    <i class="fa fa-comments-o fa-5x" style="color:#434344;text-align: justify" id="popoverData" data-html="true" class="btn" href="#" data-content="-Seminarios El Cambio y El Cambio del Poder: Alvin Toffler. Banamex
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Seminario El Nuevo Pensamiento Empresarial: John Naisbbitt, Paul Krugman, Sergei Grigoriev y diez conferencistas internacionales más.
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Ciclo de Conferencias El Financiero y los Pulitzer: Bob Woodward, Alfonso Chardy, Diane Francis y cinco expositores internacionales más.
+                                                                                   <br>
+                                                                                   <br>
+                                                                                   -Seminario internacional: La Educación frente a los retos del milenio que ya llegó."" 
+                                       rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
 
 
                             </li>
                             <li>
                                 <span class="icon"></span>
-                                <time id="popoverData6" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
-                                      rel="popover" data-placement="bottom" data-original-title="Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET" data-trigger="hover">2003</time>
+                                <time id="popoverData6" class="btn" data-html="true"  data-content="-Presencia en las reuniones mensuales de la Asociación de Gerentes y Directores de Cámaras e Instituciones. ANGECAI.  
+                                                                                                    <br>
+                                                                                                    <br>
+                                                                                                    -Asesoría y desarrollo de los programas de Embajadores para la Asistencia Pública y Foros y Convenciones Nacionales para 9,200 agentes autorizados. Pronósticos para la Asistencia Pública.
+"
+                                      
+                                      rel="popover" data-placement="bottom"  data-trigger="hover">05-11</time>
                                 <article>
-                                    <i class="fa fa-male fa-5x" style="color:#434244" id="popoverData2" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers Javier Díaz Brassetti por su interés por impulsar el capital humano." 
-                                       rel="popover" data-placement="bottom" data-original-title="Expo Capacítate Empresarial: Creatividad y promoción Comunicación Integral, Coparmex Nuevo León, ICET" data-trigger="hover"></i>
+                                    <i class="fa fa-male fa-5x" style="color:#434244"  data-html="true" id="popoverData2" class="btn" href="#" data-content="-Presencia en las reuniones mensuales de la Asociación de Gerentes y Directores de Cámaras e Instituciones. ANGECAI.  
+                                                                                                                                                              <br> 
+                                                                                                                                                              <br>
+                                                                                                                                                            -Asesoría y desarrollo de los programas de Embajadores para la Asistencia Pública y Foros y Convenciones Nacionales para 9,200 agentes autorizados. Pronósticos para la Asistencia Pública." 
+                                       rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
 
 
@@ -288,22 +321,22 @@
                             </li>
                             <li>
                                 <span class="icon"></span>                
-                                <time id="popoverData7" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
-                                      rel="popover" data-placement="bottom" data-original-title="Colegio de Contadores Públicos de México" data-trigger="hover">2011</time>
+                                <time id="popoverData7" class="btn" href="#" data-content="-Asesoría y desarrollo del plan de Competencias; elaboración de materiales y coaching para la Vice presidencia de Recursos Humanos de TELEVISA." 
+                                      rel="popover" data-placement="bottom"  data-trigger="hover">06-14</time>
 
                                 <article>
-                                    <i class="fa fa-lightbulb-o fa-5x" style="color:#434244" id="popoverData3" class="btn" href="#" data-content="Otorga Reconocimiento a Javier Díaz Brassetti por sus 30 años de valiosa aportación y enseñanzas dando conferencias, cursos y seminarios." 
-                                       rel="popover" data-placement="bottom" data-original-title="Colegio de Contadores Públicos de México" data-trigger="hover"></i>
+                                    <i class="fa fa-lightbulb-o fa-5x" style="color:#434244" id="popoverData3" class="btn" href="#" data-content="-Asesoría y desarrollo del plan de Competencias; elaboración de materiales y coaching para la Vice presidencia de Recursos Humanos de TELEVISA." 
+                                       rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
                             </li>
                             <li >    
 
-                                <time id="popoverData8" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales." 
-                                      rel="popover" data-placement="bottom" data-original-title="Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración" data-trigger="hover">2013</time>
+                                <time id="popoverData8" class="btn" href="#" data-content="-Catedrático de la Universidad Nacional Autónoma de México, Facultad de Contaduría y Administración, impartiendo la Asignatura de Español Empresarial, Socio de la Academia Mexicana de Médicos Escritores. Colabora como Especialista en expresión oral y escrita  en la Revista Moi de Martha Debayle, así como en diversos programas de TV y Radio." 
+                                      rel="popover" data-placement="bottom" style="text-align: justify" data-trigger="hover">Hoy</time>
                                 <article>
 
-                                    <i class="fa fa-university fa-5x" style="color:#434244" id="popoverData4" class="btn" href="#" data-content="Otorga Reconocimiento al Director de Latin American Speakers, Javier Díaz Brassetti por participar con asignatura empresarial “Español Empresarial” en el área de Asignaturas Empresariales y organizacionales." 
-                                       rel="popover" data-placement="bottom" data-original-title="Universidad Nacional Autónoma de México (UNAM), Facultad de Contaduría y Administración" data-trigger="hover"></i>
+                                    <i class="fa fa-university fa-5x" style="color:#434244" id="popoverData4" class="btn" href="#" data-content="-Catedrático de la Universidad Nacional Autónoma de México, Facultad de Contaduría y Administración, impartiendo la Asignatura de Español Empresarial, Socio de la Academia Mexicana de Médicos Escritores. Colabora como Especialista en expresión oral y escrita  en la Revista Moi de Martha Debayle, así como en diversos programas de TV y Radio." 
+                                       rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
                             </li>
 
@@ -344,13 +377,13 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 text-center wow animated fadeIn" data-wow-delay="200ms" style="padding-bottom: 5px">
-                                |                               <h2 class="text-light no-margin text-center text-uppercase letter-spacing-3">Más acerca de Javier</h2>
+                                <h2 class="text-light no-margin text-center text-uppercase letter-spacing-3">Más acerca de Javier</h2>
                                 <center>
                                     <hr style="color: #000;background-color: #000;height: 1px; width: 250px"/>
                                 </center>
                             </div>
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
-                                <div class="row text-center">
+                                  <div class="row text-center">
                                     <?php
                                          require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
                                          $my_query = new WP_Query('showposts=3'); 
@@ -1054,15 +1087,15 @@
                             <div class="col-sm-12 text-center">
                                 <ul class="list-unstyled list-inline footer-inline-links">
 
-                                    <li><a href="#javier_diaz">Javier Diaz Brassetti</a></li>
+                                    <li><a href="index.php#javier_diaz">Javier Diaz Brassetti</a></li>
                                     <li><a href="http://desarrolloblick.esy.es/wordpress/">Blog</a></li>
-                                    <li><a href="#contact">Contacto</a></li>
+                                    <li><a href="index.php#contact">Contacto</a></li>
 
                                 </ul>
                                 <ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50">
                                     <li><a class="facebook" href="https://www.facebook.com/Javier-D%C3%ADaz-Brassetti-1070150726370573/"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#fakelink"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="youtube" href="#fakelink"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a class="twitter" href="https://twitter.com/javierexpresion"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/featured"><i class="fa fa-youtube"></i></a></li>
                                 </ul>				
                             </div>
                         </div>

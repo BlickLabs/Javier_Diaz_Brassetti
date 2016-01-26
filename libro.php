@@ -304,15 +304,15 @@
                             <div class="col-sm-12 text-center">
                                 <ul class="list-unstyled list-inline footer-inline-links">
 
-                                    <li><a href="#javier_diaz">Javier Diaz Brassetti</a></li>
+                                    <li><a href="index.php#javier_diaz">Javier Diaz Brassetti</a></li>
                                     <li><a href="http://desarrolloblick.esy.es/wordpress/">Blog</a></li>
-                                    <li><a href="#contact">Contacto</a></li>
+                                    <li><a href="index.php#contact">Contacto</a></li>
 
                                 </ul>
                                 <ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50">
                                     <li><a class="facebook" href="https://www.facebook.com/Javier-D%C3%ADaz-Brassetti-1070150726370573/"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#fakelink"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="youtube" href="#fakelink"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a class="twitter" href="https://twitter.com/javierexpresion"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/featured"><i class="fa fa-youtube"></i></a></li>
                                 </ul>				
                             </div>
                         </div>

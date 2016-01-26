@@ -200,7 +200,7 @@
   .timeline-horizontal time {
     position: absolute;
     bottom: -3.5rem;
-    left: 41%;
+    left: 40%;
   }
   /* line 159, ../sass/t_imeline.scss */
   .timeline-horizontal time:before {
