@@ -388,10 +388,11 @@
                     }else{
                         output = '<div class="success">'+response.text+'</div>';
                         //reset values in all input fields
-                        $("#contact_form  input[required=true], #contact_form input[required=true]").val(''); 
-                        $("#contact_form #contact_body").slideUp(); //hide form after success
+                        //$("#contact_form  input[required=true], #contact_form input[required=true]").val(''); 
                     }
-                    $("#contact_form #contact_results").hide().html(output).slideDown();
+                  //  $("#contact_form #contact_body").slideUp(); //hide form after success
+                    $("#contact_results").html(output);
+                    document.getElementById("card-form").reset();
                 }, 'json');
             }
         };
