@@ -352,22 +352,24 @@
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
                                 <div class="row text-center">
                                     <?php
-                                    require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                    $my_query = new WP_Query('showposts=3'); 
+                                         require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                         $my_query = new WP_Query('showposts=3'); 
                                     ?> 
-                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; 
-                                    ?>
+                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; ?>
                                     <div class="col-sm-4">
                                         
-                                                <a href="<?php the_permalink()       ?>"><img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
-                                                <div class="tile-content" >
+                                                    <?php  $default_attr = array('alt'   => 'texto para mostrar en Alt',
+                                                    'title' => 'texto para mostrar en Title',);
+                                                    the_post_thumbnail('thumbnail', $default_attr);
+                                                    
+                                                    ?>
+                                        
+                                    <div class="tile-content" >
                                                     <div class="mar-top-30">        
-                                                <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
-                                                
-                                               </div>
-                                           
-                                        </div>
-                                        <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
+                                                     <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
+                                                    </div>
+                                    </div>
+                                            <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
                                     </div>
                                     <?php endwhile;    ?>
                                 </div>
