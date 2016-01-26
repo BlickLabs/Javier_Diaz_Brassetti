@@ -38,13 +38,6 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
         <link rel="stylesheet" href="stylesheets/timeline.css">
-        <!--        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-        -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
         <link rel="stylesheet" href="css/style.css">
 
 
@@ -383,7 +376,7 @@
                                 </center>
                             </div>
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
-                                  <div class="row text-center">
+                                     <div class="row text-center">
                                     <?php
                                          require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
                                          $my_query = new WP_Query('showposts=3'); 
@@ -540,7 +533,7 @@
 
                     <!--Firts-->
                     <div class="container " >
-                        <center>
+                        
                             <div class="row ">
                                 <div class="col-md-12 col-lg-12 center-block" >
 
@@ -609,9 +602,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Lo que no te puede faltar para hablar en público</div>
+                                                <div class="modal-body text-center">Lo que no te puede faltar para hablar en público</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
@@ -625,7 +618,7 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Conferencia</h4>
                                                 </div>
                                                 <div class="modal-body text-justify">Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo, 
                                                     y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia, 
@@ -644,9 +637,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Herramientas para desarrollar una mentalidad de contenido social.</div>
+                                                <div class="modal-body text-center">Herramientas para desarrollar una mentalidad de contenido social.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
@@ -743,9 +736,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Valores mínimos para desarrollarte en una sociedad competitiva.</div>
+                                                <div class="modal-body text-center">Valores mínimos para desarrollarte en una sociedad competitiva.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
@@ -759,9 +752,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Desarrollar los elementos para negociar y ganar.</div>
+                                                <div class="modal-body text-center">Desarrollar los elementos para negociar y ganar.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
@@ -775,9 +768,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Que la persona mejore sustancialmente la forma en la que expresa en público 
+                                                <div class="modal-body text-center">Que la persona mejore sustancialmente la forma en la que expresa en público 
                                                     sus pensamientos y sus sentimientos.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
@@ -858,9 +851,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Los participantes estarán en capacidad de desarrollar 
+                                                <div class="modal-body text-center">Los participantes estarán en capacidad de desarrollar 
                                                     las competencias adquiridas y serán capaces de ofrecer, promover y vender su negocio.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
@@ -875,7 +868,7 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
                                                 <div class="modal-body text-justify">el participante podrá reconocer las características fundamentales en torno a la persona humana; 
                                                     el conocimiento de los diferentes niveles de relaciones humanas;  la reflexión organizada para ejercitar las condiciones 
@@ -895,9 +888,9 @@
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
-                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
+                                                    <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Un curso para aprender a hablar frente a un público virtual o presente.</div>
+                                                <div class="modal-body text-center">Un curso para aprender a hablar frente a un público virtual o presente.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
@@ -954,7 +947,7 @@
 
                         <div class="image-container col-sm-6 pull-right">
                             <div class="image-holder" style="background-color: #000">
-                                <h1 style="color: #fff;padding-top: 400px;padding-left: 200px;font-size:60px">Proximamente...</h1>
+                                <h1 style="color: #fff;padding-top: 400px;padding-left: 160px;font-size:60px">Proximamente...</h1>
                             </div>			
 
                         </div>
