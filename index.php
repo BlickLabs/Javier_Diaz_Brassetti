@@ -38,10 +38,13 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
         <link rel="stylesheet" href="stylesheets/timeline.css">
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <!--        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-       
         <link rel="stylesheet" href="css/style.css">
 
 
@@ -179,7 +182,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="image-container col-sm-6 pull-left " style="background-image:url('images/perfil.jpg');">
-                                   	
+
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100" >
                                     <div class="row" >
@@ -199,9 +202,9 @@
                                                 <br/><br/>
                                                 Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
                                                 del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
-                                                ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
+                                                    ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
                                                 de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
-                                                de Médicos Escritores</b>...
+                                                    de Médicos Escritores</b>...
                                             </h5>
                                             <a><button data-toggle="modal" data-target="#Biografia" class="btn btn-theme form-submit letter-spacing-3 mar-top-30 " type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
 
@@ -211,54 +214,51 @@
                             </div>
                         </div>
 
-
-                        <!-- Modal content-->
-                        <div class="modal fade center-block modal-admin"  id="Biografia" role="dialog" >
-                            <div class="modal-dialog">
-
-                                <!-- Modal content-->
-                                <div class="modal-content" style="width: 660px;">
+                        <div class="modal fade" id="Biografia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">Catedrático, promotor de la cultura y escritor.</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel">Director general de Latin American Speakers</h4>
                                     </div>
                                     <div class="modal-body text-justify">
                                         <p>
-                                             Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>, 
-                                                desde <b>1981</b> y de <b>Latin American Speakers</b>, desde <b>1996</b>.<br/><br/>
-                                                Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos 
-                                                para las organizaciones más importantes del país.
-                                                <br/><br/>
-                                                Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
-                                                del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
+                                            Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>, 
+                                            desde <b>1981</b> y de <b>Latin American Speakers</b>, desde <b>1996</b>.<br/><br/>
+                                            Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos 
+                                            para las organizaciones más importantes del país.
+                                            <br/><br/>
+                                            Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
+                                            del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
                                                 ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
-                                                de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
-                                                    de Médicos Escritores</b></p>
-                                                    <p><b>Coautor</b> de importantes obras de divulgación, es autor, entre otros libros, de <b>Aprender para Saber, Detalles Brillantes 
-                                                            del Pensamiento I</b> y <b> Te lo digo a ti</b>, una <b>obra fundamental</b> para <b> hablar al público</b>.
-                                            </p>
-                                            <p>
-                                                De su amplia trayectoria como promotor, organizador y gestor de cientos de compromisos, destaca <b>la fundación del primer servicio en el mundo, 
-                                                    fuera de los Estados Unidos</b>, de contratación de personalidades para ofrecer conferencias.
-                                            </p>
-                                            <p>
-                                                <b>Invitado frecuente</b> a <b>toda índole de foros</B>, por más de treinta años ha sido <b>asesor de personalidades </b>de la <b>cultura, la política y los negocios</b>.
- 
-                                            </p>
+                                            de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
+                                                de Médicos Escritores</b></p>
+                                        <p><b>Coautor</b> de importantes obras de divulgación, es autor, entre otros libros, de <b>Aprender para Saber, Detalles Brillantes 
+                                                del Pensamiento I</b> y <b> Te lo digo a ti</b>, una <b>obra fundamental</b> para <b> hablar al público</b>.
+                                        </p>
+                                        <p>
+                                            De su amplia trayectoria como promotor, organizador y gestor de cientos de compromisos, destaca <b>la fundación del primer servicio en el mundo, 
+                                                fuera de los Estados Unidos</b>, de contratación de personalidades para ofrecer conferencias.
+                                        </p>
+                                        <p>
+                                            <b>Invitado frecuente</b> a <b>toda índole de foros</B>, por más de treinta años ha sido <b>asesor de personalidades </b>de la <b>cultura, la política y los negocios</b>.
+
+                                        </p>
                                     </div>
-                                    <div class="modal-footer center-block">
+                                    <div class="modal-footer ">
                                         <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
+                                        
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
-
                     </section><!-- End of Section - Image Left + Pattern Background Right -->
                     <div class="container one-page-section" id="about" style="padding-top: 50px;padding-bottom: 100px">
                         <div class="col-sm-12 text-center wow animated fadeIn" data-wow-delay="200ms">
-                            <h2 class="no-margin text-center text-uppercase letter-spacing-1">Reconocimientos a Javier</h2>
+                            <h2 class="no-margin text-center text-uppercase letter-spacing-1"> Participaciones de Javier Díaz Brassetti</h2>
 
                         </div>
                         <div class="text-center timeline timeline-horizontal" style="padding-top: 60px;">
@@ -361,9 +361,9 @@
                                         <div class="tile tile-top tile-light">
 
                                             <div class="tile-content">
-                                                <a href="<?php the_permalink()      ?>"><img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
+                                                <a href="<?php the_permalink()       ?>"><img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
                                                 <br/>
-                                                <h3 class="tile-title"><a href="<?php the_permalink()      ?>"><?php the_title();      ?></a></h3>
+                                                <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
                                                 <br/>
                                             </div>
                                             <div></div>
@@ -451,7 +451,8 @@
 
                                     <li class="item objects">
                                         <figure>
-                                            <img alt="image" src="images/house-mountain-scaled.jpg"  />
+                                        <img alt="image" src="images/proximamente_1.jpg"  />
+                                       
                                             <figcaption>
                                                 <div>
                                                     <h2 class="title">Te lo digo a ti</h2>
@@ -498,7 +499,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <!--Firts-->
                     <div class="container " >
                         <center>
@@ -563,63 +564,58 @@
                                         </li>
 
                                     </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
-                                    <div  id="myModal" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Conferencia</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Lo que no te puede faltar para hablar en público</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Lo que no te puede faltar para hablar en público</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
-                                    </div>
-                                    <div  id="myModal2" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    </div>    
+                                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);display: none;">
+                                        <div class="modal-dialog" >
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Conferencia</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo, y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia, obligación que hoy nos ha reunido y nos permite tener una base de reflexión para estar satisfechos en un tiempo en el que no es sencillo estar contentos.</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo, 
+                                                    y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia, 
+                                                    obligación que hoy nos ha reunido y nos permite tener una base de reflexión para estar satisfechos en un tiempo en el 
+                                                    que no es sencillo estar contentos.</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
-                                    </div>
-                                    <div  id="myModal3" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    </div>    
+                                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Conferencia</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Herramientas para desarrollar una mentalidad de contenido social.</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
-                                    </div>
+                                    </div>    
+
                                 </div>
                             </div>
 
@@ -685,64 +681,73 @@
                                             </figure>
                                         </li>
 
-                                    </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
-                                    <div  id="myModal4" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    </ul>
+                                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Conferencia</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Herramientas para desarrollar una mentalidad de contenido social.</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-                                    <div  id="myModal5" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Conferencia</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Valores mínimos para desarrollarte en una sociedad competitiva.</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-                                    <div  id="myModal6" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Taller</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Desarrollar los elementos para negociar y ganar.</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
+                                    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
+                                                </div>
+                                                <div class="modal-body text-justify">Que la persona mejore sustancialmente la forma en la que expresa en público 
+                                                    sus pensamientos y sus sentimientos.</div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                     </div>
@@ -807,63 +812,58 @@
                                         </li>
 
                                     </ul><!-- End of 2 Column Portfolio - Effect 2 - Used As Blog -->
-                                    <div  id="myModal7" class="modal" role="dialog">
-                                        <div class="modal-dialog">
 
-                                            <!-- Modal content-->
+                                    <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Taller</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
+                                                <div class="modal-body text-justify">Los participantes estarán en capacidad de desarrollar 
+                                                    las competencias adquiridas y serán capaces de ofrecer, promover y vender su negocio.</div>
                                                 <div class="modal-footer">
-                                                    <button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30"" data-dismiss="modal">Cerrar</button>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-                                    <div  id="myModal8" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Taller</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
+                                                <div class="modal-body text-justify">el participante podrá reconocer las características fundamentales en torno a la persona humana; 
+                                                    el conocimiento de los diferentes niveles de relaciones humanas;  la reflexión organizada para ejercitar las condiciones 
+                                                    necesarias de las buenas relaciones interpersonales; y la orientación hacia nuevas expectativas que permitan  encontrar 
+                                                    en todas las actividades de su vida, una misión permanente de colaboración e integración. Un curso para aprender a enseñar 
+                                                    en la Era del Conocimiento.</div>
                                                 <div class="modal-footer">
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
-                                    <div  id="myModal9" class="modal" role="dialog">
-                                        <div class="modal-dialog">
-
-                                            <!-- Modal content-->
+                                    <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
+                                        <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Taller</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <h4 class="modal-title" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <p>Herramientas para desarrollar una mentalidad de contenido social</p>
-                                                </div>
-                                                <div class="modal-footer ">
-
-                                                    <center><button type="button"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" data-dismiss="modal">Cerrar</button> </center>
-
+                                                <div class="modal-body text-justify">Un curso para aprender a hablar frente a un público virtual o presente.</div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -915,7 +915,9 @@
 
 
                         <div class="image-container col-sm-6 pull-right">
-                            <div class="image-holder" style="background-image: url('images/mountain-field.jpg')"></div>			
+                            <div class="image-holder" style="background-color: #000">
+                                <h1 style="color: #fff;padding-top: 400px;padding-left: 200px;font-size:60px">Proximamente...</h1>
+                            </div>			
 
                         </div>
                     </div>
@@ -1098,9 +1100,8 @@
             $('#popoverData6').popover();
             $('#popoverData7').popover();
             $('#popoverData8').popover();
-             $('.modal-admin').css('width', '850px');
-             $('.modal-admin').css('height', '700px;');
-           
+
+
 
         </script>
 

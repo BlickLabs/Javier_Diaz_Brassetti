@@ -182,12 +182,18 @@ label {
 /*Modal*/
 
 .modal {
-	z-index: 10000;
+	
+        overflow-y: auto;
+        
 }
 
 .modal-open {
-	padding-right: 0 !important;
+    overflow-y: auto;
+    overflow-x: none;
 }
+ 
+
+
 
 /*Pagination*/
 
@@ -5546,21 +5552,24 @@ table.table-cart > tbody > tr > th:first-child {
 
 .modal-content.modal-background {
 	border-radius:0;
+        z-index:10000;
+        position: absolute;
+        
 }
 .modal-close {
 	position:absolute; 
 	top:5px; 
 	background-color:transparent; 
 	border:none; 
-	right:0; color:#333	
+	right:0; color:#333;	
 }
 button.modal-close i {
 	font-size:20px;	
 }
 .modal-heading {
 	font-size:24px; 
-	font-weight:900; 
-	text-transform:uppercase;	
+	font-weight:700; 
+	text-transform:lowercase;	
 }
 
 /* Modal Centred*/
@@ -5568,11 +5577,17 @@ button.modal-close i {
 .modal-dialog-center {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
+    
+   
 }
+
 .modal-body {
+    position: relative;
     overflow-y: auto;
+    overflow-x: none;
+    top: 50%;
 }
 .modal-footer {
     margin-top: 0;
@@ -5581,7 +5596,7 @@ button.modal-close i {
 /* Portfolio Modal */
 
 .modal-portfolio .modal-dialog {
-	width:75%;
+	width:50%;
 }
 
 /* Modal Backdrop and Body */
@@ -5593,7 +5608,7 @@ button.modal-close i {
 }
 .modal-bg-light.modal {
 	opacity: 1;
-	background-color: #fff;
+	background-color: #000;
 	z-index:100000;
 }
 .modal-bg-dark .modal-content,
@@ -5601,7 +5616,7 @@ button.modal-close i {
 .modal-bg-transparent .modal-content  {
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	background-color: transparent;
+	background-color: #000;
 	border: none;
 }
 
@@ -8326,6 +8341,8 @@ blockquote {
 	padding: 0px;
 	position: relative;
 	margin: 200px 0;
+        
+        
 }
 .section-grid {
 	width:100%;
@@ -8498,6 +8515,7 @@ figure.section-effect p {
 	height: 100%;
 	padding: 0px;
 	top: 0px;
+       
 }
 .image-holder {
 	position: absolute;
@@ -9774,7 +9792,7 @@ button {
 .btn2 {
 	border-radius: 0px;
 	font-size: 12px;
-	font-family: 'Roboto Condensed' sans-serif;
+	font-family: 'Roboto Condensed' bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -12861,7 +12879,7 @@ ul.social-icons.si-no-border.inverse {
 	/*Modal Centred*/
 	
 	.modal-dialog-center {
-		width: 100%;
+		width: 80%;
 	}
 	
 	/*Cart*/
