@@ -360,8 +360,13 @@
                                         
                                                     <?php  $default_attr = array('alt'   => 'texto para mostrar en Alt',
                                                     'title' => 'texto para mostrar en Title',);
+                                                    if (has_post_thumbnail()==null){?>
+                                                    <img alt="image" class="img-responsive" src="images/landscape-scene-scaled.jpg"  ></a>
+                                                   <?php }
+                                                    else{    
                                                     the_post_thumbnail('thumbnail', $default_attr);
                                                     
+                                                    }
                                                     ?>
                                         
                                     <div class="tile-content" >
