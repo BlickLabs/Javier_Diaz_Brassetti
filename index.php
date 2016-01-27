@@ -376,7 +376,7 @@
                                 </center>
                             </div>
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
-                               
+                               <!--blog-->
                                 <center>
                                     <!--<a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>-->
                                     <a href="http://javierdiazbrassetti.com/wordpress/"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
@@ -910,7 +910,7 @@
                                     </h5>
                                     <div class="row" >
                                         <div class="col-md-3 col-sm-5 col-xs-8">
-                                            <a href="libro.php"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
+                                            <a href="libro.html"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1020,7 +1020,7 @@
 
                                     <h3 style="color: #fff">¡Quédate con nosotros!</h3>
                                     <div id="form_newsletter_result"></div>
-                                    <div class="colored-extend small mar-bot-50"></div>
+                                    <div class="colored-extend small "></div>
                                     <h4 style="color: #fff">Suscríbete a nuestra lista para recibir noticias y publicaciones.</h4>
                                     <div class="form-theme form-dark pad-top-50">
                                         <div class="row">

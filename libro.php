@@ -97,7 +97,7 @@
 
                                     <ul class="nav navbar-nav">
                                         <li class="dropdown active">
-                                            <a href="index.php#javier_diaz">Javier DÃ­az Brassetti</a>
+                                            <a href="index.php#javier_diaz">Javier Díaz Brassetti</a>
                                         </li>
                                         <li>
                                             <a href="index.php#publicaciones">Publicaciones</a>
