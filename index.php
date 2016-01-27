@@ -976,7 +976,7 @@
                                     <div class="row text-center">
                                         <div class="col-xs-10 col-xs-offset-1">
                                             <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Directora de Relaciones Públicas: </span>Aminta Pozos</h5>
-                                            <h5><span class="weight-500 text-uppercase">Telefono: </span>(55) 5523 9873</h5>
+                                            <h5><span class="weight-500 text-uppercase">Teléfono: </span>(55) 3733 0607</h5>
                                             <h5 class="no-margin-bottom"><span class="weight-500 text-uppercase">Correo electrónico: </span>contacto@javierdiazbrassetti.com</h5>
                                         </div>
                                     </div>
