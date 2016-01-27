@@ -40,10 +40,8 @@
         <link rel="stylesheet" href="stylesheets/timeline.css">
  
          <!--conekta-->
-        <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.2/js/conekta.js">
-        Conekta.setPublishableKey('key_CpEYzTWyhytV9nztCro9HMQ');
-        </script>
-        
+        <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.2/js/conekta.js"></script>
+        <script> Conekta.setPublishableKey('key_CpEYzTWyhytV9nztCro9HMQ');</script>
           
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/pagos.css">
