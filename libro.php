@@ -38,10 +38,7 @@
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
         <link rel="stylesheet" href="stylesheets/timeline.css">
-        <!--        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-        -->
-        
+ 
          <!--conekta-->
         <script type="text/javascript" src="https://conektaapi.s3.amazonaws.com/v0.3.2/js/conekta.js">
         Conekta.setPublishableKey('key_CpEYzTWyhytV9nztCro9HMQ');

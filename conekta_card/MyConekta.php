@@ -3,25 +3,16 @@
 error_reporting(E_ALL);
 
 require_once("../conekta/lib/Conekta.php");
-//include("../model/conexion.php");
+include("../model/conexion.php");
 Conekta::setLocale('es');
 Conekta::setApiKey("key_5scrweicPYN7TsJ87VozVg");
 
 use Mailgun\Mailgun;
 
-//$calle = $_POST['street'];
-//$num_ext = $_POST['ext_number'];
-//$num_int = $_POST['int_number'];
-//$col = $_POST['colony'];
-//$city = $_POST['city'];
-//$state = $_POST['state'];
-//$cod_post = $_POST['postal_code'];
-//$amount = $_POST['total'] . "00";
 
 if ($_POST) {
 
-   // $token=$_POST['conektaTokenId'];
-
+   
     //Sanitize input data using PHP filter_var().
     $amount = filter_var($_POST["total"], FILTER_SANITIZE_NUMBER_INT);
     $user_name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
@@ -105,11 +96,11 @@ if ($_POST) {
         if ($toke == 'paid') {
            require_once '../model/pago_libro.php';
             require_once '../model/pago_cliente.php';
-//           $pertence = 'compra_libro';
-//          mysqli_select_db($con, "$dbname");
-//          
-//            $query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,telefono,calle,num_ext,num_int,colonia,ciudad,del_mun,codigo_postal,pertenece_a) VALUES ('$user_name','$user_email','$phone','$street','$ext_number','$int_number','$colony','$city','$state','$postal_code','$pertence')");
-//            mysqli_close($con);
+         $pertence = 'compra_libro';
+         mysqli_select_db($con, "$dbname");
+          
+            $query = mysqli_query($con, "INSERT INTO Usuarios (Nombre,Email,telefono,calle,num_ext,num_int,colonia,ciudad,del_mun,codigo_postal,pertenece_a) VALUES ('$user_name','$user_email','$phone','$street','$ext_number','$int_number','$colony','$city','$state','$postal_code','$pertence')");
+            mysqli_close($con);
           
             $output = json_encode(array('type' => 'message', 'text' => 'Feliciades tu pago ha sido aprobado,recibirás un correo con más detalles'));
             die($output);
