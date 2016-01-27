@@ -910,7 +910,7 @@
                                     </h5>
                                     <div class="row" >
                                         <div class="col-md-3 col-sm-5 col-xs-8">
-                                            <a href="libro.html"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
+                                            <a href="libro.php"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Comprar&nbsp;&nbsp;</button></a>
                                         </div>
                                     </div>
                                 </div>
