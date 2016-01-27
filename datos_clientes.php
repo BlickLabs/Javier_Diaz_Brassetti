@@ -2,17 +2,15 @@
 
 error_reporting(0);
 
+//$host="localhost";
+//$uname="root";
+//$pass="";
+//$database = "javier_diaz";
 
-//$host="mysql.hostinger.mx";
-//$uname="u399060757_root";
-//$pass="2011301308";
-//$database = "u399060757_javie";
-//
-//  
 $host="localhost";
-$uname="root";
-$pass="";
-$database = "javier_diaz";
+$uname="jdiaz"; //user
+$pass="%%Test1234%%"; //
+$database="javierdiaz"; //nombre de la base de datos
 
 $connection=mysql_connect($host,$uname,$pass,$database); 
 
@@ -50,7 +48,7 @@ $output .="\n";
 
 // Download the file
 
-$filename = "datos.csv";
+$filename = "datos_clientes.csv";
 header('Content-type: application/csv');
 header('Content-Disposition: attachment; filename='.$filename);
 
