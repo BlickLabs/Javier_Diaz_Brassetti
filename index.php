@@ -1086,9 +1086,9 @@
 
                                 </ul>
                                 <ul class="social-icons si-light si-solid circle color list-inline list-unstyled pad-top-50">
-                                    <li><a class="facebook" href="https://www.facebook.com/Javier-D%C3%ADaz-Brassetti-1070150726370573/"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="https://twitter.com/javierexpresion"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a class="facebook" href="https://www.facebook.com/Javier-D%C3%ADaz-Brassetti-1070150726370573/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="twitter" href="https://twitter.com/javierexpresion" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/" target="_blank"><i class="fa fa-youtube"></i></a></li>
                                 </ul>				
                             </div>
                         </div>

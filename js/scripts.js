@@ -968,10 +968,10 @@ function invertScroll() {
  Init Nivo Lightbox
  --------------------------------------------------- */
 
-
-function nivoLightbox() {
-    $('a').nivoLightbox();
-}
+//
+//function nivoLightbox() {
+//    $('a').nivoLightbox();
+//}
 
 
 /* ------------------------------------------------
@@ -1577,7 +1577,7 @@ $win.on('load', function () {
 
     wowInit();
 
-    nivoLightbox();
+//    nivoLightbox();
 
     tooltip();
 
