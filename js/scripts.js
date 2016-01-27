@@ -1603,7 +1603,7 @@ $win.on('load', function () {
 
     /*---- Auto Modal Box ----*/
 
-    $('.modal.auto').modal('show');
+   
 
     /*---- Hide Page Loader ----*/
 
