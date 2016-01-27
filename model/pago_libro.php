@@ -3,6 +3,7 @@ include("../model/conexion.php");
 use Mailgun\Mailgun;
 
 require '../vendor/autoload.php';
+$cantidad=$_POST['cantidad'];
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone= $_POST['phone'];
@@ -45,6 +46,7 @@ $send_to = 'contacto@javierdiazbrassetti.com';
         Nombre del cliente: ' . $name . '
         Correo electrónico: ' . $email. '
         Telefono: ' . $phone. '
+        Número de Libros adquiridos: '.$cantidad.'    
             
         Direccion:
         
