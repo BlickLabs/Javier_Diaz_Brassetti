@@ -174,7 +174,7 @@
                     <section class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="image-container col-sm-6 pull-left " style="background-image:url('images/perfil.jpg');">
+                                <div class="image-container col-sm-6 pull-left " style="background-image:url('images/perfil.jpg');background-repeat: no-repeat;">
 
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100" >
