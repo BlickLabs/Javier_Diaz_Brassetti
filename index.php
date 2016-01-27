@@ -8,14 +8,14 @@
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">	
         <title>Javier Diaz Brassetti</title>
-        <meta name="description" content="Premium HTML5 Template">
+        <meta name="description" content="Javier Díaz Brassetti">
         <meta name="keywords" content=" HTML5, Premium Template, Minth Theme">
         <meta name="author" content="Amazyne Themes">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <!-- Favicon -->
 
-        <link rel="icon" href="favicon.png" type="image/x-icon">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
         <!-- Loading Google Fonts --> 
 
