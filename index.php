@@ -377,31 +377,7 @@
                             </div>
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
                                       <div class="row text-center">
-                                    <?php
-                                         require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                         $my_query = new WP_Query('showposts=3'); 
-                                    ?> 
-                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; ?>
-                                    <div class="col-sm-4">
-                                        
-                                                    <?php  $default_attr ;
-                                                    if (has_post_thumbnail()==null){?>
-                                                   <a href="<?php the_permalink()       ?>">  <img alt="image" class="img-responsive center-block" src="images/landscape-scene-scaled.jpg"  ></a>
-                                                   <?php }
-                                                    else{    
-                                                     the_post_thumbnail('thumbnail', $default_attr);
-                                                    
-                                                    }
-                                                    ?>
-                                        
-                                    <div class="tile-content" >
-                                                    <div class="mar-top-30">        
-                                                     <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
-                                                    </div>
-                                    </div>
-                                            <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
-                                    </div>
-                                    <?php endwhile;    ?>
+                             
                                 </div>
                                 <center>
                                     <!--<a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>-->
@@ -482,7 +458,7 @@
 
                                     <li class="item objects">
                                         <figure>
-                                        <img alt="image" src="images/proximamente_1.jpg"  />
+                                        <img alt="image" src="images/proximamente.jpg"  />
                                        
                                             <figcaption>
                                                 <div>
@@ -947,7 +923,7 @@
 
                         <div class="image-container col-sm-6 pull-right">
                             <div class="image-holder" style="background-color: #000">
-                                <h1 style="color: #fff;padding-top: 400px;padding-left: 160px;font-size:60px">Proximamente...</h1>
+                                <h1 style="color: #fff;padding-top: 400px;padding-left: 160px;font-size:60px">PRÓXIMAMENTE...</h1>
                             </div>			
 
                         </div>
@@ -1089,8 +1065,11 @@
                                     <li><a class="facebook" href="https://www.facebook.com/Javier-D%C3%ADaz-Brassetti-1070150726370573/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                     <li><a class="twitter" href="https://twitter.com/javierexpresion" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                                </ul>				
+                                </ul>
+                                 
+                                <h5 style="color: #fff" class="mar-top-50">Creado por</h5> <img src="images/logo_blanco_blick.png" style="height:40px;">
                             </div>
+                              
                         </div>
                     </div>
                 </div>
