@@ -221,7 +221,7 @@
   /* line 167, ../sass/_timeline.scss */
   .timeline-horizontal > li {
     display: inline-block;
-    width: 33%;
+    width: 25%;
     margin-right: 2rem;
   }
   /* line 170, ../sass/_timeline.scss */
