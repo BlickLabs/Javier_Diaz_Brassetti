@@ -377,7 +377,31 @@
                             </div>
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
                                       <div class="row text-center">
-                             
+                                <?php
+                                         require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
+                                         $my_query = new WP_Query('showposts=3'); 
+                                    ?> 
+                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; ?>
+                                    <div class="col-sm-4">
+                                        
+                                                    <?php  $default_attr ;
+                                                    if (has_post_thumbnail()==null){?>
+                                                   <a href="<?php the_permalink()       ?>">  <img alt="image" class="img-responsive center-block" src="images/landscape-scene-scaled.jpg"  ></a>
+                                                   <?php }
+                                                    else{    
+                                                     the_post_thumbnail('thumbnail', $default_attr);
+                                                    
+                                                    }
+                                                    ?>
+                                        
+                                    <div class="tile-content" >
+                                                    <div class="mar-top-30">        
+                                                     <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
+                                                    </div>
+                                    </div>
+                                            <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
+                                    </div>
+                                    <?php endwhile; ?>   
                                 </div>
                                 <center>
                                     <!--<a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>-->
