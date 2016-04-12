@@ -174,7 +174,7 @@
                     <section class="section-side-image clearfix no-margin" style="background-image:url('images/patterns/subtle_grunge.png');">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="image-container col-sm-6 pull-left " style="background-image:url('images/perfil.jpg');background-repeat: no-repeat;">
+                                <div class="image-container col-sm-6 pull-left " style="background-image:url('images/jdb_6.jpg');background-repeat: no-repeat;">
 
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-6 side-image-content pad-top-100 pad-bot-100" >
@@ -366,6 +366,7 @@
                 <!-- End of One Page Section - Services --
                 <!-- Section Colored -->
 
+                
                 <section class="section-colored clearfix no-margin" style="background-color:#252525;" >
                     <div class="container-fluid">
                         <div class="row">
@@ -1091,7 +1092,7 @@
                                     <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/" target="_blank"><i class="fa fa-youtube"></i></a></li>
                                 </ul>
                                  
-                                <h5 style="color: #fff" class="mar-top-50">Creado por</h5> <img src="images/logo_blanco_blick.png" style="height:40px;">
+                                <a href="http://blick.mx/"><h5 style="color: #fff" class="mar-top-50">Creado por</h5> <img src="images/logo_blanco_blick.png" style="height:40px;"></a>
                             </div>
                               
                         </div>
