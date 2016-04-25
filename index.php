@@ -942,7 +942,7 @@
 
                         <div class="image-container col-sm-6 pull-right" >
                             <div class="image-holder" >
-                                <img src="images/recortada.jpg" style="width: 680px">
+                                <img src="images/libro_2_1.jpg" style="width: 680px">
                             </div>			
 
                         </div>
