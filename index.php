@@ -377,7 +377,7 @@
                                 </center>
                             </div>
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
-                                      <div class="row text-center">
+                                   <div class="row text-center">
                                 <?php
                                          require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
                                          $my_query = new WP_Query('showposts=3'); 
@@ -404,13 +404,7 @@
                                     </div>
                                     <?php endwhile; ?>   
                                 </div>
-                                <center>
-                                    <!--<a href="http://desarrolloblick.esy.es/wordpress/" class=" white_bold_bg_20"> <button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Mas&nbsp;&nbsp;</button></a>-->
-                                    <a href="http://javierdiazbrassetti.com/wordpress/"><button class="btn btn-theme form-submit letter-spacing-3 mar-top-30" type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
-                                </center>   
-
-                            </div>
-                        </div>
+                           </div>
                     </div>
                 </section><!-- End of Section Colored -->
 
@@ -483,7 +477,7 @@
 
                                     <li class="item objects">
                                         <figure>
-                                        <img alt="image" src="images/proximamente.jpg"  />
+                                            <img alt="image" src="images/recortada_2.jpg" style="height: 217px" />
                                        
                                             <figcaption>
                                                 <div>
@@ -946,9 +940,9 @@
                         </div>
 
 
-                        <div class="image-container col-sm-6 pull-right">
-                            <div class="image-holder" style="background-color: #000">
-                                <h1 style="color: #fff;padding-top: 400px;padding-left: 160px;font-size:60px">PRÓXIMAMENTE...</h1>
+                        <div class="image-container col-sm-6 pull-right" >
+                            <div class="image-holder" >
+                                <img src="images/recortada.jpg" style="width: 680px">
                             </div>			
 
                         </div>
