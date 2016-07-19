@@ -6,35 +6,36 @@
 
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Javier Diaz Brassetti</title>
         <meta name="description" content="Javier Díaz Brassetti">
         <meta name="keywords" content=" HTML5, Premium Template, Minth Theme">
         <meta name="author" content="Amazyne Themes">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="p:domain_verify" content="66147fc1aef3678c62544963a8114214" />
 
         <!-- Favicon -->
 
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
-        <!-- Loading Google Fonts --> 
+        <!-- Loading Google Fonts -->
 
         <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
-        <!-- Loading Third Party Styles --> 
+        <!-- Loading Third Party Styles -->
 
-        <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="third-party/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="third-party/et-line/css/style.css">
         <link rel="stylesheet" href="third-party/elegant-icons/css/style.css">
         <link rel="stylesheet" href="third-party/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
         <link rel="stylesheet" href="third-party/pe-icon-7-stroke/css/helper.css">
-        <link rel="stylesheet" href="third-party/nivo-lightbox/css/nivo-lightbox.css" /> 
+        <link rel="stylesheet" href="third-party/nivo-lightbox/css/nivo-lightbox.css" />
         <link rel="stylesheet" href="third-party/nivo-lightbox/themes/default/default.css"/>
-        <link rel="stylesheet" href="third-party/animate/css/animate.css"> 
-        <link rel="stylesheet" href="third-party/owl/css/owl.carousel.css"> 
+        <link rel="stylesheet" href="third-party/animate/css/animate.css">
+        <link rel="stylesheet" href="third-party/owl/css/owl.carousel.css">
         <link rel="stylesheet" href="third-party/owl/css/owl.theme.css">
         <link rel="stylesheet" href="third-party/form-validation/css/formValidation.min.css">
         <link rel="stylesheet" href="stylesheets/timeline.css">
@@ -62,7 +63,7 @@
 
             <!-- Header -->
 
-            <header class="navigation transparent dark-dropdown">	
+            <header class="navigation transparent dark-dropdown">
 
                 <!-- Header Wrapper -->
 
@@ -110,7 +111,7 @@
                                             <a href="#contact">Contacto</a>
                                         </li>
 
-                                    </ul>                               
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +129,7 @@
                                 <div class="row">
                                     <div class="col-md-6 col-md-offset-3 text-center">
                                         <img alt="image" class="center-block img-responsive mar-bot-50 mar-top-50 wow animated fadeInDown" data-wow-delay="1000ms" src="images/fondo_javier.png" style="height: 250px; width: auto;"/>
-                                        <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral 
+                                        <h2 class="text-uppercase letter-spacing-5 no-margin pad-bot-30 weight-500 word-spacing-5 text-light true-size-mobile wow animated fadeIn" data-wow-delay="1600ms" style="font-size:40px;">Especialista en expresión oral
                                             <br>
                                             y escrita</h2>
                                     </div>
@@ -148,12 +149,12 @@
                         <h2 class="no-margin text-center text-uppercase letter-spacing-3">“Para que no te equivoques”</h2>
                         <div class="symbol">
                             <br/>
-                        </div>	
+                        </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="text-main text-center letter-spacing-0 text-vertical-large">Facilita los procesos naturales con los que cada persona cuenta para expresar correctamente 
+                            <h3 class="text-main text-center letter-spacing-0 text-vertical-large">Facilita los procesos naturales con los que cada persona cuenta para expresar correctamente
                                 <br/>
                                 de forma oral y escrita sus pensamientos y sus sentimientos.</h3>
                         </div>
@@ -184,26 +185,26 @@
                                             <h2 class="no-margin text-uppercase letter-spacing-1" >Director general de Latin American Speakers</h2>
                                             <br>
                                             <h5 class="letter-spacing text-vertical-large"  style="text-align: justify">
-                                                FORMACIÓN DE MAESTROS,                                                                                                               
+                                                FORMACIÓN DE MAESTROS,
                                                 EXPRESIÓN ORAL Y ESCRITA,
                                                 FILOSOFÍA DE LA GLOBALIZACIÓN.
                                                 <br/><br/>
-                                                Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>, 
+                                                Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>,
                                                 desde <b>1981</b> y de <b>Latin American Speakers</b>, desde <b>1996</b>.<br/><br/>
-                                                Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos 
+                                                Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos
                                                 para las organizaciones más importantes del país.
                                                 <br/><br/>
-                                                Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
-                                                del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
-                                                    ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
-                                                de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
+                                                Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también
+                                                del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa
+                                                    ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b>
+                                                de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana
                                                     de Médicos Escritores</b>...
                                             </h5>
                                             <a><button data-toggle="modal" data-target="#Biografia" class="btn btn-theme form-submit letter-spacing-3 mar-top-30 " type="submit">&nbsp;&nbsp;Ver Más&nbsp;&nbsp;</button></a>
 
                                         </div>
-                                    </div>		
-                                </div>				
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -219,21 +220,21 @@
                                     </div>
                                     <div class="modal-body text-justify">
                                         <p>
-                                            Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>, 
+                                            Es <b>Presidente</b> y <b>Director General</b> del <b>Centro Mexicano de Capacitación y Servicios Educativos</b>,
                                             desde <b>1981</b> y de <b>Latin American Speakers</b>, desde <b>1996</b>.<br/><br/>
-                                            Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos 
+                                            Ha sido <b>Profesor del ITAM</b> y de la <b>UNAM</b>; por más de 35 años, ha impartido conferencias y cursos
                                             para las organizaciones más importantes del país.
                                             <br/><br/>
-                                            Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también 
-                                            del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa 
-                                                ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b> 
-                                            de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana 
+                                            Entre otras actividades, fue <b>Asesor de Pronósticos para la Asistencia Pública</b> hasta <b>2011</b>, también
+                                            del <b>Centro Político Mexicano</b> y de la <b>Vicepresidencia</b> de <b>Recursos Humanos</b> de <b>TELEVISA</b>. <b>Jurado</b> del <b>programa
+                                                ENACTUS</b> y colaborador activo de las <b>Asignaturas empresariales</b> de la <b>Facultad de Contaduría y Administración</b>
+                                            de la <b>UNAM</b>, es <b>Socio Honorario</b> de la <b>Sociedad Mexicana de Psiquiatría Biológica</b>, y de la <b>Academia Mexicana
                                                 de Médicos Escritores</b></p>
-                                        <p><b>Coautor</b> de importantes obras de divulgación, es autor, entre otros libros, de <b>Aprender para Saber, Detalles Brillantes 
+                                        <p><b>Coautor</b> de importantes obras de divulgación, es autor, entre otros libros, de <b>Aprender para Saber, Detalles Brillantes
                                                 del Pensamiento I</b> y <b> Te lo digo a ti</b>, una <b>obra fundamental</b> para <b> hablar al público</b>.
                                         </p>
                                         <p>
-                                            De su amplia trayectoria como promotor, organizador y gestor de cientos de compromisos, destaca <b>la fundación del primer servicio en el mundo, 
+                                            De su amplia trayectoria como promotor, organizador y gestor de cientos de compromisos, destaca <b>la fundación del primer servicio en el mundo,
                                                 fuera de los Estados Unidos</b>, de contratación de personalidades para ofrecer conferencias.
                                         </p>
                                         <p>
@@ -243,7 +244,7 @@
                                     </div>
                                     <div class="modal-footer ">
                                         <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -258,7 +259,7 @@
                             <br>
                             <li >
                                 <span class="icon"></span>
-                                <time id="popoverData5" class="center-block" data-html="true" data-content="-Estudio para la Creación de la Cátedra de Retórica: Colegio de Graduados, UPICSA, Instituto Politécnico Nacional. 
+                                <time id="popoverData5" class="center-block" data-html="true" data-content="-Estudio para la Creación de la Cátedra de Retórica: Colegio de Graduados, UPICSA, Instituto Politécnico Nacional.
                                                                                    <br>
                                                                                    <br>
                                                                                    -Estudio para el Desarrollo de Prácticas Escolares en Pedagogía: Facultad de Filosofía y Letras, Escuela de Pedagogía, Universidad Nacional Autónoma de México.
@@ -271,9 +272,9 @@
                                                                                    <br>
                                                                                    <br>
                                                                                    -Planeación, Creación, Organización y Desarrollo del Programa LATIN AMERICAN SPEAKERS®"
-                                                                                   
-                                                                                   
-                                                                                  
+
+
+
 
                                                                                    rel="popover"  data-placement="bottom" data-trigger="hover">82-98</time>
                                 <article>
@@ -286,7 +287,7 @@
                                                                                    -Ciclo de Conferencias El Financiero y los Pulitzer: Bob Woodward, Alfonso Chardy, Diane Francis y cinco expositores internacionales más.
                                                                                    <br>
                                                                                    <br>
-                                                                                   -Seminario internacional: La Educación frente a los retos del milenio que ya llegó."" 
+                                                                                   -Seminario internacional: La Educación frente a los retos del milenio que ya llegó.""
                                        rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
 
@@ -294,18 +295,18 @@
                             </li>
                             <li>
                                 <span class="icon"></span>
-                                <time id="popoverData6" class="btn" data-html="true"  data-content="-Presencia en las reuniones mensuales de la Asociación de Gerentes y Directores de Cámaras e Instituciones. ANGECAI.  
+                                <time id="popoverData6" class="btn" data-html="true"  data-content="-Presencia en las reuniones mensuales de la Asociación de Gerentes y Directores de Cámaras e Instituciones. ANGECAI.
                                                                                                     <br>
                                                                                                     <br>
                                                                                                     -Asesoría y desarrollo de los programas de Embajadores para la Asistencia Pública y Foros y Convenciones Nacionales para 9,200 agentes autorizados. Pronósticos para la Asistencia Pública.
 "
-                                      
+
                                       rel="popover" data-placement="bottom"  data-trigger="hover">05-11</time>
                                 <article>
-                                    <i class="fa fa-male fa-5x" style="color:#434244"  data-html="true" id="popoverData2" class="btn" href="#" data-content="-Presencia en las reuniones mensuales de la Asociación de Gerentes y Directores de Cámaras e Instituciones. ANGECAI.  
-                                                                                                                                                              <br> 
+                                    <i class="fa fa-male fa-5x" style="color:#434244"  data-html="true" id="popoverData2" class="btn" href="#" data-content="-Presencia en las reuniones mensuales de la Asociación de Gerentes y Directores de Cámaras e Instituciones. ANGECAI.
                                                                                                                                                               <br>
-                                                                                                                                                            -Asesoría y desarrollo de los programas de Embajadores para la Asistencia Pública y Foros y Convenciones Nacionales para 9,200 agentes autorizados. Pronósticos para la Asistencia Pública." 
+                                                                                                                                                              <br>
+                                                                                                                                                            -Asesoría y desarrollo de los programas de Embajadores para la Asistencia Pública y Foros y Convenciones Nacionales para 9,200 agentes autorizados. Pronósticos para la Asistencia Pública."
                                        rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
 
@@ -313,22 +314,22 @@
 
                             </li>
                             <li>
-                                <span class="icon"></span>                
-                                <time id="popoverData7" class="btn" href="#" data-content="-Asesoría y desarrollo del plan de Competencias; elaboración de materiales y coaching para la Vice presidencia de Recursos Humanos de TELEVISA." 
+                                <span class="icon"></span>
+                                <time id="popoverData7" class="btn" href="#" data-content="-Asesoría y desarrollo del plan de Competencias; elaboración de materiales y coaching para la Vice presidencia de Recursos Humanos de TELEVISA."
                                       rel="popover" data-placement="bottom"  data-trigger="hover">06-14</time>
 
                                 <article>
-                                    <i class="fa fa-lightbulb-o fa-5x" style="color:#434244" id="popoverData3" class="btn" href="#" data-content="-Asesoría y desarrollo del plan de Competencias; elaboración de materiales y coaching para la Vice presidencia de Recursos Humanos de TELEVISA." 
+                                    <i class="fa fa-lightbulb-o fa-5x" style="color:#434244" id="popoverData3" class="btn" href="#" data-content="-Asesoría y desarrollo del plan de Competencias; elaboración de materiales y coaching para la Vice presidencia de Recursos Humanos de TELEVISA."
                                        rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
                             </li>
-                            <li >    
+                            <li >
 
-                                <time id="popoverData8" class="btn" href="#" data-content="-Catedrático de la Universidad Nacional Autónoma de México, Facultad de Contaduría y Administración, impartiendo la Asignatura de Español Empresarial, Socio de la Academia Mexicana de Médicos Escritores. Colabora como Especialista en expresión oral y escrita  en la Revista Moi de Martha Debayle, así como en diversos programas de TV y Radio." 
+                                <time id="popoverData8" class="btn" href="#" data-content="-Catedrático de la Universidad Nacional Autónoma de México, Facultad de Contaduría y Administración, impartiendo la Asignatura de Español Empresarial, Socio de la Academia Mexicana de Médicos Escritores. Colabora como Especialista en expresión oral y escrita  en la Revista Moi de Martha Debayle, así como en diversos programas de TV y Radio."
                                       rel="popover" data-placement="bottom" style="text-align: justify" data-trigger="hover">Hoy</time>
                                 <article>
 
-                                    <i class="fa fa-university fa-5x" style="color:#434244" id="popoverData4" class="btn" href="#" data-content="-Catedrático de la Universidad Nacional Autónoma de México, Facultad de Contaduría y Administración, impartiendo la Asignatura de Español Empresarial, Socio de la Academia Mexicana de Médicos Escritores. Colabora como Especialista en expresión oral y escrita  en la Revista Moi de Martha Debayle, así como en diversos programas de TV y Radio." 
+                                    <i class="fa fa-university fa-5x" style="color:#434244" id="popoverData4" class="btn" href="#" data-content="-Catedrático de la Universidad Nacional Autónoma de México, Facultad de Contaduría y Administración, impartiendo la Asignatura de Español Empresarial, Socio de la Academia Mexicana de Médicos Escritores. Colabora como Especialista en expresión oral y escrita  en la Revista Moi de Martha Debayle, así como en diversos programas de TV y Radio."
                                        rel="popover" data-placement="bottom"  data-trigger="hover"></i>
                                 </article>
                             </li>
@@ -366,7 +367,7 @@
                 <!-- End of One Page Section - Services --
                 <!-- Section Colored -->
 
-                
+
                 <section class="section-colored clearfix no-margin" style="background-color:#252525;" >
                     <div class="container-fluid">
                         <div class="row">
@@ -379,30 +380,30 @@
                             <div class="col-xs-10 col-xs-offset-1" style="padding-bottom: 10px">
                                    <div class="row text-center">
                                 <?php
-                                         require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php'); 
-                                         $my_query = new WP_Query('showposts=3'); 
-                                    ?> 
+                                         require_once($_SERVER [ 'DOCUMENT_ROOT'].'/wordpress/wp-config.php');
+                                         $my_query = new WP_Query('showposts=3');
+                                    ?>
                                     <?php while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID; ?>
                                     <div class="col-sm-4">
-                                        
+
                                                     <?php  $default_attr ;
                                                     if (has_post_thumbnail()==null){?>
                                                    <a href="<?php the_permalink()       ?>">  <img alt="image" class="img-responsive center-block" src="images/landscape-scene-scaled.jpg"  ></a>
                                                    <?php }
-                                                    else{    
+                                                    else{
                                                      the_post_thumbnail('thumbnail', $default_attr);
-                                                    
+
                                                     }
                                                     ?>
-                                        
+
                                     <div class="tile-content" >
-                                                    <div class="mar-top-30">        
+                                                    <div class="mar-top-30">
                                                      <h3 class="tile-title"><a href="<?php the_permalink()       ?>"><?php the_title();       ?></a></h3>
                                                     </div>
                                     </div>
-                                            <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>  
+                                            <div class="btn-curtain btn-curtain-light mar-bot-50 wow animated fadeInUp" data-wow-delay="2800ms"></div>
                                     </div>
-                                    <?php endwhile; ?>   
+                                    <?php endwhile; ?>
                                 </div>
                            </div>
                     </div>
@@ -420,7 +421,7 @@
                                     <h2 class="no-margin text-center text-uppercase letter-spacing-3">Publicaciones anteriores </h2>
                                     <div class="symbol" style="padding-bottom: 35px">
 
-                                    </div>	
+                                    </div>
                                 </div>
 
                             </div>
@@ -439,7 +440,7 @@
                                                 <h2 class="title">Detalles brillantes del pensamiento I</h2>
                                                 <!--<p class="text">Detalles brillantes del pensamiento I.</p>
                                                 <a href="#">View more</a>-->
-                                            </figcaption>			
+                                            </figcaption>
                                         </figure>
                                     </li>
 
@@ -454,8 +455,8 @@
                                                    <!--<p class="text">Comprensión y manejo del idioma español.</p>-->
                                                 </div>
                                                 <!--<a href="#">View more</a>-->
-                                            </figcaption>			
-                                        </figure>		
+                                            </figcaption>
+                                        </figure>
                                     </li>
 
                                     <!-- Portfolio Item 3 -->
@@ -469,7 +470,7 @@
                                                     <!--<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
                                                 </div>
                                                 <!--<a href="#">View more</a>-->
-                                            </figcaption>			
+                                            </figcaption>
                                         </figure>
                                     </li>
 
@@ -478,14 +479,14 @@
                                     <li class="item objects">
                                         <figure>
                                             <img alt="image" src="images/recortada_2.jpg" style="height: 217px" />
-                                       
+
                                             <figcaption>
                                                 <div>
                                                     <h2 class="title">Te lo digo a ti</h2>
                                                   <!-- <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
                                                 </div>
                                                 <!--<a href="#">View more</a>-->
-                                            </figcaption>			
+                                            </figcaption>
                                         </figure>
                                     </li>
                                 </ul><!-- End of Portfolio 4 Column - Effect 4 -->
@@ -528,7 +529,7 @@
 
                     <!--Firts-->
                     <div class="container " >
-                        
+
                             <div class="row ">
                                 <div class="col-md-12 col-lg-12 center-block" >
 
@@ -547,7 +548,7 @@
                                                         </p>
                                                     </div>
 
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
 
 
@@ -568,14 +569,14 @@
                                                         </p>
                                                     </div>
 
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
                                         <li class="item nature wow animated zoomIn" data-wow-delay="200ms">
                                             <figure>
                                                 <img alt="image" src="images/conferencia_3.jpg"/>
-                                                <figcaption data-toggle="modal" data-target="#myModal3"> 
+                                                <figcaption data-toggle="modal" data-target="#myModal3">
                                                     <div>
                                                         <h2 class="title pad-bot-50-desktop letter-spacing-2"><span class="text-light text-capitalize"><small><i></i></small></span><br/>
                                                             <small class="text-light"><b> Desarrollo Profesional y bien común</b></small><br/>
@@ -585,7 +586,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -605,7 +606,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>    
+                                    </div>
                                     <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);display: none;">
                                         <div class="modal-dialog" >
                                             <div class="modal-content">
@@ -615,16 +616,16 @@
                                                     </button>
                                                     <h4 class="modal-title text-center" id="myModalLabel">Conferencia</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo, 
-                                                    y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia, 
-                                                    obligación que hoy nos ha reunido y nos permite tener una base de reflexión para estar satisfechos en un tiempo en el 
+                                                <div class="modal-body text-justify">Vivir mejor, dejar que los demás vivan mejor, es la meta, y saber por qué no podemos hacerlo,
+                                                    y saber cómo sí podemos lograrlo con un impacto definitivo en nuestra productividad, es una obligación de conciencia,
+                                                    obligación que hoy nos ha reunido y nos permite tener una base de reflexión para estar satisfechos en un tiempo en el
                                                     que no es sencillo estar contentos.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>    
+                                    </div>
                                     <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
@@ -640,7 +641,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>    
+                                    </div>
 
                                 </div>
                             </div>
@@ -669,7 +670,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -686,7 +687,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -703,7 +704,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -765,7 +766,7 @@
                                                     </button>
                                                     <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body text-center">Que la persona mejore sustancialmente la forma en la que expresa en público 
+                                                <div class="modal-body text-center">Que la persona mejore sustancialmente la forma en la que expresa en público
                                                     sus pensamientos y sus sentimientos.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
@@ -799,7 +800,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -816,7 +817,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -833,7 +834,7 @@
                                                         </p>
                                                     </div>
                                                     <a href="#">View more</a>
-                                                </figcaption>			
+                                                </figcaption>
                                             </figure>
                                         </li>
 
@@ -848,7 +849,7 @@
                                                     </button>
                                                     <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body text-center">Los participantes estarán en capacidad de desarrollar 
+                                                <div class="modal-body text-center">Los participantes estarán en capacidad de desarrollar
                                                     las competencias adquiridas y serán capaces de ofrecer, promover y vender su negocio.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
@@ -865,10 +866,10 @@
                                                     </button>
                                                     <h4 class="modal-title text-center" id="myModalLabel">Taller</h4>
                                                 </div>
-                                                <div class="modal-body text-justify">el participante podrá reconocer las características fundamentales en torno a la persona humana; 
-                                                    el conocimiento de los diferentes niveles de relaciones humanas;  la reflexión organizada para ejercitar las condiciones 
-                                                    necesarias de las buenas relaciones interpersonales; y la orientación hacia nuevas expectativas que permitan  encontrar 
-                                                    en todas las actividades de su vida, una misión permanente de colaboración e integración. Un curso para aprender a enseñar 
+                                                <div class="modal-body text-justify">el participante podrá reconocer las características fundamentales en torno a la persona humana;
+                                                    el conocimiento de los diferentes niveles de relaciones humanas;  la reflexión organizada para ejercitar las condiciones
+                                                    necesarias de las buenas relaciones interpersonales; y la orientación hacia nuevas expectativas que permitan  encontrar
+                                                    en todas las actividades de su vida, una misión permanente de colaboración e integración. Un curso para aprender a enseñar
                                                     en la Era del Conocimiento.</div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-default center-block" data-dismiss="modal">Cerrar</button>
@@ -912,20 +913,20 @@
                                     <h2 class="no-margin text-uppercase letter-spacing-3">Te lo digo a ti</h2>
                                     <div class="symbol symbol-left">
 
-                                    </div>	
+                                    </div>
                                     <h5 class="letter-spacing-1 text-vertical-large " style="text-align: justify;padding-bottom: 10px">
-                                        ¿Qué tengo que hacer para hablar en público?; ¿cómo le hago para decir lo que quiero decir?;  quiero comunicar como otros, 
+                                        ¿Qué tengo que hacer para hablar en público?; ¿cómo le hago para decir lo que quiero decir?;  quiero comunicar como otros,
                                         que me hagan caso cuando me dirijo a una audiencia, ¿qué hago?<br/><br/>
                                         Me pongo nervioso y nada más no puedo, ¿qué me tomo?; no me doy a entender, no sé dónde poner las manos…<br/><br/>
-                                        Voy a necesitar hablar en las juntas; me eligieron presidente y tengo que preparar un discurso. Mañana voy al radio y no sé cómo hacer. 
-                                        Quiero ser conferencista, pero ¿cómo empiezo? Me invitaron a dar clase y no se oye mi voz… No, yo no quise decir eso. Se rieron y la cosa 
+                                        Voy a necesitar hablar en las juntas; me eligieron presidente y tengo que preparar un discurso. Mañana voy al radio y no sé cómo hacer.
+                                        Quiero ser conferencista, pero ¿cómo empiezo? Me invitaron a dar clase y no se oye mi voz… No, yo no quise decir eso. Se rieron y la cosa
                                         iba en serio, ¿qué pasó?  No puedo controlarlos.<br/><br/>
                                         Dicen que soy aburrida, como antigua, ¿qué se supone que se hace en esos casos?... ¿Qué hago?, ¿cómo puedo?, me hace falta, necesito.<br/><br/>
                                         <b>Este libro ofrece respuestas para quienes quieren expresarse mejor frente a públicos cara a cara o frente a públicos virtuales.</b><br/><br/>
                                         <b>Un Cambio:</b>
-                                        En ocho temas apoyados por una importante bibliografía y cientos de notas, usted puede encontrar una ruta y un camino que le llevarán a 
+                                        En ocho temas apoyados por una importante bibliografía y cientos de notas, usted puede encontrar una ruta y un camino que le llevarán a
                                         hablar mejor frente a públicos cara a cara o virtuales.<br/><br/>
-                                        Escrito para usted, es útil también para catedráticos, conferencistas, predicadores, locutores, políticos, amas de casa, jóvenes universitarios, 
+                                        Escrito para usted, es útil también para catedráticos, conferencistas, predicadores, locutores, políticos, amas de casa, jóvenes universitarios,
                                         para todos aquellos que se interesan en hablar públicamente.<br/><br/>
                                         Al incluir los avances tecnológicos, la versatilidad en la didáctica de los mensajes y la facilidad que hoy todos tenemos para expresarnos, es una obra actual, dinámica, útil.
                                     </h5>
@@ -935,7 +936,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>	
+                            </div>
 
                         </div>
 
@@ -943,7 +944,7 @@
                         <div class="image-container col-sm-6 pull-right" >
                             <div class="image-holder" >
                                 <img src="images/libro_2_1.jpg" style="width: 680px; height: 100%; ">
-                            </div>			
+                            </div>
 
                         </div>
                     </div>
@@ -966,7 +967,7 @@
                                         <h2 class=" text-center text-uppercase letter-spacing-3">Información de contacto</h2>
                                     </div>
                                     <center>
-                                        <hr style="color: #BDBDBD;background-color: #BDBDBD; width: 400px;height: 1px;"/>	
+                                        <hr style="color: #BDBDBD;background-color: #BDBDBD; width: 400px;height: 1px;"/>
                                     </center>
                                     <div class="row text-center">
                                         <div class="col-xs-10 col-xs-offset-1">
@@ -996,19 +997,19 @@
                                                 <br/>
                                                 <div class="col-sm-6">
                                                     <div class="form-group wow animated slideInLeft" data-wow-delay="200ms">
-                                                        <label><h5 class="no-margin-bottom"><b>Nombre:</b></h5>   </label> 
+                                                        <label><h5 class="no-margin-bottom"><b>Nombre:</b></h5>   </label>
                                                         <input type="text" class="form-control text-center" name="firstName"/>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 wow animated slideInRight" data-wow-delay="200ms">
                                                     <div class="form-group">
-                                                        <label><h5 class="no-margin-bottom"><b>Email:</b></h5>   </label> 
+                                                        <label><h5 class="no-margin-bottom"><b>Email:</b></h5>   </label>
                                                         <input type="text" class="form-control text-center" name="email"/>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-12 wow animated fadeInDown pad-top-35" data-wow-delay="400ms"style="padding-bottom: 19px">
                                                     <div class="form-group feedback-text-area">
-                                                        <label><h5 class="no-margin-bottom"><b>Mensaje:</b></h5>   </label> 
+                                                        <label><h5 class="no-margin-bottom"><b>Mensaje:</b></h5>   </label>
                                                         <textarea class="form-control form-text-area text-center" name="msg"></textarea>
                                                     </div>
                                                     <input type="submit"  class="btn btn-theme form-submit letter-spacing-3 mar-top-30" name="submit" id="submit" value="Enviar">
@@ -1020,7 +1021,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>	
+                            </div>
 
                         </div><!-- End of Vertically Centered Content Box - Desktop -->
 
@@ -1085,14 +1086,14 @@
                                     <li><a class="twitter" href="https://twitter.com/javierexpresion" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     <li><a class="youtube" href="https://www.youtube.com/channel/UCcJUrSAS5aRIOQ8OqUmwWoA/" target="_blank"><i class="fa fa-youtube"></i></a></li>
                                 </ul>
-                                 
+
                                 <a href="http://blick.mx/"><h5 style="color: #fff" class="mar-top-50">Creado por</h5> <img src="images/logo_blanco_blick.png" style="height:40px;"></a>
                             </div>
-                              
+
                         </div>
                     </div>
                 </div>
-            </footer><!-- End of Footer Reveal -->	
+            </footer><!-- End of Footer Reveal -->
 
         </div><!-- End of Page Content + Uncover Footer Body -->
 
@@ -1100,10 +1101,10 @@
 
         <script src="third-party/jquery/jquery.min.js"></script>
         <script src="third-party/easing/js/jquery.easings.min.js"></script>
-        <script src="third-party/bootstrap/js/bootstrap.min.js"></script>	
+        <script src="third-party/bootstrap/js/bootstrap.min.js"></script>
         <script src="third-party/nivo-lightbox/js/nivo-lightbox.min.js"></script>
         <script src="third-party/owl/js/owl.carousel.js"></script>
-        <script src="third-party/isotope/js/isotope.pkgd.min.js"></script> 
+        <script src="third-party/isotope/js/isotope.pkgd.min.js"></script>
         <script src="third-party/counter-up/js/jquery.counterup.min.js"></script>
         <script src="third-party/form-validation/js/formValidation.js"></script>
         <script src="third-party/form-validation/js/framework/bootstrap.min.js"></script>
